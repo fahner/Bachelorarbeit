@@ -1,0 +1,114 @@
+\documentclass[a4paper]{scrbook}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\usepackage{array}
+
+
+
+\usepackage{hyperref}
+\usepackage{datatool}	% muss verwendet werden, da glossaries sonst einen Fehler verursacht
+\usepackage[toc]{glossaries}
+
+\makeglossaries
+\makeindex
+
+% Glossar
+\newglossaryentry{OST}{name={OST}, description={Opposite Side Tagger}}
+\newglossaryentry{Toy MC}{name={Toy MC}, description={Zur Validierung des Fitters werden zufällig Daten gemäß einer gewünschten Verteilung generiert und im Anschluss gefittet}}
+
+
+% Definiere Kürzel
+\newcommand{\SJPsi}{S_{J/\Psi K_s^0}}
+
+
+\begin{document}
+
+% Binde Titelseite ein
+\include{ba_titlepage}
+
+
+\chapter{CP-Verletzung in B-Meson-Systemen}
+\section{Diskrete Symmetrietransformationen}
+Symmetrien sind in der Physik von zentraler Bedeutung. Gemäß dem Noether-Theorem existiert in der klassischen Physik zu jeder kontinuierlichen Symmetrie eine Erhaltungsgröße. In quantenmechanischen Systemen können wir drei diskrete Symmetrietransformationen betrachten:
+\begin{enumerate}
+\item \textbf{Parität $\mathcal{P}$:} \\
+      Bei der Paritätsoperation wird das Vorzeichen der kartesischen Ortskoordinaten umgekehrt. Dies entspricht einer Punktspigelung.
+\item \textbf{Ladungskonjugation $\mathcal{C}$:} \\
+      Jedes Teilchen wird durch sein Antiteilchen ersetzt.
+\item \textbf{Zeitumkehr $\mathcal{T}$:} \\
+      Das Vorzeichen auf der Zeitachse wird umgekehrt. Da in der vorligenden Arbeit allerdings nur die CP-Verletzung gemessen werden soll, wird die Zeitumkehr im folgenden vernachlässigt.
+\end{enumerate}
+Entgegen der klassischen Intuition konnte Wu 1956 nachweisen, dass die Parität im $\beta$-Zerfall und damit in der schwachen Wechselwirkung nicht erhalten ist. Weitere Experimente zeigen, dass die schwache Wechselwirkung die Parität maximal verletzt: Neutrinos, die nur schwach wechselwirken können, sind stets \glqq linkshändig\grqq (Spin und Impuls antiparallel), Antineutrinos dagegen immer \glqq rechtshändig\grqq (Spin und Impuls parallel). Da der Spin im Gegensatz zum Impuls invariant unter $\mathcal{P}$-Transformation ist, würde diese Operation aus einem linkshändigen Neutrino ein rechtshändiges machen, was in der Nautr nicht realisiert ist.
+
+Damit ist offensichtlich, dass die schwache Wechselwirkung auch die Ladungskonjugation verletzt: Wendet man die $\mathcal{C}$-Transformation auf ein linkshändiges Neutrino an, so erhält man ein linkshändiges Antineutrino. Dieses existiert aber wie bereits erwähnt nicht. Analog gilt die Überlegung auch für Antineutrinos.
+
+\subsection{Scheinbare $\mathcal{CP}$-Invarianz}
+Hier gehts weiter...
+
+\chapter{Abschätzung systematischer Fehler}
+\section{Tagging Kalibrierung}
+Im Fit wird bei den Parametern der Tagging Kalibrierung nur der statistischen Fehler berücksichtigt. Es soll nun an dieser Stelle der Einfluss der statistischen Unsicherheiten abgeschätzt werden. \\
+Die Korrekturparameter $p_0$ und $p_1$ für die Fehlerwahrscheinlichkeit des \gls{OST} sind gegeben durch
+\begin{align}
+p_0 &= 0,392 \pm 0,0017\ \text{(stat.)} \pm 0,0076\ \text{(syst.)} \\
+p_1 &= 1,035 \pm 0,021\ \text{(stat.)} \pm 0,0076\ \text{(syst.)}.
+\end{align}
+
+\paragraph{Variation der Parameter in den Daten}
+Zunächst werden die Startwerte der Parameter $p_0$ und $p_1$ variiert, indem man jeweils den systematischen Fehler der Parameter addiert bzw. subtrahiert und dann den Fit auf die Daten durchührt. Für alle vier Kombinationen wird dann die Abweichung vom regulären Fitergebnis für $\SJPsi$ berechnet. Der Referenzwert aus dem Fit beträgt
+\begin{align}
+\SJPsi = 0,625 \pm 0,069
+\end{align}
+
+\begin{table}[hptb]
+\centering
+\caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Startwerte für $p_0$ und $p_1$ $\pm$ ihrer statistischen Unsicherheiten}
+\label{tab:syst_fit_calib_data}
+$\begin{array}{cc|c|c}
+\hline\hline
+p_0            & p_1           & \SJPsi          & \Delta\SJPsi   \\ \hline
+0,392 - 0,0076 & 1,035 - 0,012 & 0,599 \pm 0,067 & -0,026 \pm xxx \\
+0,392 + 0,0076 & 1,035 - 0,012 & 0,661 \pm 0,072 & 0,036 \pm xxx \\
+0,392 - 0,0076 & 1,035 + 0,012 & 0,592 \pm 0,066 & -0,033 \pm xxx \\
+0,392 + 0,0076 & 1,035 + 0,012 & 0,651 \pm 0,071 & 0,026 \pm xxx \\
+\hline\hline
+\end{array}$
+\end{table}
+
+Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_data} zu entnehmen. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,036$.
+
+\paragraph{Variation der Parameter in \gls{Toy MC}}
+Eine weitere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toys zu generieren und diese dann zu fitten. Im Folgenden werden bei der Toy Generierung die Parameter $p_0$ und $p_1$ um ihre systematische Unsicherheiten variiert, der Fit dann allerdings mit den ursprünglichen Parameterwerten durchgeführt. Als Referenzwert generieren und fitten wir toys mit den ursprünglichen Parameterwerten $p_0$ und $p_1$ sowie $\SJPsi = 0.75$ und erhalten hierfür:
+
+\begin{align}
+\SJPsi = 0,75527 \pm xxx
+\end{align}
+
+\begin{table}[hptb]
+\centering
+\caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Parameterwerte $p_0$ und $p_1$ $\pm$ ihrer statistischen Unsicherheiten bei der Generierung von Toys}
+\label{tab:syst_fit_calib_toys}
+$\begin{array}{cc|c|c}
+\hline\hline
+p_0            & p_1           & \SJPsi          & \Delta\SJPsi   \\ \hline
+0,392 - 0,0076 & 1,035 - 0,012 & 0,782 \pm xxx & 0,027 \pm xxx \\
+0,392 + 0,0076 & 1,035 - 0,012 & 0,719 \pm xxx & -0,036 \pm xxx \\
+0,392 - 0,0076 & 1,035 + 0,012 & 0,788 \pm xxx & 0,032 \pm xxx \\
+0,392 + 0,0076 & 1,035 + 0,012 & 0,727 \pm xxx & -0,028 \pm xxx \\
+\hline\hline
+\end{array}$
+\end{table}
+
+Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen. Die größte Abweichung beträgt hier betragsmäßig ebenfalls $\Delta\SJPsi = 0,036$. Daher schätzen wir den systematischen Fehler durch die Tagging Kalibrierung auf 
+
+\begin{align}
+s_{tag_calib} = 0.036 \ .
+\end{align}
+
+\printglossaries 
+% Selbstständigkeitserklärung
+\include{declaration}
+\end{document}
+
+
