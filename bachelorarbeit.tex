@@ -5,7 +5,7 @@
 \usepackage{array}            % Tabellen im Mathemodus (Matrizen)
 \usepackage{graphicx}         % Einbindung von Grafiken
 \usepackage{braket}           % ermöglicht die Verwendung von Diracs Bra-Ket-Notation
-
+\usepackage{esdiff}           % für Ableitungen
 
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
 \usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
@@ -55,11 +55,21 @@ Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt 
 \end{figure}
 
 \section{Mischung im B-Mesonen-System}
-Die Flavoureigenzustände $\Bra{B^0} = \Bra{\bar{b}d}$ und $\Bra{\bar{B^0}} = \Bra{b\bar{d}}$ entsprechen nicht den Masseneigenzuständen. Wir definieren daher die Zustände
+Die Flavoureigenzustände $\Bra{B^0} = \Bra{\bar{b}d}$ und $\Bra{\bar{B^0}} = \Bra{b\bar{d}}$ entsprechen nicht den Masseneigenzuständen. Wir definieren daher die normierten Zustände
 \begin{align}
-\Bra{B_h} = p \Bra{B^0} - q \Bra{\bar{B^0}} \\
-\Bra{B_l} = p \Bra{B^0} + q \Bra{\bar{B^0}}
+\Bra{B_h} = p \Bra{B^0} - q \Bra{\bar{B^0}} \label{eq:b_heavy}\\ 
+\Bra{B_l} = p \Bra{B^0} + q \Bra{\bar{B^0}} \label{eq:b_light}\\
+\text{mit} \quad |p|^2 + |q|^2 = 1
 \end{align}
+welche eine definierte Masse und Zerfallsbreite besitzen. Sie sind auch Eigenzustände eines nicht-hermiteschen Hamiltonoperators (Nichthermitizität wegen des möglichen Zerfalls der Teilchens). Dieser setzt sich zusammen aus den hermiteschen Massenoperatoren $M$ und $\Gamma$. Notieren wir die lineare Superposition der Zustände \ref{eq:b_heavy} und \ref{eq:b_light} als $\begin{pmatrix} p \\ q \end{pmatrix}, so nimmt die zeitabhängige Schrödingergleichung die Form
+\begin{align}
+\imath \diff{}{t}\begin{pmatrix} p \\ q \end{pmatrix} = \left(M - \frac{\imath}{2} \Gamma\right) \begin{pmatrix} p \\ q \end{pmatrix}
+\end{align}
+an und führt zur folgenden zeitlichen Entwicklung der Zustände:
+\begin{align}
+
+\end{align}
+
 
 \chapter{Abschätzung systematischer Fehler}
 \section{Tagging Kalibrierung}
