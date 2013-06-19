@@ -2,14 +2,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 
-\usepackage{array}
-\usepackage{graphicx}
+\usepackage{array}            % Tabellen im Mathemodus (Matrizen)
+\usepackage{graphicx}         % Einbindung von Grafiken
+\usepackage{braket}           % ermöglicht die Verwendung von Diracs Bra-Ket-Notation
 
 
-
-\usepackage{hyperref}
-\usepackage{datatool}	% muss verwendet werden, da glossaries sonst einen Fehler verursacht
-\usepackage[toc]{glossaries}
+\usepackage{hyperref}         % für automatische Verlinkungen in der pdf
+\usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
+\usepackage[toc]{glossaries}  % Glossar
 
 \makeglossaries
 \makeindex
@@ -53,6 +53,13 @@ Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt 
 \caption{Scheinbare $\mathcal{CP}$-Invarianz: Während eine reine $\mathcal{P}$- oder $\mathcal{C}$-Transformation zu in der Natur nicht realisierten Zuständen führt, scheint es bei der kombinierten $\mathcal{CP}$-Transformation keinen Widerspruch zu geben (dünne Pfeile: Impulsausrichtung, dicke Pfeile: Spinausrichtung).}
 \label{fig:cp_invarianz}
 \end{figure}
+
+\section{Mischung im B-Mesonen-System}
+Die Flavoureigenzustände $\Bra{B^0} = \Bra{\bar{b}d}$ und $\Bra{\bar{B^0}} = \Bra{b\bar{d}}$ entsprechen nicht den Masseneigenzuständen. Wir definieren daher die Zustände
+\begin{align}
+\Bra{B_h} = p \Bra{B^0} - q \Bra{\bar{B^0}} \\
+\Bra{B_l} = p \Bra{B^0} + q \Bra{\bar{B^0}}
+\end{align}
 
 \chapter{Abschätzung systematischer Fehler}
 \section{Tagging Kalibrierung}
