@@ -21,6 +21,7 @@
 
 % Definiere Kürzel
 \newcommand{\SJPsi}{S_{J/\Psi K_s^0}}
+\newcommand{\CP}{$\mathcal{CP}$}
 
 
 \begin{document}
@@ -54,22 +55,40 @@ Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt 
 \label{fig:cp_invarianz}
 \end{figure}
 
-\section{Mischung im B-Mesonen-System}
+
+\section{Direkte \CP-Verletzung}
+
+
+\section{\CP-Verletzung in der Mischung}
 Die Flavoureigenzustände $\Bra{B^0} = \Bra{\bar{b}d}$ und $\Bra{\bar{B^0}} = \Bra{b\bar{d}}$ entsprechen nicht den Masseneigenzuständen. Wir definieren daher die normierten Zustände
 \begin{align}
 \Bra{B_h} = p \Bra{B^0} - q \Bra{\bar{B^0}} \label{eq:b_heavy}\\ 
 \Bra{B_l} = p \Bra{B^0} + q \Bra{\bar{B^0}} \label{eq:b_light}\\
 \text{mit} \quad |p|^2 + |q|^2 = 1
 \end{align}
-welche eine definierte Masse und Zerfallsbreite besitzen. Sie sind auch Eigenzustände eines nicht-hermiteschen Hamiltonoperators (Nichthermitizität wegen des möglichen Zerfalls der Teilchens). Dieser setzt sich zusammen aus den hermiteschen Massenoperatoren $M$ und $\Gamma$. Notieren wir die lineare Superposition der Zustände \ref{eq:b_heavy} und \ref{eq:b_light} als $\begin{pmatrix} p \\ q \end{pmatrix}, so nimmt die zeitabhängige Schrödingergleichung die Form
+welche eine definierte Masse und Zerfallsbreite besitzen. Sie sind auch Eigenzustände eines nicht-hermiteschen Hamiltonoperators (Nichthermitizität wegen des möglichen Zerfalls der Teilchens). Dieser setzt sich zusammen aus den hermiteschen Massenoperatoren $M$ und $\Gamma$. Notieren wir die lineare Superposition der Zustände \ref{eq:b_heavy} und \ref{eq:b_light} als $\begin{pmatrix} p \\ q \end{pmatrix}$, so nimmt die zeitabhängige Schrödingergleichung die Form
 \begin{align}
 \imath \diff{}{t}\begin{pmatrix} p \\ q \end{pmatrix} = \left(M - \frac{\imath}{2} \Gamma\right) \begin{pmatrix} p \\ q \end{pmatrix}
 \end{align}
 an und führt zur folgenden zeitlichen Entwicklung der Zustände:
 \begin{align}
-
+\Bra{B_{h/l}(t)} = e^{-\imath m_{h/l}t-\frac{1}{2}\Gamma_{h/l}t}\Bra{B_{h/l}(0)} = e^{-\gamma_{h/l}t}(p\Bra{B^0} \mp q\Bra{\bar{B^0}}) \\
+\text{mit} \quad \gamma{h/l} = \imath m_{h/l}+\frac{\Gamma_{h/l}}{2}
+\end{align}
+Hierbei ist $\gamma{h/l}$ so definiert, dass $-\imath\gamma{h/l} = m_{h/l}i\frac{\imath}{2}\Gamma_{h/l}$ die Eigenwerte des Hamiltonoperators $\mathcal{H} := \left(M - \frac{\imath}{2} \Gamma\right)$ sind. Umgeschrieben auf die Flavoureigenzustände erhalten wir:
+\begin{align}
+\nonumber \Bra{B^0(t)} &= \frac{1}{2p}\left(\Bra{B_h} + \Bra{B_l}\right) \\
+                       &= \frac{1}{2}\left[ (e^{-\gamma_h t}+e^{-\gamma_l t})\Bra{B^0} - \frac{q}{p}(e^{-\gamma_h t}-e^{-\gamma_l t})\Bra{\bar{B^0}}\right] 
+\end{align}
+Die Wahrscheinlichkeit für den Übergang eines $\Bra{B^0}$ (zum Zeitpunkt $t=0$) in ein $\Bra{\bar{B^0}}$ beträgt:
+\begin{align}
+\nonumber P(B^0\rightarrow\bar{B^0})(t) &= |\Braket{\bar{B^0}|B^0(t)}|^2 \\
+                                        &= \frac{1}{4} \left|\frac{q}{p}\right|^2 \left[e^{-\Gamma_h t} + e^{-\Gamma_l t} - 2e^{-\frac{1}{2}(\Gamma_h + \Gamma_l) t}\cos(\Delta m_d t)\right] \\
+mit \Delta m_d = m_h - m_l
 \end{align}
 
+
+\section{\CP-Verletzung in der Interferenz}
 
 \chapter{Abschätzung systematischer Fehler}
 \section{Tagging Kalibrierung}
