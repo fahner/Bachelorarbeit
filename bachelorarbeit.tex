@@ -31,13 +31,26 @@
 
 % Binde Titelseite ein
 \include{ba_titlepage}
-
+\tableofcontents
+\chapter{Das LHCb-Experiment}
 
 \include{cp-verletzung}
 
+\chapter{Datenselektion}
+
+\chapter{Analyse / Fit}
+\section{Fitmethode SFit}
+\section{Wahrscheinlichkeitsdichtefunktion}
+\section{Fitergebnis} \label{kap:fitergebnis}
+
 \chapter{Abschätzung systematischer Fehler}
-\section{Tagging Kalibrierung}
-Im Fit wird bei den Parametern der Tagging Kalibrierung nur der statistischen Fehler berücksichtigt. Es soll nun an dieser Stelle der Einfluss der statistischen Unsicherheiten abgeschätzt werden. \\
+Der Fitter liefert uns zwar eine statistische Unsicherheit auf $\SJPsi$, allerdings ist eine Betrachtung der Systematik unerlässlich. Im Folgenden wird daher der Einfluss einiger Effekte auf das Fitergebnis untersucht und anschließend der systematische Fehler abgeschätzt.
+
+\section{Fit Bias}
+Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, dass das Fitergebnis nicht vom Binning abhängt, es ist jedoch nicht von vornherein ausgeschlossen, dass sie das Ergebnis verfälscht (einen sog. Bias produziert). Daher wird eine Toy Monte Carlo - Studie (kurz: Toy MC) durchgeführt. Dabei werden Daten zufällig nach einer Verteilung mit den gewünschten Parametern generiert und im Anschluss gefittet. Für eine gute Abschätzung des Bias dienen die Ergebnisse des Daten-Fits aus Tabelle xxxxxxx als Anhaltspunkt. Es werden pro Toy 20000 Teilchen generiert mit einem Signalanteil von 42,3\%.
+
+\section{Tagging Kalibration}
+Im Fit wird bei den Parametern der Tagging Kalibration nur der statistischen Fehler berücksichtigt. Es soll nun an dieser Stelle der Einfluss der statistischen Unsicherheiten abgeschätzt werden. \\
 Die Korrekturparameter $p_0$ und $p_1$ für die Fehlerwahrscheinlichkeit des \gls{OST} sind gegeben durch
 \begin{align}
 p_0 &= 0,392 \pm 0,0017\ \text{(stat.)} \pm 0,0076\ \text{(syst.)} \\
@@ -94,6 +107,12 @@ Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen. Die grö
 \begin{align}
 s_{tag_calib} = 0.036 \ .
 \end{align}
+
+\section{Einfluss der zeitlichen Akzeptanz}
+
+\section{Gleichförmigkeit der Massenverteilung}
+
+\chapter{Zusammenfassung}
 
 \begin{thebibliography}{---}
 \bibitem{kleinknecht}  K. Kleinknecht, Uncovering ...
