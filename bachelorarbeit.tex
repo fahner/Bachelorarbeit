@@ -6,11 +6,15 @@
 \usepackage{graphicx}         % Einbindung von Grafiken
 \usepackage{braket}           % ermöglicht die Verwendung von Diracs Bra-Ket-Notation
 \usepackage{esdiff}           % für Ableitungen
+\usepackage{amssymb}
+\usepackage[squaren]{SIunits} % zur Darstellung physikalischer Einheiten (Option squaren verhindert Probleme mit amssymb Paket)
 
 
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
 \usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
 \usepackage[toc]{glossaries}  % Glossar
+
+\graphicspath{{./Abbildungen/}}
 
 \makeglossaries
 \makeindex
@@ -22,9 +26,12 @@
 
 % Definiere Kürzel
 \newcommand{\SJPsi}{S_{J/\Psi K_s^0}}
+\newcommand{\Bd}{$B_d^0$}
+\newcommand{\Bdbar}{$\overline{B_d^0}$}
 \newcommand{\CP}{$\mathcal{CP}$}
 \newcommand{\im}{\mathrm{i}}
 \newcommand{\e}{\mathrm{e}}
+\newcommand{\ps}{\pico\second}
 
 
 \begin{document}
@@ -52,7 +59,9 @@ Wir erhalten schließlich:
 \chapter{Zusammenfassung}
 
 \begin{thebibliography}{---}
+\bibitem{lhcb-paper} LHCb-Analyse, ...
 \bibitem{kleinknecht}  K. Kleinknecht, Uncovering ...
+\bibitem{pdg-tau} PDG-Wert für Tau \\ \url{http://pdglive.lbl.gov/popupblockdata.brl?nodein=S042T&inscript=Y&fsizein=1&clumpin0=} (Stand: 02.07.2013)
 \end{thebibliography}
 
 \printglossaries 
