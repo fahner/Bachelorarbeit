@@ -1,0 +1,25 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Das LHCb-Experiment}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}CP-Verletzung in B-Meson-Systemen}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Diskrete Symmetrietransformationen}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Scheinbare $\mathcal {CP}$-Invarianz}{9}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}$\mathcal {CP}$-Verletzung in der Mischung}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Direkte $\mathcal {CP}$-Verletzung}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}$\mathcal {CP}$-Verletzung in der Interferenz}{11}{section.2.4}
+\contentsline {chapter}{\numberline {3}Datenselektion}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}Analyse / Fit}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fitmethode SFit}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Wahrscheinlichkeitsdichtefunktion}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Fitergebnis}{15}{section.4.3}
+\contentsline {chapter}{\numberline {5}Absch\IeC {\"a}tzung systematischer Fehler}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fit Bias}{17}{section.5.1}
+\contentsline {paragraph}{Ursachen des Bias}{18}{section*.2}
+\contentsline {section}{\numberline {5.2}Tagging Kalibration}{18}{section.5.2}
+\contentsline {paragraph}{Variation der Parameter in den Daten}{19}{section*.3}
+\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{19}{section*.4}
+\contentsline {section}{\numberline {5.3}Einfluss der zeitlichen Akzeptanz}{20}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Bestimmung einer Akzeptanzfunktion}{20}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Bestimmung des Einflusses}{21}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Gleichf\IeC {\"o}rmigkeit der Massenverteilung}{21}{section.5.4}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{23}{chapter.6}
+\contentsline {chapter}{Glossary}{27}{section*.6}
