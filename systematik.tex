@@ -6,7 +6,7 @@ Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, da
 
 \begin{figure}[hptb]
 \centering
-\includegraphics[width = \textwidth]{ampl_both}
+\includegraphics[width = 0.6\textwidth]{fit_bias}
 \caption{Verteilung der aus der Toy MC Studie erhaltenen Amplituden $\SJPsi$ (links) sowie die dazugehörigen Pulls (rechts)}
 \label{fig:fit_bias}
 \end{figure}
@@ -31,7 +31,7 @@ Weitere Toy MC Studien zeigen, dass die Behandlung des Untergrundes zu einem Bia
 \label{fig:toys_no_bkg}
 \end{figure}
 
-Die Vermutung ist, dass zu wenig Statistik im Fit die eigentliche Ursache für den Bias ist. Daher wurden weitere Toy MC Studien mit unterschiedlicher Anzahl an Teilchen pro Toy durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:fit_bias_events} aufgeführt und in Abbildung \ref{fig:fit_bias_events} nochmals visualisiert.
+Die Vermutung ist, dass zu wenig Statistik im Fit die eigentliche Ursache für den Bias ist. Daher wurden weitere Toy MC Studien mit unterschiedlicher Anzahl an Teilchen pro Toy durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:fit_bias_events} aufgeführt und in Abbildung \ref{fig:fit_bias_events} nochmals visualisiert. Man sieht, dass sich der Fit Bias mit erhöhter Statistik deutlich reduzieren lässt. Allerdings lässt das Ergebnis Zweifel aufkommen, ob er sich mit noch mehr Statistik gänzlich verschwindet.
 
 \begin{table}[hptb]
 \centering
@@ -40,18 +40,18 @@ Die Vermutung ist, dass zu wenig Statistik im Fit die eigentliche Ursache für d
 \begin{tabular}{cr@{$\pm$}l}
 \hline \hline 
 Teilchen pro Toy & \multicolumn{2}{c}{$\mu$}  \\ \hline
-20000            &  xxx & xxx \\
-50000            &  xxx & xxx \\
-100000           &  xxx & xxx \\
-200000           &  xxx & xxx \\ 
+20000            &  0,059 & 0,007 \\
+50000            &  0,036 & 0,007 \\
+100000           &  0,020 & 0,007 \\
+200000           &  0,022 & 0,007 \\ 
 \hline \hline
 \end{tabular}
 \end{table}
 
 \begin{figure}[hptb]
 \centering
-%\includegraphics[width=\textwidth]{}
-\caption{Visualisierung der Werte aus Tab. \ref{tab:fit_bias_events}}
+\includegraphics[width=\textwidth]{fit_bias_statistics}
+\caption{Toy MC Studien mit unterschiedlicher Anzahl an generierten Events pro Toy. Als Maß für den Fit Bias dient der Mittelwert $\mu$ der $\SJPsi$-Pull-Verteilung}
 \label{fig:fit_bias_events}
 \end{figure}
 
@@ -64,6 +64,8 @@ p_1 &= 1,035 \pm 0,021\ \text{(stat.)} \pm 0,0076\ \text{(syst.)}.
 \end{align}
 
 \paragraph{Variation der Parameter in den Daten}
+!!! Wichtig !!! - Dieser Abschnitt muss nochmal überarbeitet werden. (Werte anpassen)
+
 Zunächst werden die Startwerte der Parameter $p_0$ und $p_1$ variiert, indem man jeweils den systematischen Fehler der Parameter addiert bzw. subtrahiert und dann den Fit auf die Daten durchührt. Für alle vier Kombinationen wird dann die Abweichung vom regulären Fitergebnis für $\SJPsi$ berechnet. Der Referenzwert aus dem Fit beträgt
 \begin{align}
 \SJPsi = 0,625 \pm 0,069
@@ -73,46 +75,57 @@ Zunächst werden die Startwerte der Parameter $p_0$ und $p_1$ variiert, indem ma
 \centering
 \caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Startwerte für $p_0$ und $p_1$ $\pm$ ihrer statistischen Unsicherheiten}
 \label{tab:syst_fit_calib_data}
-$\begin{array}{cc|c|c}
+\begin{tabular}{cc|r@{$\pm$}l|r@{$\pm$}l}
 \hline\hline
-p_0            & p_1           & \SJPsi          & \Delta\SJPsi   \\ \hline
-0,392 - 0,0076 & 1,035 - 0,012 & 0,599 \pm 0,067 & -0,026 \pm xxx \\
-0,392 + 0,0076 & 1,035 - 0,012 & 0,661 \pm 0,072 & 0,036 \pm xxx \\
-0,392 - 0,0076 & 1,035 + 0,012 & 0,592 \pm 0,066 & -0,033 \pm xxx \\
-0,392 + 0,0076 & 1,035 + 0,012 & 0,651 \pm 0,071 & 0,026 \pm xxx \\
+$p_0$  &  $p_1$  &  \multicolumn{2}{c}{$\SJPsi$}  & \multicolumn{2}{c}{$\Delta\SJPsi$}   \\ \hline
+0,3783 - 0,0028  &  0,950 - 0,028  &  0,7623 & 0,0005  &   0,0093 & 0,0007 \\
+0,3783 + 0,0028  &  0,950 - 0,028  &  0,7368 & 0,0005  &  -0,0171 & 0,0007 \\
+0,3783 - 0,0028  &  0,950 + 0,028  &  0,7729 & 0,0005  &   0,0190 & 0,0007 \\
+0,3783 + 0,0028  &  0,950 + 0,028  &  0,747  & 0,001   &  -0,007  & 0,001 \\
 \hline\hline
-\end{array}$
+\end{tabular}
 \end{table}
 
-Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_data} zu entnehmen. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,036$.
+Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_data} zu entnehmen. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0190$.
 
 \paragraph{Variation der Parameter in \gls{Toy MC}}
-Eine weitere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toys zu generieren und diese dann zu fitten. Im Folgenden werden bei der Toy Generierung die Parameter $p_0$ und $p_1$ um ihre systematische Unsicherheiten variiert, der Fit dann allerdings mit den ursprünglichen Parameterwerten durchgeführt. Als Referenzwert generieren und fitten wir toys mit den ursprünglichen Parameterwerten $p_0$ und $p_1$ sowie $\SJPsi = 0.75$ und erhalten hierfür:
+Eine weitere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toys zu generieren und diese dann zu fitten. Im Folgenden werden bei der Toy Generierung die Parameter $p_0$ und $p_1$ um ihre statistischen Unsicherheiten variiert (systematische Fehler auf die Kalibration liegen leider noch nicht vor), der Fit dann allerdings mit den ursprünglichen Parameterwerten durchgeführt. Als Referenzwert dient die aus dem Fit Bias (siehe Kapitel \ref{kap:fit_bias}) erhaltene Amplitude, da hier mit den regulären Parametern $p_0$ und $p_1$ generiert und gefittet wurde:
 
 \begin{align}
-\SJPsi = 0,75527 \pm xxx
+\SJPsi = 0,7539 \pm 0,0005
 \end{align}
 
 \begin{table}[hptb]
 \centering
 \caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Parameterwerte $p_0$ und $p_1$ $\pm$ ihrer statistischen Unsicherheiten bei der Generierung von Toys}
 \label{tab:syst_fit_calib_toys}
-$\begin{array}{cc|c|c}
+\begin{tabular}{cc|r@{$\pm$}l|r@{$\pm$}l}
 \hline\hline
-p_0            & p_1           & \SJPsi          & \Delta\SJPsi   \\ \hline
-0,392 - 0,0076 & 1,035 - 0,012 & 0,782 \pm xxx & 0,027 \pm xxx \\
-0,392 + 0,0076 & 1,035 - 0,012 & 0,719 \pm xxx & -0,036 \pm xxx \\
-0,392 - 0,0076 & 1,035 + 0,012 & 0,788 \pm xxx & 0,032 \pm xxx \\
-0,392 + 0,0076 & 1,035 + 0,012 & 0,727 \pm xxx & -0,028 \pm xxx \\
+$p_0$  &  $p_1$  &  \multicolumn{2}{c}{$\SJPsi$}  & \multicolumn{2}{c}{$\Delta\SJPsi$}   \\ \hline
+0,3783 - 0,0028  &  0,950 - 0,028  &  0,7623 & 0,0005  &   0,0093 & 0,0007 \\
+0,3783 + 0,0028  &  0,950 - 0,028  &  0,7368 & 0,0005  &  -0,0171 & 0,0007 \\
+0,3783 - 0,0028  &  0,950 + 0,028  &  0,7729 & 0,0005  &   0,0190 & 0,0007 \\
+0,3783 + 0,0028  &  0,950 + 0,028  &  0,747  & 0,001   &  -0,007  & 0,001 \\
 \hline\hline
-\end{array}$
+\end{tabular}
 \end{table}
 
-Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen. Die größte Abweichung beträgt hier betragsmäßig ebenfalls $\Delta\SJPsi = 0,036$. Daher schätzen wir den systematischen Fehler durch die Tagging Kalibrierung auf 
+Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen, diese wurde aus den Plots in Abbildung \ref{fig:toys_tag_calib}. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0190$. Daher wird der systematische Fehler durch die Tagging Kalibrierung wie folgt abgeschätzt:
 
 \begin{align}
-s_{tag_calib} = 0.036 \ .
+\delta\SJPsi^{Tagging Kalibration} = 0,0190 \ .
 \end{align}
+
+\begin{figure}[hptb]
+\subfigure[{$p_0 - \Delta p_0$,  $p_1 - \Delta p_1$}]{\includegraphics[width=0.7\textwidth]{tagging_calibration--}}
+\subfigure[{$p_0 + \Delta p_0$,  $p_1 - \Delta p_1$}]{\includegraphics[width=0.7\textwidth]{tagging_calibration+-}}
+\subfigure[{$p_0 - \Delta p_0$,  $p_1 + \Delta p_1$}]{\includegraphics[width=0.7\textwidth]{tagging_calibration-+}}
+\subfigure[{$p_0 + \Delta p_0$,  $p_1 + \Delta p_1$}]{\includegraphics[width=0.7\textwidth]{tagging_calibration++}}
+\caption{Toy MC Studie zur Abschätzung der Systematik durch die Tagging Kalibration. Bei der Generation wurden die Taggingparameter $p_0=0,3783$ und $p_1=0,950$ um ihre statischen Unsicherheiten $\Delta p_0 = 0,0028$ bzw. $\Delta p_1 = 0,028$ variiert, der Fit wurde dann mit den ursprünglichen Werten $p_0$ und $p_1$ durchgeführt.}
+\label{fig:toys_tag_calib}
+\end{figure}
+
+
 
 \section{Einfluss der zeitlichen Akzeptanz}
 In der Analyse wurde der Einfluss einer zeitabhängigen Detektorakzeptanz vernachlässigt. Nimmt man an, dass sich die Akzeptanz von \Bd- und \Bdbar-Mesonen nicht unterscheiden, so hat die Akzeptanz keinen Einfluss auf die Asymmetrie, da sie sich hier herauskürzt. Beim Fit der Amplitude nach Gleichung \ref{eq:fit_pdf} ist dies aber nicht zwangsläufig so. Um hiesiges Vorgehen zu rechtfertigen, wird zunächst eine Bestimmung der Akzeptanz durchgeführt und anschließend mit einer Toy MC Studie ihr Einfluss überprüft.
