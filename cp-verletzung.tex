@@ -14,7 +14,7 @@ Entgegen der klassischen Intuition konnte Wu 1956 nachweisen, dass die Parität 
 Damit ist offensichtlich, dass die schwache Wechselwirkung auch die Ladungskonjugation verletzt: Wendet man die $\mathcal{C}$-Transformation auf ein linkshändiges Neutrino an, so erhält man ein linkshändiges Antineutrino. Dieses existiert aber wie bereits erwähnt nicht. Analog gilt die Überlegung auch für Antineutrinos.
 
 \subsection{Scheinbare $\mathcal{CP}$-Invarianz}
-Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt hintereinander an, so ergibt sich zunächst kein Widerspruch zur Natur (siehe Abb. \ref{fig:cp_invaranz}). Aus einen linkshändigen Neutrino wird ein rechtshändiges Antineutrino. Im Jahre 1964 wurde dann allerdings im Zerfall neutraler K-Mesonen erstmal $\mathcal{CP}$-Verletzung nachgewiesen. \cite{kleinknecht}
+Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt hintereinander an, so ergibt sich zunächst kein Widerspruch zur Natur (siehe Abb. \ref{fig:cp_invarianz}). Aus einen linkshändigen Neutrino wird ein rechtshändiges Antineutrino. Im Jahre 1964 wurde dann allerdings im Zerfall neutraler K-Mesonen erstmals $\mathcal{CP}$-Verletzung nachgewiesen. \cite{kleinknecht}
 
 \begin{figure}[hptb]
 \centering
@@ -42,10 +42,10 @@ an und führt zur folgenden zeitlichen Entwicklung der Zustände:
                            &= \e^{-\gamma_{h/l}t}(p\Ket{B^0} \mp q\Ket{\overline{B^0}}) \\
 &\text{mit} \quad \gamma_{h/l} = \im m_{h/l}+\frac{\Gamma_{h/l}}{2}
 \end{align}
-Hierbei ist $\gamma_{h/l}$ so definiert, dass $-\im\gamma_{h/l} = m_{h/l}-\frac{\im}{2}\Gamma_{h/l}$ die Eigenwerte des Hamiltonoperators $\mathcal{H} := \left(M - \frac{\im}{2} \Gamma\right)$ sind. Umgeschrieben auf die Flavoureigenzustände erhalten wir:
+Hierbei ist $\gamma_{h/l}$ so definiert, dass $-\im\gamma_{h/l} = m_{h/l}-\frac{\im}{2}\Gamma_{h/l}$ die Eigenwerte des Hamiltonoperators $\mathcal{H} := \left(M - \frac{\im}{2} \Gamma\right)$ sind. Umgeschrieben auf die Flavoureigenzustände erhält man:
 \begin{align}
 \nonumber \Ket{B^0(t)} &= \frac{1}{2p}\left(\Ket{B_h} + \Ket{B_l}\right) \\
-                       &= \frac{1}{2}\left[ (\e^{-\gamma_h t}+\e^{-\gamma_l t})\Ket{B^0} - \frac{q}{p}(\e^{-\gamma_h t}-\e^{-\gamma_l t})\Ket{\overline{B^0}}\right] 
+                       &= \frac{1}{2}\left[ (\e^{-\gamma_h t}+\e^{-\gamma_l t})\Ket{B^0} - \frac{q}{p}(\e^{-\gamma_h t}-\e^{-\gamma_l t})\Ket{\overline{B^0}}\right] \label{eg:b(t)}
 \end{align}
 Die Wahrscheinlichkeit für den Übergang eines $\Ket{B^0}$ (zum Zeitpunkt $t=0$) in ein $\Ket{\overline{B^0}}$ beträgt:
 \begin{align}
@@ -54,11 +54,21 @@ Die Wahrscheinlichkeit für den Übergang eines $\Ket{B^0}$ (zum Zeitpunkt $t=0$
 &\text{mit} \quad \Delta m_d = m_h - m_l
 \end{align}
 
+Analog gilt für die Übergangswahrscheinlichkeit eines $\Ket{\overline{B^0}}$ in ein $\Ket{B^0}$:
+\begin{align}
+P(\overline{B^0}\rightarrow B^0)(t) = \frac{1}{4} \left|\frac{p}{q}\right|^2 \left[\e^{-\Gamma_h t} + \e^{-\Gamma_l t} - 2\e^{-\frac{1}{2}(\Gamma_h + \Gamma_l) t}\cos(\Delta m_d t)\right] 
+\end{align}
+
+Es kommt daher in der Mischung zur \CP-Verletzung, wenn die Oszillation ungleichmäßig verläuft, anders ausgedrückt:
+\begin{align}
+\text{\CP-Verletzung in der Mischung} \qquad \Longleftrightarrow \qquad \left|\frac{p}{q}\right| \neq 1 
+\end{align}
+
 \section{Direkte \CP-Verletzung}
 Die Zerfallsamplituden der neutralen $B^0$-Mesonen in einen Endzustand $\Ket{f}$ bzw. seinen \CP-konjugierten Zustand $\Ket{\overline{f}}$ sind definiert als
 \begin{alignat}{2}
 \nonumber A_f &= \Braket{f|\mathcal{H}|B^0}, && \qquad A_{\overline{f}} = \Braket{\overline{f}|\mathcal{H}|B^0}, \\
-          \overline{A_f} &= \Braket{f|\mathcal{H}|\overline{B^0}}, && \qquad  \overline{A_{\overline{f}}} = \Braket{\overline{f}|\mathcal{H}|\overline{B^0}}.
+          \overline{A_f} &= \Braket{f|\mathcal{H}|\overline{B^0}}, && \qquad  \overline{A_{\overline{f}}} = \Braket{\overline{f}|\mathcal{H}|\overline{B^0}}. \label{eq:decay_amplitudes}
 \end{alignat}
 Dabei bezeichnet $\mathcal{H}$ einen Hamiltonoperator der schwachen Wechselwirkung. Ist \CP erhalten, dann sollten die Zerfallsraten, ergo auch die Zerfallsamplituden eines $B^0$ nach $f$ sowie eines $\overline{B^0}$ nach $\overline{f}$ gleich sein. Dies bedeutet:
 \begin{align}
@@ -67,3 +77,50 @@ Dabei bezeichnet $\mathcal{H}$ einen Hamiltonoperator der schwachen Wechselwirku
 
 
 \section{\CP-Verletzung in der Interferenz}
+Die Zustände \ref{eq:b_heavy} und \ref{eq:b_light} haben eine nahezu gleiche Anzahl an Zerfällskanäle. Dies hat zur Folge, dass die Lebensdauern des schweren und leichten Zustands innerhalb weniger Prozent gleich sind:
+\begin{align}
+\Gamma := \Gamma_h = \Gamma_l \label{eq:Gamma}
+\end{align}
+
+Weiterhin sagt das Standard Modell nur eine kleine \CP-Verletzung in der \Bd - \Bdbar - Mischung voraus, sodass
+\begin{align}
+\left|\frac{p}{q}\right| = 1 \qquad \text{in} \mathcal{O}(10^{-3}). \label{eg:pq_approx}
+\end{align}
+
+Für das B-Meson-System bleibt daher nur die Möglichkeit der \CP-Verletzung in der Interferenz von Mischung und direktem Zerfall. Der in dieser Arbeit betrachtete Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$ hat einen \CP-Eigenzustand als Endzustand (\CP $\Ket{\JPsi\Kshort} = -\Ket{\JPsi\Kshort}$). In Anlehnung an \ref{eq:decay_amplitudes} sind die Zerfallsamplituden hier definiert als
+\begin{align}
+\nonumber A_f := \Braket{f|B^0(t)}, \qquad \overline{A_{f}} := \Braket{f|\mathcal{H}|\overline{B^0}}
+\end{align}
+
+Mit Blick auf die Zerfallsamplituden der Masseneigenzustände wird die komplexe Größe
+\begin{align}
+\lambda := \frac{q\overline{A_f}}{pA_f} \label{eq:lambda}
+\end{align}
+definiert. Ausgehend von Gleichung \ref{eg:b(t)} sowie mit Hilfe fer Gleichungen (\ref{eq:Gamma}), (\ref{eg:pq_approx}) und (\ref{eq:lambda}) gilt für die Zerfallsrate eines anfänglich reinen \Bd-Zustands:
+\begin{align}
+\nonumber \Gamma (B^0 \rightarrow \JPsi\Kshort) &= \frac{1}{4}\left| (\e^{-\gamma_h t}+\e^{-\gamma_l t})A_f - \frac{q}{p}(\e^{-\gamma_h t}-\e^{-\gamma_l t})\overline{A_f}\right|^2 \\
+&= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda|^2 + (1-|\lambda|^2)\cos(\Delta m_d t) - 2\mathrm{Im}(\lambda)\sin(\Delta m_d t)\right]
+\end{align}
+Analog:
+\begin{align}
+\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) &= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda|^2 -(1-|\lambda|^2)\cos(\Delta m_d t) + 2\mathrm{Im}(\lambda)\sin(\Delta m_d t)\right]
+\end{align}
+
+Damit kann die vom Standard Modell prognostizierte \CP-verletzende Asymmetrie 
+\begin{align}
+\mathcal{A}_{\text{\CP}} &= \frac{\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) - \Gamma (B^0 \rightarrow \JPsi\Kshort)}{\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) + \Gamma (B^0 \rightarrow \JPsi\Kshort)} \\
+&= -\frac{1-|\lambda|^2}{1+|\lambda|^2}\cos(\Delta m_d t) + \frac{2\mathrm{Im}(\lambda)}{1+|\lambda|^2}\sin(\Delta m_d t) \\
+&=: \CJPsi \cos(\Delta m_d t) + \SJPsi \sin(\Delta m_d t)
+\end{align}
+berechnet werden und vereinfacht sich - da $\Ket{\JPsi\Kshort}$ ein \CP-Eigenzustand ist, gilt $|\lambda| = 1$ - hier zu
+\begin{align}
+\mathcal{A}_{\text{\CP}} = \mathrm{Im}(\lambda)\sin(\Delta m_d t) .
+\end{align}
+
+Damit kann im B-Meson-System, insbesondere im Zerfall $B_d^0 \rightarrow J/\Psi K_s^0$ durch Messung der Asymmetrie-Amplitude $\SJPsi$ \CP-Verletzung in der Interferenz gemessen werden.
+
+\begin{align}
+\text{\CP-Verletzung in der Interferenz} \qquad \Longleftrightarrow \qquad \SJPsi = \mathrm{Im}(\lambda)\neq 0
+\end{align}
+
+\section{CKM-Formalismus}
