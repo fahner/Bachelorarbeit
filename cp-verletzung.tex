@@ -1,4 +1,39 @@
 \chapter{CP-Verletzung in B-Meson-Systemen}
+
+\section{B-Mesonen und der Zerfallskanal \Decaychannel}
+\subsection{Das Standardmodell der Teilchenphysik}
+Im Standardmodell der Teilchenphysik gibt es 17 elementare Bausteine der Materie (siehe Abb. \ref{fig:standardmodell}): 12 Fermionen, davon 6 Quarks (u, d, c, s, t, b), die sich im engeren Sinne zur Materie hadronisieren oder Mesonen bilden, und 6 Leptonen (e, $\mathrm{\mu}$, $\mathrm{\tau}$ sowie die jweiligen Neutrinos $\mathrm{\nu_e}$, $\mathrm{\nu_{\mu}}$, $\mathrm{\nu_{\tau}}$). Von diesen 12 Fermionen existieren jeweils noch Antiteilchen (gleiche Eigenschaften, aber entgegengesetzte Masse). Das Standardmodell enthält weiterhin 4 Eichbosonen (Photon, Gluon, Z- und W$^{\pm}$-Boson), die die 3 der 4 elementaren Kräfte übertragen: die elektromagnetische, starke und schwache Wechselwirkung. Das für die Gravitation postulierte Graviton konnte bislang nicht nachgewiesen werden. Ergänzt wird das Standardmodell, durch das Higgs-Boson, welches als Teil des Higgs-Mechanismus den Elementarteilchen seine Masse verleiht und Gegenstand aktueller Forschung ist. Mit hoher Wahrscheinlichkeit gelang jüngst der Nachweis des Higgs am CERN \cite{higgs}.
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=0.5\textwidth]{standardmodell}
+\caption{Das Standardmodell der Teilchenphysik \cite{wiki_standard}}
+\label{fig:standardmodell}
+\end{figure}
+
+\subsection{B-Mesonen und ihre Mischung}
+Mesonen sind Paare aus Quarks und Antiquarks beliebigen Flavours. B-Mesonen insbesondere bestehen aus einem Anti-b-Quark ($\mathrm{\overline{b}}$) mit einem u-, d-, c- oder s-Quark beziehungsweise aus der Kombination der jeweiligen Antiteilchen (Anti-B-Mesonen).
+
+Die in dieser Arbeit betrachteten \Bd-Mesonen haben demnach die Quarkzusammensetzung $\Ket{\text{\Bd}} = \Ket{\overline{b}d}$ und sind elektrisch neutral. Solch neutrale Mesonen besitzen die Eigenschaft, dass sie sich in ihre Antiteilchen wandeln können und umgekehrt. Es findet folglich eine Oszillation zwischen \Bd und \Bdbar statt, die man auch Mischung nennt. Abbildung \ref{fig:bmixing} zeigt zwei mögliche Feynmangraphen für diesen Prozess. Innerhalb der Schleifen kann die Energieerhaltung kurzzeitig verletzt werden, sodass auch kurzerhand die deutlich schweren top-Quarks enstehen können. Zu diesem Mischungsprozess leisten sie sogar einen dominanten Beitrag. Präzise Messungen der \Bd-Mischung erlauben Aussagen bspw. über die top-Masse und grenzen damit das Standardmodell ein, gleichzeitig erhofft man sich, durch noch präzisere Messungen Hinweise auf \glqq neue Physik\grqq zu finden, die sich dann in kleinsten Korrekturen innerhalb der Schleife bemerkbar machen würden.
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=0.5\textwidth]{bmixing}
+\caption{Feynmangraphen zur Mischung von \Bd- und \Bdbar-Mesonen}
+\label{fig:bmixing}
+\end{figure}
+
+
+\subsection{Der Zerfallskanal \Decaychannel}
+In dieser Arbeit wird der Zerfallskanal \Decaychannel betrachtet. Abbildung \ref{fig:decay} zeigt entsprechende Feynmangraphen. Jener Kanal ist auch als \glqq goldener\grqq Zerfallskanal für die Messung der \CP-Verletzung bekannt. Hintergrund ist, dass der Endzustand $\Ket{\JPsi\Kshort}$ ein \CP-Eigenzustand ist ($\text{\CP}\Ket{\JPsi\Kshort} = - \Ket{\JPsi\Kshort}$). Die Teilchen $\JPsi$ und $\Kshort$ haben die Flavoureigenzustände $\Ket{\JPsi} = \Ket{c\overline{c}}$ sowie $\Ket{\Kshort} = \tfrac{1}{\sqrt{2}}\left(\Ket{d\overline{s}}-\Ket{s\overline{d}}\right)$. Diese Teilchen sind ebenfalls nicht stabil und zerfallen unter anderem weiter gemäß $\JPsi \rightarrow \mu^+\mu^-$ und $\Kshort \rightarrow \pi^+\pi^-$, was zur Rekonstruktion der \Bd-Mesonen im Detektor genutzt wird.
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=\textwidth]{bd2jpsikshort}
+\caption{Feynmangraph zum Zerfall \Decaychannel. Links: Baumdiagramm, rechts: Pinguindiagramm}
+\label{fig:decay}
+\end{figure}
+
 \section{Diskrete Symmetrietransformationen}
 Symmetrien sind in der Physik von zentraler Bedeutung. Gemäß dem Noether-Theorem existiert in der klassischen Physik zu jeder kontinuierlichen Symmetrie eine Erhaltungsgröße. In quantenmechanischen Systemen können wir drei diskrete Symmetrietransformationen betrachten:
 \begin{enumerate}
@@ -124,3 +159,19 @@ Damit kann im B-Meson-System, insbesondere im Zerfall $B_d^0 \rightarrow J/\Psi 
 \end{align}
 
 \section{CKM-Formalismus}
+Durch Austausch eines W$^{\pm}$-Bosons können Quarks ihren Flavour ändern. Dabei sind sie aber nicht an ihre jeweilige Generation gebunden, sondern können - wenn auch zum Teil stark unterdrückt - prinzipiell den Flavour einer jeden Generation annehmen. Ein kleines Beispiel: Der Eigenzustand $\Ket{u}$ der starken Wechselwirkung geht über den schwachen Prozess (Austausch eines W$^{\pm}$-Bosons) nicht in ein $\Ket{d}$ über, sondern vielmehr in eine Linearkombination aus $\Ket{d}$, $\Ket{s}$ und $\Ket{b}$, die im folgenden mit $\Ket{d'}$ bezeichnet wird. Allgemein werden die möglichen Linearkombinationen durch die Cabibbo-Kobayashi-Maskawa-Matrix (kurz: CKM-Matrix) beschrieben.
+\begin{align}
+\begin{pmatrix}
+\Ket{d'} \\ \Ket{s'} \\ \Ket{b'}
+\end{pmatrix}
+=
+\begin{pmatrix}
+V_{ud} & V_{us} & V_{ub} \\
+V_{cd} & V_{cs} & V_{cb} \\
+V_{td} & V_{ts} & V_{tb} \\
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+\Ket{d} \\ \Ket{s} \\ \Ket{b}
+\end{pmatrix}
+\end{align}
