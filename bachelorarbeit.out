@@ -1,26 +1,47 @@
-\BOOKMARK [0][-]{chapter.1}{Das LHCb-Experiment}{}% 1
-\BOOKMARK [0][-]{chapter.2}{CP-Verletzung in B-Meson-Systemen}{}% 2
-\BOOKMARK [1][-]{section.2.1}{B-Mesonen und der Zerfallskanal Bd0 J/Ks0}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Das Standardmodell der Teilchenphysik}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{B-Mesonen und ihre Mischung}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.3}{Der Zerfallskanal Bd0 J/Ks0}{section.2.1}% 6
-\BOOKMARK [1][-]{section.2.2}{Diskrete Symmetrietransformationen}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Scheinbare CP-Invarianz}{section.2.2}% 8
-\BOOKMARK [1][-]{section.2.3}{CP-Verletzung in der Mischung}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Direkte CP-Verletzung}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{CP-Verletzung in der Interferenz}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.6}{CKM-Formalismus}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{Datenselektion}{}% 13
-\BOOKMARK [0][-]{chapter.4}{Analyse / Fit}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Fitmethode SFit}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.2}{Wahrscheinlichkeitsdichtefunktion}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.3}{Fitergebnis}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Absch\344tzung systematischer Fehler}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Fit Bias}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.2}{Tagging Kalibration}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.3}{Einfluss der zeitlichen Akzeptanz}{chapter.5}% 21
-\BOOKMARK [2][-]{subsection.5.3.1}{Bestimmung einer Akzeptanzfunktion}{section.5.3}% 22
-\BOOKMARK [2][-]{subsection.5.3.2}{Bestimmung des Einflusses}{section.5.3}% 23
-\BOOKMARK [1][-]{section.5.4}{Gleichf\366rmigkeit der Massenverteilung}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{Zusammenfassung}{}% 25
-\BOOKMARK [0][-]{section*.6}{Glossary}{}% 26
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Das LHCb-Experiment}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Aufgaben und Ziele des Experimentes}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Der LHCb-Detektor}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{VeLo}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{Spurrekonstruktion}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.3}{RICH-Detektoren}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.4}{Kalorimeter}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.5}{Myonkammern}{section.2.2}% 9
+\BOOKMARK [0][-]{chapter.3}{CP-Verletzung in B-Meson-Systemen}{}% 10
+\BOOKMARK [1][-]{section.3.1}{B-Mesonen und der Zerfallskanal Bd0 J/Ks0}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.1.1}{Das Standardmodell der Teilchenphysik}{section.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.1.2}{B-Mesonen und ihre Mischung}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.3}{Der Zerfallskanal Bd0 J/Ks0}{section.3.1}% 14
+\BOOKMARK [1][-]{section.3.2}{Diskrete Symmetrietransformationen}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Scheinbare CP-Invarianz}{section.3.2}% 16
+\BOOKMARK [1][-]{section.3.3}{CP-Verletzung in der Mischung}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Direkte CP-Verletzung}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.5}{CP-Verletzung in der Interferenz}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.6}{CKM-Formalismus}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Datenselektion}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Verwendeter Datensatz}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Schnitte}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Trigger}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Stripping}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.3}{Zus\344tzliche Schnitte}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.4}{Geister-Wahrscheinlichkeit}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.5}{Bester Kandidat}{section.4.2}% 28
+\BOOKMARK [0][-]{chapter.5}{Analyse / Fit}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Fitmethode SFit}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{Bestimmung der sWeigths - Massenfit}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.3}{Wahrscheinlichkeitsdichtefunktion \(p.d.f.\)}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.3.1}{Fehlerbehaftetes Tagging}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.2}{Kalibration des Taggings}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.3}{Zeitaufl\366sung}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.4}{Endg\374ltige p.d.f.}{section.5.3}% 36
+\BOOKMARK [1][-]{section.5.4}{Fitergebnis}{chapter.5}% 37
+\BOOKMARK [0][-]{chapter.6}{Absch\344tzung systematischer Fehler}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Fitmethode}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.2}{Kalibration des Taggings}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.3}{Einfluss der zeitlichen Akzeptanz}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.3.1}{Bestimmung einer Akzeptanzfunktion}{section.6.3}% 42
+\BOOKMARK [2][-]{subsection.6.3.2}{Bestimmung des Einflusses}{section.6.3}% 43
+\BOOKMARK [1][-]{section.6.4}{Gleichf\366rmigkeit der Massenverteilung}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.5}{Zeitaufl\366sung}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 46
+\BOOKMARK [0][-]{section*.6}{Glossary}{}% 47

@@ -175,3 +175,27 @@ V_{td} & V_{ts} & V_{tb} \\
 \Ket{d} \\ \Ket{s} \\ \Ket{b}
 \end{pmatrix}
 \end{align}
+
+Das Betragsquadrat eines jeden Matrixelementes $|V_{ij}|^2$ gibt dabei die Wahrscheinlichkeit für den Übergang eines Quarks $\Ket{i}$ in ein $\Ket{j}$ an. Da die $V_{ij}$ prinzipiell komplex sein können, gibt es zunächst 18 freie Parameter, die zu bestimmen sind. Diese Zahl reduziert sich zum einen um 5 relative Quarkphasen, die physikalisch nicht beobachtbar sind. Zum anderen reduziert die Forderung nach Unitarität der CKM-Matrix die Zahl der unabhängigen Parameter um 9, sodass am Ende 4 Parameter, 3 Euler Winkel sowie eine Phase, welche für die \CP-Verletzung verantwortlich ist, zu bestimmen sind. Die CKM-Matrix lässt sich näherungsweise durch die Wolfenstein-Parametrisierung darstellen:
+
+\begin{align}
+V_{\text{CKM}}=
+\begin{pmatrix}
+V_{ud} & V_{us} & V_{ub} \\
+V_{cd} & V_{cs} & V_{cb} \\
+V_{td} & V_{ts} & V_{tb} \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+1-\frac{\lambda^2}{2} & \lambda & A\lambda^3(\rho-\im\eta) \\
+-\lambda & 1-\frac{\lambda^2}{2} & A\lambda^2 \\
+A\lambda^3(1-\rho-\im\eta) & -A\lambda^2 & 1
+\end{pmatrix}
++ \mathcal{O}(\lambda^4)
+\end{align}
+
+Für den Zerfall von \Bd-Mesonen ist die Unitaritätsbedingung
+\begin{align}
+V_{ud}V_{ub}^* + V_{cd}V_{cb}^* + V_{td}V_{tb}^* = 0
+\end{align}
+von besonderer Bedeutung. Man kann die einzelnen Summanden nun in der $(\rho,\eta)$-Ebene auftragen und erhält dabei ein sogenanntes Unitaritätsdreieck. Es wird so normiert, dass die Unterseite bei (0,0) beginnt und bei (1,0) endet.

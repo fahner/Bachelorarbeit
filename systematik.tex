@@ -1,7 +1,7 @@
 \chapter{Abschätzung systematischer Fehler}
 Der Fitter liefert uns zwar eine statistische Unsicherheit auf $\SJPsi$, allerdings ist eine Betrachtung der Systematik unerlässlich. Im Folgenden wird daher der Einfluss einiger Effekte auf das Fitergebnis untersucht und anschließend der systematische Fehler abgeschätzt.
 
-\section{Fit Bias} \label{kap:fit_bias}
+\section{Fitmethode} \label{kap:fit_bias}
 Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, dass das Fitergebnis nicht vom Binning abhängt, es ist jedoch nicht von vornherein ausgeschlossen, dass sie das Ergebnis verfälscht (einen sog. Bias produziert). Daher wird eine Toy Monte Carlo - Studie (kurz: Toy MC) durchgeführt. Dabei werden Daten zufällig nach einer Verteilung mit den gewünschten Parametern generiert und im Anschluss gefittet. Für eine gute Abschätzung des Bias dienen die Ergebnisse des Daten-Fits aus Tabelle xxxxxxx als Anhaltspunkt. Es werden pro Toy 20000 Teilchen generiert mit einem Signalanteil von 42,3\%.
 
 \begin{figure}[hptb]
@@ -55,7 +55,7 @@ Teilchen pro Toy & \multicolumn{2}{c}{$\mu$}  \\ \hline
 \label{fig:fit_bias_events}
 \end{figure}
 
-\section{Tagging Kalibration}
+\section{Kalibration des Taggings}
 Im Fit wird bei den Parametern der Tagging Kalibration nur der statistischen Fehler berücksichtigt. Es soll nun an dieser Stelle der Einfluss der statistischen Unsicherheiten abgeschätzt werden. \\
 Die Korrekturparameter $p_0$ und $p_1$ für die Fehlerwahrscheinlichkeit des \gls{OST} sind gegeben durch
 \begin{align}
@@ -191,3 +191,5 @@ Der Mittelwert der Pulls $\mu = 0,063 \pm 0,007$ (siehe Abb. \ref{fig:toys_accep
 
 
 \section{Gleichförmigkeit der Massenverteilung}
+
+\section{Zeitauflösung}

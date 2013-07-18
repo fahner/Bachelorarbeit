@@ -1,30 +1,51 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Das LHCb-Experiment}{7}{chapter.1}
-\contentsline {chapter}{\numberline {2}CP-Verletzung in B-Meson-Systemen}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}B-Mesonen und der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Das Standardmodell der Teilchenphysik}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}B-Mesonen und ihre Mischung}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{10}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Diskrete Symmetrietransformationen}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Scheinbare $\mathcal {CP}$-Invarianz}{12}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}$\mathcal {CP}$-Verletzung in der Mischung}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Direkte $\mathcal {CP}$-Verletzung}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}$\mathcal {CP}$-Verletzung in der Interferenz}{14}{section.2.5}
-\contentsline {section}{\numberline {2.6}CKM-Formalismus}{15}{section.2.6}
-\contentsline {chapter}{\numberline {3}Datenselektion}{17}{chapter.3}
-\contentsline {chapter}{\numberline {4}Analyse / Fit}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fitmethode SFit}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Wahrscheinlichkeitsdichtefunktion}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Fitergebnis}{19}{section.4.3}
-\contentsline {chapter}{\numberline {5}Absch\IeC {\"a}tzung systematischer Fehler}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fit Bias}{21}{section.5.1}
-\contentsline {paragraph}{Ursachen des Bias}{22}{section*.2}
-\contentsline {section}{\numberline {5.2}Tagging Kalibration}{22}{section.5.2}
-\contentsline {paragraph}{Variation der Parameter in den Daten}{24}{section*.3}
-\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{24}{section*.4}
-\contentsline {section}{\numberline {5.3}Einfluss der zeitlichen Akzeptanz}{25}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Bestimmung einer Akzeptanzfunktion}{25}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Bestimmung des Einflusses}{27}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Gleichf\IeC {\"o}rmigkeit der Massenverteilung}{27}{section.5.4}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{29}{chapter.6}
-\contentsline {chapter}{Glossary}{33}{section*.6}
+\contentsline {chapter}{\numberline {1}Einleitung}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}Das LHCb-Experiment}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Aufgaben und Ziele des Experimentes}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Der LHCb-Detektor}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}VeLo}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Spurrekonstruktion}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}RICH-Detektoren}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Kalorimeter}{9}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Myonkammern}{9}{subsection.2.2.5}
+\contentsline {chapter}{\numberline {3}CP-Verletzung in B-Meson-Systemen}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}B-Mesonen und der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Das Standardmodell der Teilchenphysik}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}B-Mesonen und ihre Mischung}{12}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{12}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Diskrete Symmetrietransformationen}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Scheinbare $\mathcal {CP}$-Invarianz}{14}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}$\mathcal {CP}$-Verletzung in der Mischung}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Direkte $\mathcal {CP}$-Verletzung}{16}{section.3.4}
+\contentsline {section}{\numberline {3.5}$\mathcal {CP}$-Verletzung in der Interferenz}{16}{section.3.5}
+\contentsline {section}{\numberline {3.6}CKM-Formalismus}{17}{section.3.6}
+\contentsline {chapter}{\numberline {4}Datenselektion}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Verwendeter Datensatz}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Schnitte}{19}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Trigger}{19}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Stripping}{19}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Zus\IeC {\"a}tzliche Schnitte}{19}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Geister-Wahrscheinlichkeit}{19}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Bester Kandidat}{19}{subsection.4.2.5}
+\contentsline {chapter}{\numberline {5}Analyse / Fit}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fitmethode SFit}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Bestimmung der sWeigths - Massenfit}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Wahrscheinlichkeitsdichtefunktion (p.d.f.)}{21}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Fehlerbehaftetes Tagging}{21}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Kalibration des Taggings}{21}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Zeitaufl\IeC {\"o}sung}{21}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Endg\IeC {\"u}ltige p.d.f.}{21}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Fitergebnis}{21}{section.5.4}
+\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Fehler}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fitmethode}{23}{section.6.1}
+\contentsline {paragraph}{Ursachen des Bias}{24}{section*.2}
+\contentsline {section}{\numberline {6.2}Kalibration des Taggings}{24}{section.6.2}
+\contentsline {paragraph}{Variation der Parameter in den Daten}{26}{section*.3}
+\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{26}{section*.4}
+\contentsline {section}{\numberline {6.3}Einfluss der zeitlichen Akzeptanz}{27}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Bestimmung einer Akzeptanzfunktion}{27}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Bestimmung des Einflusses}{29}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Gleichf\IeC {\"o}rmigkeit der Massenverteilung}{29}{section.6.4}
+\contentsline {section}{\numberline {6.5}Zeitaufl\IeC {\"o}sung}{29}{section.6.5}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{31}{chapter.7}
+\contentsline {chapter}{Glossary}{35}{section*.6}
