@@ -17,8 +17,8 @@
 
 \graphicspath{{./Abbildungen/}}
 
-\makeglossaries
-\makeindex
+%\makeglossaries
+%\makeindex
 
 % Glossar
 \newglossaryentry{OST}{name={OST}, description={Opposite Side Tagger}}
@@ -60,22 +60,14 @@
 \subsection{Myonkammern}
 
 \include{cp-verletzung}
+\include{datenselektion}
 
-\chapter{Datenselektion}
-\section{Verwendeter Datensatz}
-\section{Schnitte}
-\subsection{Trigger}
-\subsection{Stripping}
-\subsection{Zusätzliche Schnitte}
-\subsection{Geister-Wahrscheinlichkeit}
-\subsection{Bester Kandidat}
 
 \chapter{Analyse / Fit}
 \section{Fitmethode SFit}
 \section{Bestimmung der sWeigths - Massenfit}
 \section{Wahrscheinlichkeitsdichtefunktion (p.d.f.)}
-\subsection{Fehlerbehaftetes Tagging}
-\subsection{Kalibration des Taggings}
+\subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
 \subsection{Zeitauflösung}
 \subsection{Endgültige p.d.f.}
 \begin{equation}
@@ -99,9 +91,12 @@ Wir erhalten schließlich:
 \bibitem{kleinknecht}  K. Kleinknecht, Uncovering ...
 \bibitem{pdg-tau} PDG-Wert für Tau \\ \url{http://pdglive.lbl.gov/popupblockdata.brl?nodein=S042T&inscript=Y&fsizein=1&clumpin0=} (Stand: 02.07.2013)
 \bibitem{feynman-graphs} \url{http://www-zeus.physik.uni-bonn.de/~brock/feynman/vtp_ss06/}
+\bibitem{nir} Nir, Heavy Flavour Physics
+\bibitem{noguchi} Noguchi, ...
+\bibitem{trigger} \url{http://lhcb-trig.web.cern.ch/lhcb-trig/}
 \end{thebibliography}
 
-\printglossaries 
+%\printglossaries 
 % Selbstständigkeitserklärung
 \include{declaration}
 \end{document}

@@ -1,4 +1,4 @@
-\chapter{Abschätzung systematischer Fehler}
+\chapter{Abschätzung systematischer Unsicherheiten}
 Der Fitter liefert uns zwar eine statistische Unsicherheit auf $\SJPsi$, allerdings ist eine Betrachtung der Systematik unerlässlich. Im Folgenden wird daher der Einfluss einiger Effekte auf das Fitergebnis untersucht und anschließend der systematische Fehler abgeschätzt.
 
 \section{Fitmethode} \label{kap:fit_bias}
@@ -127,10 +127,10 @@ Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen, diese wu
 
 
 
-\section{Einfluss der zeitlichen Akzeptanz}
+\section{Einfluss der zeitabhängigen Akzeptanz}
 In der Analyse wurde der Einfluss einer zeitabhängigen Detektorakzeptanz vernachlässigt. Nimmt man an, dass sich die Akzeptanz von \Bd- und \Bdbar-Mesonen nicht unterscheiden, so hat die Akzeptanz keinen Einfluss auf die Asymmetrie, da sie sich hier herauskürzt. Beim Fit der Amplitude nach Gleichung \ref{eq:fit_pdf} ist dies aber nicht zwangsläufig so. Um hiesiges Vorgehen zu rechtfertigen, wird zunächst eine Bestimmung der Akzeptanz durchgeführt und anschließend mit einer Toy MC Studie ihr Einfluss überprüft.
 
-\subsection{Bestimmung einer Akzeptanzfunktion} \label{kap:akzeptanz_bestimmung}
+\subsection{Bestimmung der Akzeptanzfunktion} \label{kap:akzeptanz_bestimmung}
 \Bd-Mesonen haben eine relativ lange Lebensdauer. Um sie von kurzlebigem Untergrund zu unterscheiden, befinden sich auf den Triggern und dem Stripping entsprechende Cuts auf die Flugzeiten. Dies hat zur Folge, dass für kleine Flugzeiten ($ct \lesssim 0,3\pico\second$) kaum \Bd-Mesonen im Detektor registriert werden und es zu einem sog. \glqq Turn-On-Effekt\grqq kommt. Es hat sich herausgestellt (\cite{lhcb-paper}), dass dieser gut durch die Funktion
 \begin{align}
 \epsilon_1(t) = \frac{2}{\pi}\arctan[t\cdot \exp(at+b)]
@@ -190,6 +190,6 @@ Der Mittelwert der Pulls $\mu = 0,063 \pm 0,007$ (siehe Abb. \ref{fig:toys_accep
 
 
 
-\section{Gleichförmigkeit der Massenverteilung}
+\section{Korrelation zwischen Masse und Zerfallszeit}
 
 \section{Zeitauflösung}

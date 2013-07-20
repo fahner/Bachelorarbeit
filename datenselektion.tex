@@ -1,0 +1,40 @@
+\chapter{Datenselektion}
+\section{Verwendeter Datensatz}
+\section{Schnitte}
+Um Signal besser vom Untergrund zu trennen, werden in mehreren Schritten diverse Schnitte angewandt.
+\subsection{Trigger}
+Den erste Schritt bildet das Trigger-System, das schon während der Datennahme die Ereignisse sondiert. Der LHCb-Detektor verwendet dabei ein dreistufiges System: Der hardwarebasierte \glqq L0 Trigger \grqq reduziert die Ereignisrate von $40\mega\hertz$ auf $1\mega\hertz$. Im Anschluss folgt der zweiteilige, softwarebasierte \glqq High Level Trigger \grqq (HLT), der die Ereignisrate schlussendlich auf $2\kilo\hertz$ reduziert.\cite{trigger} 
+
+Die in dieser Analyse verwendeten Trigger-Entscheidungen entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
+
+\subsubsection{L0 Trigger}
+Hier wird keine spezielle Entscheidung benötigt.
+
+\subsubsection{High Level Trigger 1 (HLT1)}
+Hier wird die \texttt{HltDiMuonHighMassDecision} gewählt. Diese greift - wie der Name schon suggeriert - lediglich auf die Spuren der Myonen zurück, sodass nur das vom \Bd ausgesandte $J/\Psi \rightarrow \mu^+\mu^-$ für den Trigger verantwortlich ist. Es werden hierbei Schnitte auf die Qualität des $J\Psi$-Vertex, die Myonen-Spuren, sowie die Masse und den (Transversal)Impuls des $J\Psi$ angewandt. Die \texttt{HltDiMuonHighMassDecision} erzeugt kein Bias auf die Lebensdauer des \Bd-Mesons.
+
+\subsubsection{High Level Trigger 2 (HLT2)}
+In dieser Analyse werden zwei unterschiedliche Entscheidungen verwendet. Zur Bestimmung der Detektorauflösung wird die \texttt{Hlt2DiMuonJPsiDecision} verwendet, die ähnliche Variablen wie beim HLT1 verwendet und somit auch kein Bias erzeugt. Für die reguläre Analyse wird jedoch die \texttt{Hlt2DiMuonDetachedJPsiDecision} verwendet, die zusätzlich die Signifikanz der Zerfallszeit eines $J/\Psi$ berücksichtigt. Dadurch kommt es jedoch zu einem Bias der Lebensdauer. Der Vorteil dieser Triggerwahl liegt jedoch darin, dass mehr Statistik zur Verfügung steht.
+
+\subsection{Downstream Spuren}
+Für die Rekonstruktion der $J/\Psi$ werden ausschließlich sog. \glqq Long\grqq-Spuren verwendet. Diese passieren das gesamte Rekonstruktionssystem. Durch die relativ lange Lebensdauer des $\Kshort$ kommt es in etwa 2/3 der Fälle vor, dass der VeLo dieses nicht mehr registriert. Hinterlassen Teilchen nur in den TT und T Stationen Spuren, so spricht man von \glqq Downstream\grqq-Spuren. Diese Analyse beschränkt sich auf ebenjene. Damit hat man im Vergleich zu $\Kshort$ aus Long-Spuren mehr Statistik zur Verfügung, muss aber bei Qualität der Rekonstruktion Einbußen hinnehmen, da die Informationen des VeLo fehlen. Insbesondere leidet die Präzision der Impuls- und Positionsmessungen. Folglich dürfen die Schnitte bei Downstream-Spuren teilweise nicht so hart sein wie bei Long-Spuren. \cite{lhcp-paper}
+
+\subsection{Stripping}
+!!! Achtung !!! Anpassen !!! Welches Stripping wurde verwendet???
+
+Die Schnitte, die hierbei angewandt wurden, sind in Tabelle \ref{tab:cuts_stripping} aufgeführt.
+
+\begin{table}[hptb]
+\caption{Im Stripping verwendete Schnitte zur Selektion von \Bd, $\JPsi$ und $\Kshort$}
+\label{tab:cuts_stripping}
+$\begin{array}{l|ll}
+\hline \hline
+\text{Zerfall} & \text{Variable} & \text{Wert} \\ \hline
+$\Decaychannel$ & M($\Bd$) & \in [5150,5550] \mega\electronvolt/c^2 \\
+& \frac{\chi^2_{vtx}}{\text{nDof}}($\Bd$) & < 10
+
+\end{array}$
+\end{table}
+\subsection{Zusätzliche Schnitte}
+\subsection{Geister-Wahrscheinlichkeit}
+\subsection{Bester Kandidat}

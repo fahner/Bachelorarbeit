@@ -23,29 +23,31 @@
 \contentsline {section}{\numberline {4.1}Verwendeter Datensatz}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Schnitte}{19}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Trigger}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Stripping}{19}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Zus\IeC {\"a}tzliche Schnitte}{19}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Geister-Wahrscheinlichkeit}{19}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Bester Kandidat}{19}{subsection.4.2.5}
+\contentsline {subsubsection}{L0 Trigger}{19}{section*.2}
+\contentsline {subsubsection}{High Level Trigger 1 (HLT1)}{19}{section*.3}
+\contentsline {subsubsection}{High Level Trigger 2 (HLT2)}{19}{section*.4}
+\contentsline {subsection}{\numberline {4.2.2}Downstream Spuren}{20}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Stripping}{20}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Zus\IeC {\"a}tzliche Schnitte}{20}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Geister-Wahrscheinlichkeit}{20}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Bester Kandidat}{20}{subsection.4.2.6}
 \contentsline {chapter}{\numberline {5}Analyse / Fit}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Fitmethode SFit}{21}{section.5.1}
 \contentsline {section}{\numberline {5.2}Bestimmung der sWeigths - Massenfit}{21}{section.5.2}
 \contentsline {section}{\numberline {5.3}Wahrscheinlichkeitsdichtefunktion (p.d.f.)}{21}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Fehlerbehaftetes Tagging}{21}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Kalibration des Taggings}{21}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Zeitaufl\IeC {\"o}sung}{21}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Endg\IeC {\"u}ltige p.d.f.}{21}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.1}Bestimmung des Anfangszustandes der $B_d^0$-Mesonen(Tagging)}{21}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Zeitaufl\IeC {\"o}sung}{21}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Endg\IeC {\"u}ltige p.d.f.}{21}{subsection.5.3.3}
 \contentsline {section}{\numberline {5.4}Fitergebnis}{21}{section.5.4}
-\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Fehler}{23}{chapter.6}
+\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{23}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fitmethode}{23}{section.6.1}
-\contentsline {paragraph}{Ursachen des Bias}{24}{section*.2}
+\contentsline {paragraph}{Ursachen des Bias}{24}{section*.5}
 \contentsline {section}{\numberline {6.2}Kalibration des Taggings}{24}{section.6.2}
-\contentsline {paragraph}{Variation der Parameter in den Daten}{26}{section*.3}
-\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{26}{section*.4}
-\contentsline {section}{\numberline {6.3}Einfluss der zeitlichen Akzeptanz}{27}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Bestimmung einer Akzeptanzfunktion}{27}{subsection.6.3.1}
+\contentsline {paragraph}{Variation der Parameter in den Daten}{26}{section*.6}
+\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{26}{section*.7}
+\contentsline {section}{\numberline {6.3}Einfluss der zeitabh\IeC {\"a}ngigen Akzeptanz}{28}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Bestimmung der Akzeptanzfunktion}{28}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Bestimmung des Einflusses}{29}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Gleichf\IeC {\"o}rmigkeit der Massenverteilung}{29}{section.6.4}
+\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Zerfallszeit}{29}{section.6.4}
 \contentsline {section}{\numberline {6.5}Zeitaufl\IeC {\"o}sung}{29}{section.6.5}
 \contentsline {chapter}{\numberline {7}Zusammenfassung}{31}{chapter.7}
-\contentsline {chapter}{Glossary}{35}{section*.6}

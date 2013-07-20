@@ -129,27 +129,27 @@ Für das B-Meson-System bleibt daher nur die Möglichkeit der \CP-Verletzung in 
 
 Mit Blick auf die Zerfallsamplituden der Masseneigenzustände wird die komplexe Größe
 \begin{align}
-\lambda := \frac{q\overline{A_f}}{pA_f} \label{eq:lambda}
+\lambda_f := \frac{q\overline{A_f}}{pA_f} \label{eq:lambda}
 \end{align}
 definiert. Ausgehend von Gleichung \ref{eg:b(t)} sowie mit Hilfe fer Gleichungen (\ref{eq:Gamma}), (\ref{eg:pq_approx}) und (\ref{eq:lambda}) gilt für die Zerfallsrate eines anfänglich reinen \Bd-Zustands:
 \begin{align}
 \nonumber \Gamma (B^0 \rightarrow \JPsi\Kshort) &= \frac{1}{4}\left| (\e^{-\gamma_h t}+\e^{-\gamma_l t})A_f - \frac{q}{p}(\e^{-\gamma_h t}-\e^{-\gamma_l t})\overline{A_f}\right|^2 \\
-&= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda|^2 + (1-|\lambda|^2)\cos(\Delta m_d t) - 2\mathrm{Im}(\lambda)\sin(\Delta m_d t)\right]
+&= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda_f|^2 + (1-|\lambda_f|^2)\cos(\Delta m_d t) - 2\mathrm{Im}(\lambda_f)\sin(\Delta m_d t)\right]
 \end{align}
 Analog:
 \begin{align}
-\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) &= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda|^2 -(1-|\lambda|^2)\cos(\Delta m_d t) + 2\mathrm{Im}(\lambda)\sin(\Delta m_d t)\right]
+\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) &= \frac{1}{2} \left|A_f\right|^2\e^{-\Gamma t} \left[1+|\lambda_f|^2 -(1-|\lambda_f|^2)\cos(\Delta m_d t) + 2\mathrm{Im}(\lambda_f)\sin(\Delta m_d t)\right]
 \end{align}
 
 Damit kann die vom Standard Modell prognostizierte \CP-verletzende Asymmetrie 
 \begin{align}
 \mathcal{A}_{\text{\CP}} &= \frac{\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) - \Gamma (B^0 \rightarrow \JPsi\Kshort)}{\Gamma (\overline{B^0} \rightarrow \JPsi\Kshort) + \Gamma (B^0 \rightarrow \JPsi\Kshort)} \\
-&= -\frac{1-|\lambda|^2}{1+|\lambda|^2}\cos(\Delta m_d t) + \frac{2\mathrm{Im}(\lambda)}{1+|\lambda|^2}\sin(\Delta m_d t) \\
+&= -\frac{1-|\lambda_f|^2}{1+|\lambda_f|^2}\cos(\Delta m_d t) + \frac{2\mathrm{Im}(\lambda_f)}{1+|\lambda_f|^2}\sin(\Delta m_d t) \\
 &=: \CJPsi \cos(\Delta m_d t) + \SJPsi \sin(\Delta m_d t)
 \end{align}
-berechnet werden und vereinfacht sich - da $\Ket{\JPsi\Kshort}$ ein \CP-Eigenzustand ist, gilt $|\lambda| = 1$ - hier zu
+berechnet werden und vereinfacht sich - da $\Ket{\JPsi\Kshort}$ ein \CP-Eigenzustand ist, gilt $|\lambda_f| = 1$ - hier zu
 \begin{align}
-\mathcal{A}_{\text{\CP}} = \mathrm{Im}(\lambda)\sin(\Delta m_d t) .
+\mathcal{A}_{\text{\CP}} = \mathrm{Im}(\lambda_f)\sin(\Delta m_d t) .
 \end{align}
 
 Damit kann im B-Meson-System, insbesondere im Zerfall $B_d^0 \rightarrow J/\Psi K_s^0$ durch Messung der Asymmetrie-Amplitude $\SJPsi$ \CP-Verletzung in der Interferenz gemessen werden.
@@ -198,4 +198,24 @@ Für den Zerfall von \Bd-Mesonen ist die Unitaritätsbedingung
 \begin{align}
 V_{ud}V_{ub}^* + V_{cd}V_{cb}^* + V_{td}V_{tb}^* = 0
 \end{align}
-von besonderer Bedeutung. Man kann die einzelnen Summanden nun in der $(\rho,\eta)$-Ebene auftragen und erhält dabei ein sogenanntes Unitaritätsdreieck. Es wird so normiert, dass die Unterseite bei (0,0) beginnt und bei (1,0) endet.
+von besonderer Bedeutung. Man kann die einzelnen Summanden nun in der $(\rho,\eta)$-Ebene auftragen und erhält dabei ein sogenanntes Unitaritätsdreieck. Es wird so normiert, dass die Unterseite bei (0,0) beginnt und bei (1,0) endet (siehe Abb. \ref{fig:unitarity}). Die obere Ecke liegt dann bei $(\overline{\rho}, \overline{\eta})$, wobei $\overline{\rho} = \rho(1-\lambda^2/2)$ und $\overline{\eta} = \eta(1-\lambda^2/2)$ gemäß der Wolfenstein-Parametrisierung sind. Die Winkel des Dreiecks erhält man über
+\begin{align}
+\alpha = \text{arg}\left[-\frac{V_{td}V_{tb}^*}{V_{ud}V_{ub}^*}\right], \qquad
+\beta = \text{arg}\left[-\frac{V_{cd}V_{cb}^*}{V_{td}V_{tb}^*}\right], \qquad
+\gamma = \text{arg}\left[-\frac{V_{ud}V_{ub}^*}{V_{cd}V_{cb}^*}\right].
+\end{align}
+
+\begin{figure}[hptb]
+\centering
+%\includegraphics[width=\textwidth]{•}
+\caption{Unitaritätsdreieck}
+\label{fig:unitarity}
+\end{figure}
+
+Das Standardmodell stellt für den hier untersuchten Zerfallskanal eine Beziehung zwischen dem Winkel $\beta$ und der komplexen Größe $lambda_f$ aus Gleichung \ref{eq:lambda} her (\cite{nir}, \cite{noguchi}):
+\begin{align}
+&\lambda_f = \underbrace{\frac{V_{td}V_{tb}^*}{V_{td}^*V_{tb}}}_{\frac{q}{p}} \underbrace{\frac{V_{cd}^*V_{cb}}{V_{cd}V_{cb}^*}}_{\frac{\overline{A_f}}{A_f}} = \e^{2\im\beta} \\
+\Longrightarrow &\SJPsi = \mathrm{Im}(\lambda_f) = \sin(2\beta).
+\end{align}
+ 
+Durch Messung der Amplitude der \CP-Asymmetrie kann man direkte Rückschlüsse auf den CKM-Winkel $\beta$ ziehen.
