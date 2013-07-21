@@ -1,5 +1,5 @@
 \chapter{Datenselektion}
-\section{Verwendeter Datensatz}
+\section{Bereitgestellter Datensatz}
 \section{Schnitte}
 Um Signal besser vom Untergrund zu trennen, werden in mehreren Schritten diverse Schnitte angewandt.
 \subsection{Trigger}
@@ -25,16 +25,66 @@ Für die Rekonstruktion der $J/\Psi$ werden ausschließlich sog. \glqq Long\grqq
 Die Schnitte, die hierbei angewandt wurden, sind in Tabelle \ref{tab:cuts_stripping} aufgeführt.
 
 \begin{table}[hptb]
+\centering
 \caption{Im Stripping verwendete Schnitte zur Selektion von \Bd, $\JPsi$ und $\Kshort$}
 \label{tab:cuts_stripping}
 $\begin{array}{l|ll}
 \hline \hline
 \text{Zerfall} & \text{Variable} & \text{Wert} \\ \hline
 $\Decaychannel$ & M($\Bd$) & \in [5150,5550] \mega\electronvolt/c^2 \\
-& \frac{\chi^2_{vtx}}{\text{nDof}}($\Bd$) & < 10
-
+& \frac{\chi^2_{vtx}}{\text{nDof}}($\Bd$) & < 10 \\ \hline
+\JPsi \rightarrow \mu^+\mu^- & \frac{\chi^2_{track}}{\text{nDof}}(\mu^{\pm}) & < 3 \\
+& \Delta \ln \mathcal{L}_{\mu\pi} & > 0 \\
+& p_T(\mu^{\pm}) & > 500 \mega\electronvolt/c \\
+& \frac{\chi^2_{vtx}}{\text{nDof}}(\JPsi) & < 16 \\
+& |M(\mu^+\mu^-)-M(\JPsi)| & < 80 \mega\electronvolt/c^2 \\ \hline
+\Kshort \rightarrow \pi^+\pi^- & p(\pi^{\pm}) & > 2000 \mega\electronvolt/c \\
+& \frac{\chi^2_{vtx}}{\text{nDof}}(\Kshort) & < 20 \\
+& \frac{\chi^2_{track}}{\text{nDof}}(\pi^{\pm}) & < 3 \\
+& |M(\pi^+\pi^-)-M(\Kshort)| & < 64 \mega\electronvolt/c^2 \\
+& \frac{\chi^2_{IP}}{\text{nDof}}(\pi^{\pm}) & > 4 \\ \hline \hline
 \end{array}$
 \end{table}
+
+Hierbei bezeichnen $M$ die rekonstruierte Masse, $p$ den Impuls sowie $p_T$ den Transversalimpuls eines Teilchens. Zur Rekonstruktion werden Spuren an die Detektortreffer gefittet. Um eine Aussage über die Güte des Fits zu erhalten, betrachtet man hier das entsprechende auf die Zahl der Freiheitsgrade (nDoF) normierte $\chi_{track}^2$. Analog gilt dies für die Rekonstruktion der Vertices ($\chi_{track}^2$). Je näher das reduzierte $\chi^2$ der 1 kommt, desto besser ist der Fit. !!! Impact Parameter !!! $Delta \ln \mathcal{L}_{\mu\pi}$ ist ein Maß für die Wahrscheinlichkeit, ein Myon als Pion zu interpretieren.
+
 \subsection{Zusätzliche Schnitte}
+Um den Datensatz noch besser vom Untergrund zu bereinigen, werden einige Schnitte aus den Stripping verschärft und weitere eingeführt (siehe Tab. \ref{tab:cuts_offline}). Diese wurden aus \cite{lhcb-paper} übernommen.
+
+\begin{table}[hptb]
+\centering
+\caption{Zusätzlich eingeführte Schnitte zur Untergrundbereinigung bzw. Selektion von \Bd, $\JPsi$ und $\Kshort$}
+\label{tab:cuts_offline}
+$\begin{array}{l|ll}
+\hline \hline
+\text{Zerfall} & \text{Variable} & \text{Wert} \\ \hline
+$\Decaychannel$ & M($\Bd$) & \in [5170,5420] \mega\electronvolt/c^2 \\
+& \tau($\Bd$) & > 0,3\ps \\
+& \sigma_\tau($\Bd$) & < 0,2\ps \\
+& \frac{\chi^2_{DTF(B+PV)}}{\text{nDof}}($\Bd$) & < 5 \\
+& \frac{\chi^2_{IP}}{\text{nDof}}($\Bd$) & < 20 \\ 
+& \frac{\chi^2_{IP}}{\text{nDof}}($\Bd$) \text{ des nächstbesten PV} & > 50 \\ \hline
+\JPsi \rightarrow \mu^+\mu^- & \frac{\chi^2_{vtx}}{\text{nDof}}(\JPsi) & < 11 \\
+& |M(\mu^+\mu^-)-M(\JPsi)| & \in [3030,3165] \mega\electronvolt/c^2 \\ \hline
+\Kshort \rightarrow \pi^+\pi^- & \frac{\tau}{\sigma_\tau}(\Kshort) & > 5 \\
+& \frac{x}{\sigma_x}(\Kshort) & > 5 \\
+& \frac{\chi^2_{track}}{\text{nDof}}(\pi^{\pm}) & < 3 \\
+& |M(\pi^+\pi^-)-M(\Kshort)| & \in [475,520] \mega\electronvolt/c^2 \\ \hline \hline
+\end{array}$
+\end{table}
+Die neu eingeführten Größen sind hier die Zerfallszeit $\tau$ und die Flugstrecke $x$ sowie deren Unsicherheit $\sigma_\tau$ und $\sigma_x$. Weiterhin gibt es noch einen kinematischen Fit des Zerfallsbaums (\glqq DecayTreeFit\grqq - DTF). Um die Wirkung der einzelnen Schnitte zu untersuchen, werden alle Schnitte bis auf den zu untersuchenden angewandt und in der Massenverteilung das Signal-zu-Untergrund-Verhältnis bestimmt. Dieses wird dann mit den entsprechenden Werten bei Anwendung aller Schnitte verglichen.
+
+!!! Muss fortgesetzt werden !!!
+
+
 \subsection{Geister-Wahrscheinlichkeit}
+
+!!! Hier auch !!!
+
 \subsection{Bester Kandidat}
+Es ist äußerst unwahrscheinlich, dass es mehrere \Decaychannel-Zerfälle in einem Ereignis gibt. Jedoch kann es vorkommen, dass es mehr als ein rekonstruiertes \Bd im Ereignis gibt. Da aber nur ein \Bd am Zerfall beteiligt ist, wird der beste Kandidat anhand des kleinsten $\chi^2_{DTF}/\text{nDoF}$ des DecayTreeFit identifiziert. \cite{lhcb-paper}
+
+\subsection{Fitbereiche}
+In den Analysen werden beim Fit die Massenbereiche zusätzlich eingeschränkt. Bei der Bestimmung der Detektorauflösung werden $\JPsi$ im Bereich $[3035, 3160]\mega\electronvolt/c^2$ betrachtet, im regulären Fit wird nur \Bd-Kandidaten im Bereich $[5230, 5330]\mega\electronvolt/c^2$ berücksichtigt.
+
+\section{Verwendeter Datensatz}

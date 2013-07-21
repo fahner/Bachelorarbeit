@@ -1,0 +1,30 @@
+\chapter{Analyse / Fit}
+Um aus einem Datensatz den \glqq wahren\grqq Wert diverser Parameter abzuschätzen, gibt es verschiedene Möglichkeiten. In dieser Analyse wird die Methode sFit verwendet. Diese stellt eine modifizierte Variante des \glqq Unbinned Maximum Likelihood\grqq Fits dar. Unbinned meint, dass das Fitergebnis nicht von der Wahl der Säulen (engl. bins) eines Histogramms abhängt. Die Modifikation des Fits besteht in der Verwendung der aus der \SPlot-Technik bekannten sWeights. Dadurch ist es nicht nötig, den Untergrund zu modellieren, da dieser aus statistischen Gründen annihiliert wird.
+
+\section{Maximum Likelihood Funktion}
+Die Maximum Likelihood Methode ist eine weit verbreite Methode, um Parameter abzuschätzen. Für eine gegebene Wahrscheinlichkeitsdichtefunktion (WDF) $\mathcal{P}(\vec{x_i};\vec{\lambda})$ mit einem unbekannten Satz Parametern $\vec{\lambda}$ und $N$ unabhängigen Messungen $\vec{x_i}$ ist die Likelihood-Funktion als
+\begin{align}
+\mathcal{L} = \prod_{i=1}^N \mathcal{P}(\vec{x_i};\vec{\lambda})
+\end{align}
+definiert. Der Satz an Parametern, der $\mathcal{L}$ maximiert, gilt als beste Abschätzung von $\vec{\lambda}$. In der Praxis jedoch minimiert man äquivalent $-\ln\mathcal{L}$. Gewöhnlicherweise berücksichtigt man möglichen Untergrund, indem man die WDF in einen Signal- und Untergrundanteil aufteilt:
+\begin{align}
+\mathcal{P}(\vec{x_i};\vec{\lambda}) = f_{sig}\mathcal{P}_{sig}(\vec{x_i};\vec{\lambda}) + (1-f_{sig})\mathcal{P}_{bkg}(\vec{x_i}).
+\end{align}
+$f_{sig}$ bezeichnet hierbei den Signalanteil, $\mathcal{P}_{sig}, \mathcal{P}_{bkg}$ die WDF des Signals bzw. Untergunds. Die Schwierigkeit besteht nun darin, den Untergrund geeignet zu modellieren. Dazu bedarf es MonteCarlo-Studien oder der Verwendung separater Seitenbänder. \cite{sfit}
+\section{Fitmethode SFit}
+\section{Bestimmung der sWeigths - Massenfit}
+\section{Wahrscheinlichkeitsdichtefunktion (p.d.f.)}
+\subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
+\subsection{Zeitauflösung}
+\subsection{Endgültige p.d.f.}
+\begin{equation}
+xxx     \label{eg:fit_pdf}
+\end{equation}
+
+
+
+\section{Fitergebnis} \label{kap:fitergebnis}
+Wir erhalten schließlich:
+\begin{align}
+\SJPsi = xxx \pm xxx     \label{eq:fit_result}
+\end{align}
