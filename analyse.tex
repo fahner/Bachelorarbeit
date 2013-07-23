@@ -32,8 +32,76 @@ gewichtet. Die Erwartung ist, dass der Untergrundanteil auf statistischer Grundl
 \section{Bestimmung der sWeigths - Massenfit}
 Wie bereits in Kapitel \ref{kap:sfit} erwähnt, wird die rekonstruierte Masse zur Berechnung der sWeights herangezogen. Dazu wird ein klassischer Maximum Likelihood durchgeführt, d.h. Signal und Untergrund werden gemäß Gleichung \ref{eq:likelihood_sig_bkg} gesondert beschrieben.
 
+Für den Signalteil der Massenverteilung wird ein doppelter Gauß der Form
+\begin{align}
+\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) = f_{S,m}\mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,1}) + \mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,2})
+\end{align}
+mit gemeinsamen Mittelwert $m_{\text{\Bd}}$, unterschiedlichen Breiten $\sigma_{m,1}$ und $\sigma_{m,2}$ sowie dem relativen Beitrag $f_{S,m}$ der beiden Gauß-Kurven angenommen. Die Normierung ist dabei bereits in $\mathcal{G}$ enthalten.
 
-\section{Wahrscheinlichkeitsdichtefunktion (p.d.f.)}
+Der Untergrund wird durch die Exponentialfunktion
+\begin{align}
+\mathcal{P}_{m;B}(m;\vec{\lambda_{m;B}}) = \frac{1}{\mathcal{N}_{m;B}}\e^{-\alpha_m m}
+\end{align}
+modelliert. $\mathcal{N}_{m;B}$ bezeichnet dabei die Normierung auf den im Fit verwendeten Massenbereich $m \in [5230,5330]\mega\electronvolt/c^2$. Damit lautet die gesamte Wahrscheinlichkeitsdichtefunktion der Massenverteilung
+\begin{align}
+\mathcal{P}_{m}(m;\vec{\lambda_{m}}) = f_{sig}\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) + (1-f_{sig})\mathcal{P}_{m;B}(m;\vec{\lambda_{m;B}}),
+\end{align}
+wobei $f_{sig}$ den Anteil des Signals angibt.
+
+Der Fit liefert für den Parametersatz $\vec{\lambda_{m}}^T = (f_{sig}, f_{S,m}, m_{\text{\Bd}}, \sigma_{m,1},\sigma_{m,2}, \alpha_m)^T$ die in Tabelle \ref{tab:fit_masse} aufgeführten Resultate. Alle Parameter wurden dabei im Fit laufen gelassen. 
+
+\begin{table}[hptb]
+\centering
+\caption{Ergebnisse des Massenfits zur Bestimmung der sWeights}
+\label{tab:fit_masse}
+$\begin{array}{lr@{\pm}ll}
+\hline \hline
+\text{Parameter} & \multicolumn{2}{c}{\text{Wert}} & \\ \hline
+f_{sig}   & 0,676 & 0,047 &\\
+f_{S,m}   & 0,804 & 0,050 &\\
+m_{\text{\Bd}} & (5281,53 & 0,14)& \mega\electronvolt/c^2 \\
+\sigma_{m,1} & (8,86 & 0,37)& \mega\electronvolt/c^2 \\
+\sigma_{m,2} & (21,0 & 9,2) &\mega\electronvolt/c^2 \\
+\alpha_m & (0,00158 & 0,00071) &(\mega\electronvolt/c^2)^{-1} \\ \hline
+\end{array}$
+\end{table}
+
+Des Weiteren zeigt Abbildung \ref{fig:fit_masse} die Massenverteilung mit Fit, die dazugehörigen Pulls sowie die berechneten sWeights. Pulls sind die auf den Fehler des Messwerts normierten Residuen. Für eine beliebige Messgröße $y$ werden sie berechnet über
+\begin{align}
+pull(x) = \frac{y_{gemessen}-y_{gefittet}}{\sigma_y}.
+\end{align}
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=\textwidth]{mass_fit}
+\caption{Ergebnis des Massenfits}
+\label{fig:fit_masse}
+\end{figure}
+
+
+\section{Wahrscheinlichkeitsdichtefunktion der Zerfallszeitverteilung}
+In diesem Abschnitt soll nun die Wahrscheinlichkeitsdichtefunktion entwickelt werden, die letztendlich zur Bestimmung der Asymmetrie-Amplitude $\SJPsi$ verwendet wird. Aus den Gleichungen \ref{eq:bd} und \ref{eq:bdbar} geht für $|\lambda_f|=1$ die theoretische Zerfallszeitverteilung für ein \Bd bzw. \Bdbar hervor:
+\begin{align}
+\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) = \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\SJPsi\sin(\sinarg)\right].
+\end{align}
+Durch die Einführung des wahren Tags $d_{\text{wahr}}$ wurden beide Verteilungen zu einer zusammengefasst. Ein anfängliches \Bd wird dabei durch $d_{\text{wahr}}=1$ beschrieben, ein \Bdbar durch $d_{\text{wahr}}=-1$. Die Normierung ist so gewählt, dass die Bedingung
+\begin{align}
+\sum_{d_{\text{wahr}}}\int_{t_{min}}^{t_{max}}\mathrm{d}t\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) = 1
+\end{align}
+erfüllt wird. Aufgrund zahlreicher detektorbedingten Effekte muss $\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}})$ modifiziert werden.
+
+\subsection{Produktionsasymmetrie}
+Der Detektor produziert \Bd- und \Bdbar-Mesonen nicht in exakt gleicher Zahl. Über die Produktionsraten $R_{\text{\Bdbar}}$ für ein \Bdbar bzw. $R_{\text{\Bd}}$ für ein \Bd ist die Produktionsasymmetrie definiert durch:
+\begin{align}
+\mu = A_P = \frac{R_{\text{\Bdbar}}-R_{\text{\Bd}}}{R_{\text{\Bdbar}}+R_{\text{\Bd}}}.
+\end{align}
+Anhand dieser Definition muss der Anteil an \Bd bzw. \Bdbar an der gesamten WDF gewichtet werden. Unter Verwendung des Kronecker-Deltas $\delta_{ij}$ lässt sich die WDF daher schreiben als:
+\begin{align}
+\nonumber \tilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}) &= \delta_{d_{\text{wahr}},1}(1-\mu)\mathcal{P}_{\text{wahr}}(t, 1) + \delta_{d_{\text{wahr}},-1}(1+\mu)\mathcal{P}_{\text{wahr}}(t, -1) \\
+\nonumber &= (1-d_{\text{wahr}}\mu)\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) \\
+&= \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\mu - (d_{\text{wahr}}-\mu)\SJPsi\sin(\sinarg)\right].
+\end{align}
+
 \subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
 \subsection{Zeitauflösung}
 \subsection{Endgültige p.d.f.}
