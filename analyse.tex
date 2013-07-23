@@ -2,17 +2,37 @@
 Um aus einem Datensatz den \glqq wahren\grqq Wert diverser Parameter abzuschätzen, gibt es verschiedene Möglichkeiten. In dieser Analyse wird die Methode sFit verwendet. Diese stellt eine modifizierte Variante des \glqq Unbinned Maximum Likelihood\grqq Fits dar. Unbinned meint, dass das Fitergebnis nicht von der Wahl der Säulen (engl. bins) eines Histogramms abhängt. Die Modifikation des Fits besteht in der Verwendung der aus der \SPlot-Technik bekannten sWeights. Dadurch ist es nicht nötig, den Untergrund zu modellieren, da dieser aus statistischen Gründen annihiliert wird.
 
 \section{Maximum Likelihood Funktion}
-Die Maximum Likelihood Methode ist eine weit verbreite Methode, um Parameter abzuschätzen. Für eine gegebene Wahrscheinlichkeitsdichtefunktion (WDF) $\mathcal{P}(\vec{x_i};\vec{\lambda})$ mit einem unbekannten Satz Parametern $\vec{\lambda}$ und $N$ unabhängigen Messungen $\vec{x_i}$ ist die Likelihood-Funktion als
+Die Maximum Likelihood Methode ist eine weit verbreite Methode, um Parameter abzuschätzen. Für eine gegebene Wahrscheinlichkeitsdichtefunktion (WDF) $\mathcal{P}(\vec{x_e};\vec{\lambda})$ mit einem unbekannten Satz Parametern $\vec{\lambda}$ und $N$ unabhängigen Messungen $\vec{x_e}$ ist die Likelihood-Funktion als
 \begin{align}
-\mathcal{L} = \prod_{i=1}^N \mathcal{P}(\vec{x_i};\vec{\lambda})
+\mathcal{L}(\vec{\lambda}) = \prod_{i=1}^N \mathcal{P}(\vec{x_e};\vec{\lambda})
 \end{align}
 definiert. Der Satz an Parametern, der $\mathcal{L}$ maximiert, gilt als beste Abschätzung von $\vec{\lambda}$. In der Praxis jedoch minimiert man äquivalent $-\ln\mathcal{L}$. Gewöhnlicherweise berücksichtigt man möglichen Untergrund, indem man die WDF in einen Signal- und Untergrundanteil aufteilt:
 \begin{align}
-\mathcal{P}(\vec{x_i};\vec{\lambda}) = f_{sig}\mathcal{P}_{sig}(\vec{x_i};\vec{\lambda}) + (1-f_{sig})\mathcal{P}_{bkg}(\vec{x_i}).
+\mathcal{P}(\vec{x_e};\vec{\lambda}) = f_{sig}\mathcal{P}_{sig}(\vec{x_e};\vec{\lambda}) + (1-f_{sig})\mathcal{P}_{bkg}(\vec{x_e}). \label{eq:likelihood_sig_bkg}
 \end{align}
 $f_{sig}$ bezeichnet hierbei den Signalanteil, $\mathcal{P}_{sig}, \mathcal{P}_{bkg}$ die WDF des Signals bzw. Untergunds. Die Schwierigkeit besteht nun darin, den Untergrund geeignet zu modellieren. Dazu bedarf es MonteCarlo-Studien oder der Verwendung separater Seitenbänder. \cite{sfit}
-\section{Fitmethode SFit}
+
+\section{Fitmethode sFit} \label{kap:sfit}
+Der sFit bietet nun eine Möglichkeit, ohne genaue Kenntnis des Hintergrunds die wahre Verteilung des Signalanteils von $\vec{x}$ zu rekonstruieren. Dazu bedarf es einer weiteren Variable $\vec{y}$, die vollkommen unkorreliert ist, also sowohl für Signal als auch Untergrund. In dieser Analyse wird später $\vec{y} = y = M($\Bd$)$ die rekonstruierte Masse der \Bd sein, $\vec{x}^T = (t,d,\eta)^T$, die Variablen, die zur Bestimmung von $\SJPsi$ notwendig sind. Was diese im Einzelnen bedeuten wird später behandelt.
+
+Sei $N_s$ die Zahl an Signal- und $N_b$ die Zahl an Untergrund-Ereignissen eines Datensatzes. Die Verteilungen von Signal und Untergund seien mit $F_s(y)$ bzw. $F_b(y)$ bezeichnet und all diese vier Größen seien bekannt. Dann stellt die \SPlot-Technik (\cite{splot}) mit den sogenannten \glqq sWeights\grqq 
+\begin{align}
+W_s(y) = \frac{V_{ss}F_s(y)+V_{sb}F_b(y)}{N_sF_s(y)+N_bF_b(y)}
+\end{align} 
+einen Formalismus zur Verfügung, um durch Gewichtung der Ereignisse Signal vom Untergrund zu bereinigen. Die Matrix $V_{ij}$ bezeichnet dabei das Inverse der Kovarianzmatrix
+\begin{align}
+V_{ij}^{-1} = \sum_{e=1}^N \frac{F_i(y_e)F_j(y_e)}{(N_sF_s(y_e)+N_bF_b(y_e))^2}.
+\end{align}
+In der \SPlot-Technik werden die Gewichte $W_s(y_e)$ berechnet und anschließend ein Histogramm mit den Messungen $x_e$ mit der entsprechenden Gewichtung gefüllt, um die wahre Verteilung von x zu erhalten. Beim sFit wird nun die Likelihood Funktion gemäß
+\begin{align}
+\mathcal{L}_W(\vec{\lambda}) = \prod_{i=1}^N \mathcal{P}(\vec{x_e};\vec{\lambda})^{W_s(y_e)}
+\end{align}
+gewichtet. Die Erwartung ist, dass der Untergrundanteil auf statistischer Grundlage eliminiert wird und der wahren Wert von $\vec{\lambda}$ durch Maximierung von $\mathcal{L}_W(\vec{\lambda})$ abgeschätzt werden kann.
+
 \section{Bestimmung der sWeigths - Massenfit}
+Wie bereits in Kapitel \ref{kap:sfit} erwähnt, wird die rekonstruierte Masse zur Berechnung der sWeights herangezogen. Dazu wird ein klassischer Maximum Likelihood durchgeführt, d.h. Signal und Untergrund werden gemäß Gleichung \ref{eq:likelihood_sig_bkg} gesondert beschrieben.
+
+
 \section{Wahrscheinlichkeitsdichtefunktion (p.d.f.)}
 \subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
 \subsection{Zeitauflösung}

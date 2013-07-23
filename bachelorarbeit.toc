@@ -35,7 +35,7 @@
 \contentsline {section}{\numberline {4.3}Verwendeter Datensatz}{22}{section.4.3}
 \contentsline {chapter}{\numberline {5}Analyse / Fit}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Maximum Likelihood Funktion}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Fitmethode SFit}{24}{section.5.2}
+\contentsline {section}{\numberline {5.2}Fitmethode sFit}{23}{section.5.2}
 \contentsline {section}{\numberline {5.3}Bestimmung der sWeigths - Massenfit}{24}{section.5.3}
 \contentsline {section}{\numberline {5.4}Wahrscheinlichkeitsdichtefunktion (p.d.f.)}{24}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Bestimmung des Anfangszustandes der $B_d^0$-Mesonen(Tagging)}{24}{subsection.5.4.1}
