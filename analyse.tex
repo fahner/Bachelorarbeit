@@ -97,12 +97,64 @@ Der Detektor produziert \Bd- und \Bdbar-Mesonen nicht in exakt gleicher Zahl. Ü
 \end{align}
 Anhand dieser Definition muss der Anteil an \Bd bzw. \Bdbar an der gesamten WDF gewichtet werden. Unter Verwendung des Kronecker-Deltas $\delta_{ij}$ lässt sich die WDF daher schreiben als:
 \begin{align}
-\nonumber \tilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}) &= \delta_{d_{\text{wahr}},1}(1-\mu)\mathcal{P}_{\text{wahr}}(t, 1) + \delta_{d_{\text{wahr}},-1}(1+\mu)\mathcal{P}_{\text{wahr}}(t, -1) \\
+\nonumber \widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}) &= \delta_{d_{\text{wahr}},1}(1-\mu)\mathcal{P}_{\text{wahr}}(t, 1) + \delta_{d_{\text{wahr}},-1}(1+\mu)\mathcal{P}_{\text{wahr}}(t, -1) \\
 \nonumber &= (1-d_{\text{wahr}}\mu)\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) \\
 &= \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\mu - (d_{\text{wahr}}-\mu)\SJPsi\sin(\sinarg)\right].
 \end{align}
 
 \subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
+Die Messung der indirekten \CP-Verletzung setzt voraus, dass der anfängliche Flavour des \Bd-Mesons bekannt ist. Den Vorgang zu entscheiden, ob ein rekonstruierter Signalkandidat ein $b$ oder $\overline{b}$ Quark enthält, nennt man \glqq Flavour Tagging\grqq. Hierzu werden sogenannte Tagging Algorithmen angewandt, die allerdings keine perfekten Ergebnisse lieferen. Von $N$ Kandidaten kann bei $N_U$ Kanidaten kein Anfangsflavour zugeordnet werden, bei $N_W$ ist er falsch und bei $N_R$ ist er richtig. Ein Maß für die Güte des Algorithmus ist die Tagging Effizienz
+\begin{align}
+\epsilon_{\text{tag}} = \frac{N_R+N_W}{N_R+N_W+N_U}
+\end{align}
+und die Fehlerwahrscheinlichkeit
+\begin{align}
+\omega = \frac{N_W}{N_R+N_W},
+\end{align}
+die die Wahrscheinlichkeit angibt, den Signalkandidaten den falschen Flavour zuzuordnen. Die Größe die es bei solchen Algorithmen zu maximieren gilt, ist die effektive Tagging Effizienz
+\begin{align}
+\epsilon_{eff} = \epsilon_{tag}(1-2\omega)^2.
+\end{align}
+
+Bei dem in dieser Arbeit verwendeten Algorithmus handelt es sich um einen sog. Opposite Side Tagger (OST). Dieser nutzt aus, dass die meisten $b$ Quarks in Quark-Antiquark Paaren erzeugt werden. Dabei rekonstruiert der OST die Ladung der Zerfallsreste des entsprechenden Quark-Partners des \Bd-Mesons. Der Algorithmus berechnet aus kinematischen und geometrischen Daten eine Fehlerwahrscheinlichkeit $\eta^{OS} \in [0;0,5]$ für seine Flavour-Zuweisung (oder auch Tagging Entscheidung genannt), die im folgenden mit $d^{OS}$ bezeichnet wird. \cite{lhcb-paper}
+
+Die vorhergesagte Fehlerwahrscheinlichkeit $\eta^{OS}$ muss allerdings noch auf diversen Zerfallskanälen kalibriert nehmen. Dies ist allerdings nicht Bestandteil dieser Arbeit, sondern wurde auch \cite{tagging} entnommen. Die Kalibrationsfunktion lautet:
+\begin{align}
+\omega(\eta^{OS}) = p_1\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0 .
+\end{align}
+$\left\langle \eta^{OS} \right\rangle$ steht dabei für das arithmetische Mittel der $\eta^{OS}$-Verteilung. Aus \cite{tagging} erhält man
+\begin{align}
+p_0 &= 0,382 \pm 0,003 \\
+p_1 &= 0,981 \pm 0,024 \\
+\left\langle \eta^{OS} \right\rangle &= 0,382
+\end{align}
+
+Die im Algorithmus verwendeten geladenen Teilchen wie zum Beispiel ein $K^{\pm}$ können je nach Ladung zum Teil sehr unterschiedlich mit dem Detektormaterial reagieren. Daher kommt es auch zu unterschiedlichen Rekonstruktionseffizienzen für \Bd und \Bdbar. Entsprechend müssen zwei Kalibrationsfunktionen 
+\begin{align}
+\omega^{\text{\Bd}}(\eta^{OS}) &= p_1(\text{\Bd})\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0(\text{\Bd}) , \\
+\omega^{\text{\Bdbar}}(\eta^{OS}) &= p_1(\text{\Bdbar})\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0(\text{\Bdbar})
+\end{align}
+berücksichtigt werden. Für die Differenzen der Kalibrationsparameter liefert \cite{tagging}
+\begin{align}
+\Delta p_0 &= p_0(\text{\Bd}) - p_0(\text{\Bdbar}) = 0,0045 \pm 0,0053 \\
+\Delta p_1 &= p_1(\text{\Bd}) - p_1(\text{\Bdbar}) = 0,001 \pm 0,05 .
+\end{align}
+Während $p_1$ für \Bd und \Bdbar sehr gut übereinstimmen, muss man das bei $p_0$ differenzierter betrachten. Auch hier ist man zwar im $1\sigma$-Bereich kompatibel, anderen Studien der LHCb-Gruppe zeigen jedoch, dass die Tagging Asymmetrie $\Delta p_0$ berücksichtigt werden sollte, was auch hier geschieht. Dazu werden $omega$ und $\Delta p_0$ so umdefiniert, dass
+\begin{align}
+\Delta p_0 &= \omega^{\text{\Bd}} - \omega^{\text{\Bdbar}}, \\
+\omega^{\text{\Bd}} &= \omega + \frac{\Delta p_0}{2},  \\
+\omega^{\text{\Bdbar}} &= \omega - \frac{\Delta p_0}{2}
+\end{align}
+gilt. Aufgrund der Fehlerwahrscheinlichkeit beim Tagging weicht die gemessene Zerfallszeitverteilung von der tatsächlichen deutlich ab. Bei einem gemessenen \Bd ($d^{OS}=1$) handelt es sich in $(1-\omega^{\text{\Bd}})\%$ der Fälle auch tatsächlich um ein \Bd ($d_{wahr}=1$), in $\omega^{\text{\Bdbar}}$ der Fälle jedoch um ein wahres \Bdbar ($d_{wahr}=-1$). Damit nimmt die Wahrscheinlichkeitsdichtefunktion der gemessenen Verteilung die Form
+\begin{alignat}{3}
+\nonumber\widetilde{\mathcal{P}}_{\text{gem.}}(t, d^{OS}, \omega) &= && &&\delta_{d^{OS},1} \left[(1-\omega^{\text{\Bd}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1) + \omega^{\text{\Bdbar}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1)\right]\\
+\nonumber & && + &&\delta_{d^{OS},-1} \left[(1-\omega^{\text{\Bdbar}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1) + \omega^{\text{\Bd}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1)\right] \\
+\nonumber &= && &&\frac{1}{\mathcal{N}_t}\e^{-t/\tau} \left\lbrace 1-d\mu(1-2\omega)-d\Delta p_0 \right. \\
+& && - && \left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\sinarg)\right\rbrace
+\end{alignat}
+In der letzten Zeile wurde für eine übersichtlichere Schreibweise $d:=d^{OS}$ verwendet.
+
+
 \subsection{Zeitauflösung}
 \subsection{Endgültige p.d.f.}
 \begin{equation}

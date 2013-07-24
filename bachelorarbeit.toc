@@ -40,18 +40,18 @@
 \contentsline {section}{\numberline {5.4}Wahrscheinlichkeitsdichtefunktion der Zerfallszeitverteilung}{25}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Produktionsasymmetrie}{25}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Bestimmung des Anfangszustandes der $B_d^0$-Mesonen(Tagging)}{27}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Zeitaufl\IeC {\"o}sung}{27}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Endg\IeC {\"u}ltige p.d.f.}{27}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Fitergebnis}{27}{section.5.5}
-\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Fitmethode}{29}{section.6.1}
-\contentsline {paragraph}{Ursachen des Bias}{30}{section*.5}
-\contentsline {section}{\numberline {6.2}Kalibration des Taggings}{30}{section.6.2}
-\contentsline {paragraph}{Variation der Parameter in den Daten}{32}{section*.6}
-\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{32}{section*.7}
-\contentsline {section}{\numberline {6.3}Einfluss der zeitabh\IeC {\"a}ngigen Akzeptanz}{34}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Bestimmung der Akzeptanzfunktion}{34}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Bestimmung des Einflusses}{35}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Zerfallszeit}{35}{section.6.4}
-\contentsline {section}{\numberline {6.5}Zeitaufl\IeC {\"o}sung}{35}{section.6.5}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{37}{chapter.7}
+\contentsline {subsection}{\numberline {5.4.3}Zeitaufl\IeC {\"o}sung}{29}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Endg\IeC {\"u}ltige p.d.f.}{29}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Fitergebnis}{29}{section.5.5}
+\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fitmethode}{31}{section.6.1}
+\contentsline {paragraph}{Ursachen des Bias}{32}{section*.5}
+\contentsline {section}{\numberline {6.2}Kalibration des Taggings}{32}{section.6.2}
+\contentsline {paragraph}{Variation der Parameter in den Daten}{34}{section*.6}
+\contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{34}{section*.7}
+\contentsline {section}{\numberline {6.3}Einfluss der zeitabh\IeC {\"a}ngigen Akzeptanz}{36}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Bestimmung der Akzeptanzfunktion}{36}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Bestimmung des Einflusses}{37}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Zerfallszeit}{37}{section.6.4}
+\contentsline {section}{\numberline {6.5}Zeitaufl\IeC {\"o}sung}{37}{section.6.5}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{39}{chapter.7}
