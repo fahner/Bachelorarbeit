@@ -2,7 +2,7 @@
 \section{Bereitgestellter Datensatz}
 \section{Schnitte}
 Um Signal besser vom Untergrund zu trennen, werden in mehreren Schritten diverse Schnitte angewandt.
-\subsection{Trigger}
+\subsection{Trigger} \label{kap:trigger}
 Den erste Schritt bildet das Trigger-System, das schon während der Datennahme die Ereignisse sondiert. Der LHCb-Detektor verwendet dabei ein dreistufiges System: Der hardwarebasierte \glqq L0 Trigger \grqq reduziert die Ereignisrate von $40\mega\hertz$ auf $1\mega\hertz$. Im Anschluss folgt der zweiteilige, softwarebasierte \glqq High Level Trigger \grqq (HLT), der die Ereignisrate schlussendlich auf $2\kilo\hertz$ reduziert.\cite{trigger} 
 
 Die in dieser Analyse verwendeten Trigger-Entscheidungen entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
@@ -19,7 +19,7 @@ In dieser Analyse werden zwei unterschiedliche Entscheidungen verwendet. Zur Bes
 \subsection{Downstream Spuren}
 Für die Rekonstruktion der $J/\Psi$ werden ausschließlich sog. \glqq Long\grqq-Spuren verwendet. Diese passieren das gesamte Rekonstruktionssystem. Durch die relativ lange Lebensdauer des $\Kshort$ kommt es in etwa 2/3 der Fälle vor, dass der VeLo dieses nicht mehr registriert. Hinterlassen Teilchen nur in den TT und T Stationen Spuren, so spricht man von \glqq Downstream\grqq-Spuren. Diese Analyse beschränkt sich auf ebenjene. Damit hat man im Vergleich zu $\Kshort$ aus Long-Spuren mehr Statistik zur Verfügung, muss aber bei Qualität der Rekonstruktion Einbußen hinnehmen, da die Informationen des VeLo fehlen. Insbesondere leidet die Präzision der Impuls- und Positionsmessungen. Folglich dürfen die Schnitte bei Downstream-Spuren teilweise nicht so hart sein wie bei Long-Spuren. \cite{lhcp-paper}
 
-\subsection{Stripping}
+\subsection{Stripping} \label{kap:stripping}
 !!! Achtung !!! Anpassen !!! Welches Stripping wurde verwendet???
 
 Die Schnitte, die hierbei angewandt wurden, sind in Tabelle \ref{tab:cuts_stripping} aufgeführt.

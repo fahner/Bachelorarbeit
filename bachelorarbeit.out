@@ -32,13 +32,13 @@
 \BOOKMARK [0][-]{chapter.5}{Analyse / Fit}{}% 32
 \BOOKMARK [1][-]{section.5.1}{Maximum Likelihood Funktion}{chapter.5}% 33
 \BOOKMARK [1][-]{section.5.2}{Fitmethode sFit}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.3}{Bestimmung der sWeigths - Massenfit}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.4}{Wahrscheinlichkeitsdichtefunktion der Zerfallszeitverteilung}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Fit der Massenverteilung und Bestimmung der sWeigths}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.4}{Fit der Eigenzeitverteilung}{chapter.5}% 36
 \BOOKMARK [2][-]{subsection.5.4.1}{Produktionsasymmetrie}{section.5.4}% 37
-\BOOKMARK [2][-]{subsection.5.4.2}{Bestimmung des Anfangszustandes der Bd0-Mesonen\(Tagging\)}{section.5.4}% 38
-\BOOKMARK [2][-]{subsection.5.4.3}{Zeitaufl\366sung}{section.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.4.4}{Endg\374ltige p.d.f.}{section.5.4}% 40
-\BOOKMARK [1][-]{section.5.5}{Fitergebnis}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.4.2}{Bestimmung des Anfangszustandes der Bd0-Mesonen\(Flavour Tagging\)}{section.5.4}% 38
+\BOOKMARK [2][-]{subsection.5.4.3}{Eigenzeitaufl\366sung und -akzeptanz}{section.5.4}% 39
+\BOOKMARK [2][-]{subsection.5.4.4}{Fitfunktion}{section.5.4}% 40
+\BOOKMARK [1][-]{section.5.5}{Ergebnisse}{chapter.5}% 41
 \BOOKMARK [0][-]{chapter.6}{Absch\344tzung systematischer Unsicherheiten}{}% 42
 \BOOKMARK [1][-]{section.6.1}{Fitmethode}{chapter.6}% 43
 \BOOKMARK [1][-]{section.6.2}{Kalibration des Taggings}{chapter.6}% 44

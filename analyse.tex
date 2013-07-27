@@ -29,12 +29,12 @@ In der \SPlot-Technik werden die Gewichte $W_s(y_e)$ berechnet und anschließend
 \end{align}
 gewichtet. Die Erwartung ist, dass der Untergrundanteil auf statistischer Grundlage eliminiert wird und der wahren Wert von $\vec{\lambda}$ durch Maximierung von $\mathcal{L}_W(\vec{\lambda})$ abgeschätzt werden kann.
 
-\section{Bestimmung der sWeigths - Massenfit}
+\section{Fit der Massenverteilung und Bestimmung der sWeigths}
 Wie bereits in Kapitel \ref{kap:sfit} erwähnt, wird die rekonstruierte Masse zur Berechnung der sWeights herangezogen. Dazu wird ein klassischer Maximum Likelihood durchgeführt, d.h. Signal und Untergrund werden gemäß Gleichung \ref{eq:likelihood_sig_bkg} gesondert beschrieben.
 
 Für den Signalteil der Massenverteilung wird ein doppelter Gauß der Form
 \begin{align}
-\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) = f_{S,m}\mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,1}) + \mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,2})
+\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) = f_{S,m}\mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,1}) + (1-f_{S,m})\mathcal{G}(m;m_{\text{\Bd}},\sigma_{m,2})
 \end{align}
 mit gemeinsamen Mittelwert $m_{\text{\Bd}}$, unterschiedlichen Breiten $\sigma_{m,1}$ und $\sigma_{m,2}$ sowie dem relativen Beitrag $f_{S,m}$ der beiden Gauß-Kurven angenommen. Die Normierung ist dabei bereits in $\mathcal{G}$ enthalten.
 
@@ -44,7 +44,7 @@ Der Untergrund wird durch die Exponentialfunktion
 \end{align}
 modelliert. $\mathcal{N}_{m;B}$ bezeichnet dabei die Normierung auf den im Fit verwendeten Massenbereich $m \in [5230,5330]\mega\electronvolt/c^2$. Damit lautet die gesamte Wahrscheinlichkeitsdichtefunktion der Massenverteilung
 \begin{align}
-\mathcal{P}_{m}(m;\vec{\lambda_{m}}) = f_{sig}\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) + (1-f_{sig})\mathcal{P}_{m;B}(m;\vec{\lambda_{m;B}}),
+\mathcal{P}_{m}(m;\vec{\lambda_{m}}) = f_{sig}\mathcal{P}_{m;S}(m;\vec{\lambda_{m;S}}) + (1-f_{sig})\mathcal{P}_{m;B}(m;\vec{\lambda_{m;B}}) \label{eq:pdf_masse},
 \end{align}
 wobei $f_{sig}$ den Anteil des Signals angibt.
 
@@ -79,7 +79,7 @@ pull(x) = \frac{y_{gemessen}-y_{gefittet}}{\sigma_y}.
 \end{figure}
 
 
-\section{Wahrscheinlichkeitsdichtefunktion der Zerfallszeitverteilung}
+\section{Fit der Eigenzeitverteilung} \label{kap:eigenzeitverteilung}
 In diesem Abschnitt soll nun die Wahrscheinlichkeitsdichtefunktion entwickelt werden, die letztendlich zur Bestimmung der Asymmetrie-Amplitude $\SJPsi$ verwendet wird. Aus den Gleichungen \ref{eq:bd} und \ref{eq:bdbar} geht für $|\lambda_f|=1$ die theoretische Zerfallszeitverteilung für ein \Bd bzw. \Bdbar hervor:
 \begin{align}
 \mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) = \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\SJPsi\sin(\sinarg)\right].
@@ -102,7 +102,12 @@ Anhand dieser Definition muss der Anteil an \Bd bzw. \Bdbar an der gesamten WDF 
 &= \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\mu - (d_{\text{wahr}}-\mu)\SJPsi\sin(\sinarg)\right].
 \end{align}
 
-\subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Tagging)}
+Der Wert der Produktionsasymmetrie $\mu$ wurde in einigen Studien gemessen und wird der LHCb Analyse aus 2011 \cite{lhcb-paper} entnommen:
+\begin{align}
+\mu = -0,015 \pm 0,013 .
+\end{align}
+
+\subsection{Bestimmung des Anfangszustandes der \Bd-Mesonen(Flavour Tagging)}
 Die Messung der indirekten \CP-Verletzung setzt voraus, dass der anfängliche Flavour des \Bd-Mesons bekannt ist. Den Vorgang zu entscheiden, ob ein rekonstruierter Signalkandidat ein $b$ oder $\overline{b}$ Quark enthält, nennt man \glqq Flavour Tagging\grqq. Hierzu werden sogenannte Tagging Algorithmen angewandt, die allerdings keine perfekten Ergebnisse lieferen. Von $N$ Kandidaten kann bei $N_U$ Kanidaten kein Anfangsflavour zugeordnet werden, bei $N_W$ ist er falsch und bei $N_R$ ist er richtig. Ein Maß für die Güte des Algorithmus ist die Tagging Effizienz
 \begin{align}
 \epsilon_{\text{tag}} = \frac{N_R+N_W}{N_R+N_W+N_U}
@@ -150,20 +155,65 @@ gilt. Aufgrund der Fehlerwahrscheinlichkeit beim Tagging weicht die gemessene Ze
 \nonumber\widetilde{\mathcal{P}}_{\text{gem.}}(t, d^{OS}, \omega) &= && &&\delta_{d^{OS},1} \left[(1-\omega^{\text{\Bd}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1) + \omega^{\text{\Bdbar}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1)\right]\\
 \nonumber & && + &&\delta_{d^{OS},-1} \left[(1-\omega^{\text{\Bdbar}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1) + \omega^{\text{\Bd}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1)\right] \\
 \nonumber &= && &&\frac{1}{\mathcal{N}_t}\e^{-t/\tau} \left\lbrace 1-d\mu(1-2\omega)-d\Delta p_0 \right. \\
-& && - && \left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\sinarg)\right\rbrace
+& && - && \left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\sinarg)\right\rbrace \label{eq:fit_pdf_vorlaeufig}
 \end{alignat}
 In der letzten Zeile wurde für eine übersichtlichere Schreibweise $d:=d^{OS}$ verwendet.
 
+\subsection{Eigenzeitauflösung und -akzeptanz}
+Der letzte Effekt, der noch berücksichtigt werden muss, ist die endliche, Eigenzeitauflösung des Detektors. Dies wird dadurch deutlich, dass es auch Ereignisse mit negativer Eigenzeit gibt. Da diese unphysikalisch sind und nur auf Auflösungseffekte zurückzuführen sind, werden genau diese Ereignisse zur Bestimmung einer Auflösungsfunktion verwendet. Wie in den Kapiteln \ref{kap:trigger} und \ref{kap:stripping} bereits erwähnt wurde, werden hierzu auf den Datensatz die High Level Trigger 2 Linie \texttt{Hlt2DiMuonJPsiDecision} sowie die Stripping Linie \texttt{BetaSBd2JPsiKsPrescaledLine} angewandt. Um die negativen Ereignisse zu sehen, darf natürlich kein Schnitt auf die Lebensdauer angewandt werden.
 
-\subsection{Zeitauflösung}
-\subsection{Endgültige p.d.f.}
-\begin{equation}
-xxx     \label{eg:fit_pdf}
-\end{equation}
+In dieser Arbeit wird das Modell der mittleren Zerfallszeitauflösung verwendet. Als Akzeptanzfunktion wird ein dreifacher Gauß der Form
+\begin{align}
+\mathcal{R}(t) = \sum_{i=1}^{3} \frac{f_i}{\sqrt{2\pi}\sigma_i}\e^{-\frac{t^2}{2\sigma_i^2}}
+\end{align}
+mit dem gemeinsamen Mittelwert $0$, den unterschiedlichen Breiten $\sigma_i$, sowie den relativen Anteilen $f_i$ der einzelnen Gauß-Funktionen gewählt. Dabei ist $\sum f_i = 1$ zu beachten. Somit erübrigt sich $f_3$ als eigenständigen Parameter zu betrachten, es wird $f_3 = 1 - f_1 - f_2$ verwendet. Um Signal von Untergrund zu trennen wird ein sFit angewandt. Da der Zerfallsvertex der hier behandelten \Bd-Mesonen hauptsächlich durch den $\JPsi$-Vertex festgelegt wird, wird zur Bestimmung der sWeights die rekonstruierte $\JPsi$-Masse herangezogen (siehe \cite{6}). Entgegen dem Massenfit der \Bd-Mesonen aus Gleichung \ref{eq:pdf_masse} wird hier als Wahrscheinlichkeitsdichtefunktion die Summe aus einer Gauß- und einer CrystalBall-Funktion verwendet. Die Crystallball-Funktion hat eine gaußförmige Basis, aber einen zu kleineren Werten als dem Mittelwert hin asymmetrischen, abgeflachten Teil, der den Energieverlust durch Photonabstrahlung berücksichtigt \cite{crystal_ball}. Abbildung \ref{fig:resolution} zeigt sowohl das Ergebnis des Massenfits als auch den Fit der Auflösungsfunktion. Die erhaltenen Parameter der Eigenzeitauflösung sind in Tabelle \ref{tab:resolution} aufgeführt.
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=\textwidth]{resolution}
+\caption{Bestimmung der Auflösung: Die linke Hälfte zeigt den für die Bestimmung der sweights durchgeführten Fit an die rekonstruierte $\JPsi$-Masse (oben) und die dazugehörigen Pulls (unten), die rechte Hälfte den Fit der Auflösungsfunktion (oben) und die entsprechenden Pulls (unten)}
+\label{fig:resolution}
+\end{figure}
+
+\begin{table}[hptb]
+\centering
+\caption{Ergebnisse des Fits der Eigenzeitauflösung}
+\label{tab:resolution}
+$\begin{array}{l r@{\pm}l l}
+\hline 
+\hline
+\text{Parameter} & \multicolumn{2}{c}{\text{Wert}}&\\
+\hline
+\sigma_{1} & 0.480 & 0.070 & \ps\\
+\sigma_{2} & 0.04396 & 0.00094 & \ps\\
+\sigma_{3} & 0.0932 & 0.0034 & \ps\\
+f_{1} & 0.00329 & 0.00099\\
+f_{2} & 0.739 & 0.027\\ \hline \hline
+\end{array}$   
+\end{table}
+
+Im Fit wird die Auflösung dadurch berücksichtigt, dass die Wahrscheinlichkeitsdichtefunktion der Eigenzeitverteilung $\widetilde{\mathcal{P}}_{\text{gem.}}(t, \omega)$ (siehe Gleichung \ref{eq:fit_pdf_vorlaeufig}) mit der Auflösungsfunktion $\mathcal{R}(t)$ gefaltet werden muss.
+
+Ein weiterer Punkt, der berücksichtigt werden muss, ist die Eigenzeitakzeptanz des Detektors. Es werden hier keine großen Einflüsse erwartet, daher wird die Akzeptanzfunktion 
+\begin{align}
+\epsilon(t) = 1
+\end{align}
+gesetzt. Eine systematische Analyse und eine Abschätzung des Einflusses dieser Vernachlässigung findet sich in Kapitel \ref{kap:akzeptanz}.
+
+\subsection{Fitfunktion}
+Kombiniert man nun alle Effekte, die im vorigen Kapitel \ref{kap:eigenzeitverteilung}, aufgeführt und beschrieben haben, so nimmt die Wahrscheinlichkeitsdichtefunktion für die Eigenzeitverteilung der \Bd-Mesonen die Form
+\begin{alignat}{3}
+\nonumber\mathcal{P}_{\text{gem.}}(t, d, \eta) &=\  &&  \epsilon(t)\left[\widetilde{\mathcal{P}}_{\text{gem.}}(t', d, \eta) \otimes \mathcal{R}(t-t')\right]\\
+\nonumber &= &&\frac{1}{\mathcal{N}_t}\left[\e^{-t'/\tau} \left\lbrace 1-d\mu(1-2\omega)-d\Delta p_0 \right.\right.\\
+& &&-\left.\vphantom{\frac{1}{\mathcal{N}_t}}\left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\Delta m_d t')\right\rbrace\right]\otimes\mathcal{R}(t-t') \label{eq:fit_pdf}
+\end{alignat}
+an. Durch diesen Fit erhält man eine Abschätzung für den \CP-Parameter $\SJPsi$. In Gleichung \ref{eq:fit_pdf} bezeichnen $\tau$ die gemessene \Bd-Lebensdauer, $\Delta m_d$ die Oszillationsfrequenz des \Bd-Mesons, $\mu$ die Produktionsasymmetrie sowie $d$ den durch die Flavour-Tagging Algorithmen bestimmten Anfangszustand des \Bd. Dabei gilt für \Bd-Mesonen $d=1$, für \Bdbar\ $d=-1$. Die Fehlerwahrscheinlichkeit des Flavour Taggings $\omega$ ist wiederum abhängig von der von den Algorithmen vorhergesagten Fehlerwahrscheinlichkeit $\eta$ gemäß
+\begin{align}
+\omega(\eta) = p_1\left(\eta-\left\langle\eta\right\rangle\right) + p_0.
+\end{align}
 
 
-
-\section{Fitergebnis} \label{kap:fitergebnis}
+\section{Ergebnisse} \label{kap:fitergebnis}
 Wir erhalten schließlich:
 \begin{align}
 \SJPsi = xxx \pm xxx     \label{eq:fit_result}
