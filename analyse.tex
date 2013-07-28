@@ -184,11 +184,11 @@ $\begin{array}{l r@{\pm}l l}
 \hline
 \text{Parameter} & \multicolumn{2}{c}{\text{Wert}}&\\
 \hline
-\sigma_{1} & 0.480 & 0.070 & \ps\\
-\sigma_{2} & 0.04396 & 0.00094 & \ps\\
-\sigma_{3} & 0.0932 & 0.0034 & \ps\\
-f_{1} & 0.00329 & 0.00099\\
-f_{2} & 0.739 & 0.027\\ \hline \hline
+\sigma_{1} & 0,480 & 0,070 & \ps\\
+\sigma_{2} & 0,04396 & ,.00094 & \ps\\
+\sigma_{3} & 0,0932 & 0,0034 & \ps\\
+f_{1} & 0,00329 & 0,00099\\
+f_{2} & 0,739 & 0,027\\ \hline \hline
 \end{array}$   
 \end{table}
 
@@ -214,7 +214,53 @@ an. Durch diesen Fit erhält man eine Abschätzung für den \CP-Parameter $\SJPs
 
 
 \section{Ergebnisse} \label{kap:fitergebnis}
-Wir erhalten schließlich:
+Im Fit der Eigenzeitverteilung werden nicht alle Parameter laufen gelassen. Fixiert werden zum einen die Parameter der Eigenzeitauflösung (siehe Tab. \ref{tab:resolution}) und der Flavour-Tagging Kalibrationsparameter $\left\langle\eta\right\rangle = 0,382$. Des Weiteren werden einige Parameter eingeschränkt. Dies sind die Produktionasymmetrie $\mu$ sowie die Kalibrationsparameter $p_0$, $p_1$ und $\Delta p_0$. Die verwendeten Werte sind aus \cite{lhcb-paper} für $\mu$ beziehungsweise \cite{tagging} für $p_0$, $p_1$ und $\Delta p_0$ entnommen und in Tabelle \ref{tab:constrained_parameters} aufgeführt.
+
+\begin{table}[hptb]
+\centering
+\caption{Parameter, die im Fit eingeschränkt werden.}
+\label{tab:constrained_parameters}
+$\begin{array}{l r@{\pm}l }
+\hline 
+\hline
+\text{Parameter} & \multicolumn{2}{c}{\text{Wert}}\\
+\hline
+p_0 & 0,382 & 0,003 \\
+p_1 & 0,981 & 0,024 \\
+\Delta p_0 & 0,0045 & 0,0053 \\
+\mu & -0,015 & 0,013 \\ \hline \hline
+\end{array}$ 
+\end{table}
+
+Als Parameter, die frei laufen, bleiben dementsprechend die \CP-Asymmetrie Amplitude $\SJPsi$, die Lebensdauer $\tau$ sowie die Oszillationsfrequenz $\Delta m_d$ übrig. Das wichtigste Ergebnis des Fits sei hier schon einmal vorweggenommen:
 \begin{align}
-\SJPsi = xxx \pm xxx     \label{eq:fit_result}
+\SJPsi = xxx \pm 0,069     \label{eq:fit_result}
 \end{align}
+
+Alle Resultate des Fits sind in Tabelle \ref{tab:fit_results} aufgeführt. Die gemessene Eigenzeitverteilung sowie die dazugehörigen Fitkurven sind in Abbildung \ref{fig:fit_result} in Schwarz (für \Bd) und in Rot (\Bdbar) dargestellt.
+
+\begin{table}[hptb]
+\centering
+\caption{Ergebnisse des Fits der Eigenzeitverteilung.}
+\label{tab:fit_results}
+$\begin{array}{l r@{\pm}l l}
+\hline 
+\hline
+\text{Parameter} & \multicolumn{2}{c}{\text{Wert}}\\
+\hline
+\SJPsi & xxx & 0,069 &\\
+\tau & (1,516 & 0,039) & \ps\\
+\Delta m_d & (0,521 & 0,039) & \hbar\ps^{-1} \\ \hline
+p_0 & 0,32814 & 0,0030 & \\
+p_1 & 0,977 & 0,024 &\\
+\Delta p_0 & 0,0046 & 0,0051 &\\
+\mu & -0,019 & 0,013 &\\ \hline \hline
+\end{array}$ 
+\end{table}
+
+\begin{figure}[hptb]
+\centering
+\includegraphics[width=\textwidth]{eigenzeitverteilung}
+\caption{Ergebnis des Fits der Eigenzeitverteilung: Gemessene Eigenzeitverteilung der \Bd- (schwarz) bzw. \Bdbar-Mesonen (rot) mit entsprechendem Fitergebnis gemäß Gleichung \ref{eq:fit_pdf} und den Parametern aus Tabelle \ref{tab:fit_results} (oben) sowie dazugehörige Pull-Verteilung (unten).}
+\label{fig:fit_result}
+\end{figure}
