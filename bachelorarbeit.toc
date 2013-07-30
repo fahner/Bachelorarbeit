@@ -45,13 +45,14 @@
 \contentsline {section}{\numberline {5.5}Ergebnisse}{31}{section.5.5}
 \contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fitmethode}{35}{section.6.1}
-\contentsline {paragraph}{Ursachen des Bias}{36}{section*.5}
-\contentsline {section}{\numberline {6.2}Kalibration des Taggings}{36}{section.6.2}
+\contentsline {subsubsection}{Ursachen des Bias}{36}{section*.5}
+\contentsline {section}{\numberline {6.2}Kalibration des Taggings}{38}{section.6.2}
 \contentsline {paragraph}{Variation der Parameter in den Daten}{38}{section*.6}
 \contentsline {paragraph}{Variation der Parameter in \gls {Toy MC}}{38}{section*.7}
-\contentsline {section}{\numberline {6.3}Einfluss einer zeitabh\IeC {\"a}ngigen Akzeptanz}{40}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Bestimmung der Akzeptanzfunktion}{40}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.3}Einfluss einer zeitabh\IeC {\"a}ngigen Akzeptanz}{39}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Bestimmung der Akzeptanzfunktion}{39}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Bestimmung des Einflusses}{41}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Zerfallszeit}{41}{section.6.4}
-\contentsline {section}{\numberline {6.5}Zeitaufl\IeC {\"o}sung}{41}{section.6.5}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{43}{chapter.7}
+\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Eigenzeit}{41}{section.6.4}
+\contentsline {section}{\numberline {6.5}Eigenzeitaufl\IeC {\"o}sung}{43}{section.6.5}
+\contentsline {section}{\numberline {6.6}Gesamtsystematik}{44}{section.6.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{45}{chapter.7}

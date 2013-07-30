@@ -1,8 +1,8 @@
-\chapter{Abschätzung systematischer Unsicherheiten}
-Der Fitter liefert uns zwar eine statistische Unsicherheit auf $\SJPsi$, allerdings ist eine Betrachtung der Systematik unerlässlich. Im Folgenden wird daher der Einfluss einiger Effekte auf das Fitergebnis untersucht und anschließend der systematische Fehler abgeschätzt.
+\chapter{Abschätzung systematischer Unsicherheiten} \label{kap:systematik}
+Der Fitter liefert zwar eine statistische Unsicherheit auf $\SJPsi$, allerdings ist eine Betrachtung der Systematik unerlässlich. Im Folgenden wird daher der Einfluss einiger Effekte auf das Fitergebnis untersucht und anschließend der systematische Fehler abgeschätzt.
 
 \section{Fitmethode} \label{kap:fit_bias}
-Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, dass das Fitergebnis nicht vom Binning abhängt, es ist jedoch nicht von vornherein ausgeschlossen, dass sie das Ergebnis verfälscht (einen sog. Bias produziert). Daher wird eine Toy Monte Carlo - Studie (kurz: Toy MC) durchgeführt. Dabei werden Daten zufällig nach einer Verteilung mit den gewünschten Parametern generiert und im Anschluss gefittet. Für eine gute Abschätzung des Bias dienen die Ergebnisse des Daten-Fits aus Tabelle xxxxxxx als Anhaltspunkt. Es werden pro Toy 20000 Teilchen generiert mit einem Signalanteil von 42,3\%.
+Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, dass das Fitergebnis nicht von der Einteilung des Histogramms abhängt, es ist jedoch nicht von vornherein ausgeschlossen, dass sie das Ergebnis verfälscht (einen sog. Bias produziert). Daher wird eine Toy Monte Carlo - Studie (kurz: Toy MC) durchgeführt. Dabei werden Daten zufällig nach einer Verteilung mit den gewünschten Parametern generiert und im Anschluss gefittet. Zur Generation der Massen- und Eigenzeitverteilung werden die aus den Fits erhaltenen Parameter verwendet (siehe Tabellen \ref{tab:fit_masse} und \ref{tab:fit_results}). Die einzige Ausnahme bildet $\SJPsi$, da diese zum Zeitpunkt dieser Studie noch verdeckt war. Hier wurde mit $\SJPsi = 0,75$ generiert. Entsprechend der Statistik im verwendeten Datensatz werden hier jeweils 13000 Ereignisse generiert. Durch mehrmaliges Wiederholen von Generation und Fit sollten die gefitteten Parameter am Ende gaußverteilt um die in der Generation verwendeten Parameter sein. Kommt es zu Abweichungen davon, so ist dies auf die Fitmethode oder eine fehlerhafte Implementation des Eperimentators zurückzuführen. Um statistisch zuverlässige Aussagen treffen zu können, wurden in dieser Toy MC - Studie insgesamt 20000 Wiederholungen durchgeführt.
 
 \begin{figure}[hptb]
 \centering
@@ -11,17 +11,20 @@ Die hier verwendete Maximum-Likelihood-Methode hat zwar den schönen Vorteil, da
 \label{fig:fit_bias}
 \end{figure}
 
-Abbildung \ref{fig:fit_bias} zeigt sowohl die Verteilung der gefitteten Amplitude und die Pulls, die sich mittels $\frac{\SJPsi^{gefittet} - \SJPsi^{generiert}}{\sigma^{gefittet}}$ berechnen. Es lassen sich hierbei zwei Dinge beobachten:
+Abbildung \ref{fig:fit_bias} zeigt sowohl die Verteilung der gefitteten Amplitude $\SJPsi$ als auch die Pulls, die sich mittels $\frac{\SJPsi^{gefittet} - \SJPsi^{generiert}}{\sigma^{gefittet}}$ berechnen lassen. Der Mittelwert der Amplitudenverteilung (links) $\SJPsi^{\text{ToyMC}} = 0,7548 \pm 0,0005$ weicht signifikant vom generierten Wert $\SJPsi = 0,75$ ab, es gibt also einen Bias. An der Pull-Verteilung lassen sich prinzipiell zwei Dinge beobachten:
 \begin{enumerate}
-    \item An der Verschiebung des Pull-Mittelwertes $\mu = 0,059 \pm 0,007$ von der Null sieht man deutlich, dass es einen kleinen, aber signifikanten Bias gibt. Indem wir diesen Bias mit der statistischen Unsicherheit aus unserem Fitergebnis (siehe Gl. \ref{eq:fit_result}) multiplizieren erhalten wir eine Abschätzung der aus der Fitmethode resultierenden Unsicherheit:
+    \item An der Verschiebung des Pull-Mittelwertes $\mu = 0,0679 \pm 0,0067$ von der Null sieht man deutlich, dass es - wie bereits erwähnt - einen kleinen, aber signifikanten Bias gibt. Indem dieser Bias mit der statistischen Unsicherheit aus dem Fitergebnis (siehe Gl. \ref{eq:fit_result}) multipliziert wird, erhält man eine Abschätzung der aus der Fitmethode resultierenden Unsicherheit:
         \begin{align}
-        \delta\SJPsi^{Fit} = 0,059 \cdot 0,07 = 0,00413
+        \delta\SJPsi^{Fit} = 0,0679 \cdot 0,069 = 0,0047
         \end{align}
 
-    \item Mit einem $\sigma = 0,957 \pm 0,005$ ist die Pull-Verteilung signifikant zu schmal. Dies bedeutet, dass der Fit den statistischen Fehler überschätzt. Das Problem tritt auf, sobald man in den Toys Untergrund miteinbezieht. Es ist bekannt, dass die verwendete SFit-Methode die Fehlerpropagation (gerade bei Untergrund) nicht korrekt ausführt. Es wurde daher eine Fehlerkorrektur implementiert, aber auch dieser handelt es sich nur um eine Näherung.
+    \item Mit einem $\sigma = 0,9462 \pm 0,0047$ ist die Pull-Verteilung signifikant zu schmal. Dies bedeutet, dass der Fit den statistischen Fehler überschätzt. Weitere Untersuchungen zeigen, dass Problem auftritt, sobald man in den Toys Untergrund miteinbezieht (siehe Abb. \ref{fig:toys_no_bkg}). Es ist bekannt, dass die verwendete sFit-Methode die Fehlerpropagation (gerade bei Untergrund) nicht korrekt ausführt. Es wurde vom Betreuer eine Fehlerkorrektur implementiert, dabei handelt es sich jedoch um eine Näherung. Für eine tiefergehende Studie müsste die Fehlerkorrektur entsprechend analysiert werden.
 \end{enumerate}
 
-\paragraph{Ursachen des Bias}
+\subsubsection{Ursachen des Bias}
+!!! nochmal bearbeiten !!!
+
+Es bleibt zu klären, welche Ursachen zu dem Bias führen. Dazu wird zunächst eine Toy MC-Studie ohne Untergrund ($f_{sig}=1$) durchgeführt
 Weitere Toy MC Studien zeigen, dass die Behandlung des Untergrundes zu einem Bias führt. Generiert man nämlich nur Signal, ist der Mittelwert kompatibel zur Null (siehe Abb. \ref{fig:toys_no_bkg}).
 
 \begin{figure}[hptb]
@@ -190,6 +193,64 @@ Der Mittelwert der Pulls $\mu = 0,063 \pm 0,007$ (siehe Abb. \ref{fig:toys_accep
 
 
 
-\section{Korrelation zwischen Masse und Zerfallszeit}
+\section{Korrelation zwischen Masse und Eigenzeit}
+Die sFit-Methode funktioniert dann gut, wenn der Untergrund der Massenverteilung eben ist und die Massenverteilung des Signals unabhängig von der gemessenen Eigenzeit ist. Es soll nun eine etwaige Korrelation zwischen Masse und Eigenzeit untersucht und der Einfluss auf $\SJPsi$ festgestellt werden. Dazu wird die Massenverteilung in vier verschiedenen Zeitbereichen gefittet, die Tabelle \ref{tab:mass_ct} zu entnehmen sind. Anschließend wird die gesamte Eigenzeitverteilung gefittet, dabei werden aber die Massenparameter des Signals auf die in den 4 Massenfits erhaltenen Werte fixiert. Die Ergebnisse des jeweiligen Fits sind ebenfalls in Tabelle \ref{tab:mass_ct} aufgeführt.
 
-\section{Zeitauflösung}
+\begin{table}[hptb]
+\centering
+\caption{Einteilung der Eigenzeitbereiche sowie Fitresultate für $\SJPsi$ bei Fixierung der Masse auf die in den Zeitbereichen enthaltene Massenform. Weiterhin werden die Abweichung $\Delta\SJPsi$ vom regulären Datenfit und der Signalanzahl $N_{sig}$ eines jeden Eigenzeitbereichs genannt.}
+\label{tab:mass_ct}
+\begin{tabular}{c l r@{$\pm$}l c c}
+\hline \hline
+Nr. & Eigenzeitfenster des Massenfits & \multicolumn{2}{c}{$\SJPsi$} & $\Delta\SJPsi$ & $N_{sig}$\\ \hline
+1 & $t \in [0.3, 0.7] \pico\second$ & 0,559 & 0,069 & -0,066 & 1898 \\
+2 & $t \in [0.7, 1.5] \pico\second$ & 0,567 & 0,068 & 0,002 & 2773 \\
+3 & $t \in [1.5, 3] \pico\second$ & 0,566 & 0,069 & 0,001 & 2710 \\
+4 & $t \in [3, 14] \pico\second$ & 0,566 & 0,069 & 0,001 & 1490 \\ \hline \hline
+\end{tabular}
+\end{table}
+
+Zur Abschätzung des Fehlers werden zunächst die Abweichungen $\Delta\SJPsi$ vom (noch verdeckten) Referenzwert aus dem regulären Eigenzeitfit $\SJPsi = 0,565 \pm 0,069$ berechnet und diese dann - gewichtet nach der Signalzahl $N_{sig}$ - quadratisch gemittelt:
+\begin{align}
+\delta\SJPsi^{m/t} = \sqrt{\frac{\sum N_i (\Delta\SJPsi)_i}{\sum N_i}} = 0,0031
+\end{align}
+
+\section{Eigenzeitauflösung}
+Bei einer effektiven Eigenzeitauflösung von $\sigma_{eff} = (0,0665 \pm 0,0047)\ps$ im Vergleich zur \Bd-Oszillationsfrequenz $\delta m_d = (0,521 \pm 0.039)\hbar\ps$ erwartet man keine nennenswerten Effekte auf die Amplitude $\SJPsi$. Um überhaupt einen Effekt zu sehen, werden die Auflösungsparameter $\sigma_i$ um 20\% ihres Werte erhöht bzw. gesenkt und damit dann der Datensatz gefittet. Die größte Abweichung vom Referenzwert des regulären Eigenzeitfits wird als systematischer Fehler angenommen. Die Ergenisse finden sich in Tabelle \ref{tab:syst_resolution}.
+
+\begin{table}[hptb]
+\centering
+\caption{Ergebnisse des Eigenzeitfits bei Variaton der Auflösungsparameter $\sigma_i$ um $\pm 20\%$.}
+\label{tab:syst_resolution}
+\begin{tabular}{l c c c r@{$\pm$}l c }
+\hline \hline
+Variation & $sigma_1$ & $sigma_2$ & $sigma_3$ & \multicolumn{2}{c}{$\SJPsi$} & $\Delta\SJPsi$ \\ \hline
+$+20\%$ & 0,576 & 0,05275 & 0,1118 & xxx & xxx & xxx \\
+$-20\%$ & 0,384 & 0,03517 & 0,0746 & xxx & xxx & xxx \\ \hline \hline
+\end{tabular}
+\end{table}
+
+Es zeigt sich, dass eine exakte Bestimmung der Auflösung nicht von Nöten ist, da sie im Vergleich zu anderen Systematiken vor allem gegenüber der Flavour-Tagging Kalibration vernachlässigt werden kann. Dennoch wird ein sytematischer Fehler durch die Auflösung mit
+\begin{align}
+\delta\SJPsi^{res} = xxx
+\end{align}
+assoziiert.
+
+\section{Gesamtsystematik}
+Tabelle \ref{tab:syst_gesamt} fasst nochmals alle systematischen Unsicherheiten zusammen. Der Gesamtfehler wird durch quadratische Addition berechnet.
+
+\begin{table}[hptb]
+\centering
+\caption{Zusammenfassung der systematischen Unsicherheiten}
+\label{tab:syst_gesamt}
+\begin{tabular}{l c }
+\hline \hline
+Effekt & $\delta\SJPsi$ \\ \hline
+Fitmethode & xxx \\
+Flavour-Tagging Kalibration & xxx \\
+Eigenzeitakzeptanz & xxx \\
+Korrelation Masse $\leftrightarrow$ Eigenzeit & xxx \\ 
+Eigenzeitauflösung & xxx \\ \hline 
+Gesamt & xxx \\ \hline \hline
+\end{tabular}
+\end{table}

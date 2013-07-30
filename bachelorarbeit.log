@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  28 JUL 2013 10:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  30 JUL 2013 08:37
 entering extended mode
 **bachelorarbeit.tex
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.tex
@@ -1037,7 +1037,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
 
-<./Abbildungen/standardmodell.png, id=252, 2007.5pt x 1924.18875pt>
+<./Abbildungen/standardmodell.png, id=312, 2007.5pt x 1924.18875pt>
 File: ./Abbildungen/standardmodell.png Graphic file (type png)
 
 <use ./Abbildungen/standardmodell.png>
@@ -1048,7 +1048,7 @@ Package pdftex.def Info: ./Abbildungen/standardmodell.png used on input line 9.
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
  [11 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/standardmodell.png>]
-<./Abbildungen/bmixing.jpg, id=268, 366.8907pt x 366.8907pt>
+<./Abbildungen/bmixing.jpg, id=328, 366.8907pt x 366.8907pt>
 File: ./Abbildungen/bmixing.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/bmixing.jpg>
@@ -1087,7 +1087,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 27.
 
-<./Abbildungen/bd2jpsikshort.jpg, id=270, 594.5412pt x 281.3712pt>
+<./Abbildungen/bd2jpsikshort.jpg, id=330, 594.5412pt x 281.3712pt>
 File: ./Abbildungen/bd2jpsikshort.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/bd2jpsikshort.jpg>
@@ -1104,7 +1104,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 51.
 
-<./Abbildungen/cp_invarianz.jpg, id=289, 935.495pt x 456.70625pt>
+<./Abbildungen/cp_invarianz.jpg, id=349, 935.495pt x 456.70625pt>
 File: ./Abbildungen/cp_invarianz.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/cp_invarianz.jpg>
@@ -1192,7 +1192,7 @@ Kapitel 5.
 
 
 
-] [24] <./Abbildungen/mass_fit.pdf, id=414, 498.86375pt x 739.76375pt>
+] [24] <./Abbildungen/mass_fit.pdf, id=474, 498.86375pt x 739.76375pt>
 File: ./Abbildungen/mass_fit.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/mass_fit.pdf>
@@ -1228,7 +1228,7 @@ Overfull \hbox (5.11813pt too wide) in paragraph at lines 163--164
 
 LaTeX Warning: Citation `6' on page 29 undefined on input line 169.
 
-<./Abbildungen/resolution.pdf, id=511, 569.12625pt x 417.56pt>
+<./Abbildungen/resolution.pdf, id=571, 569.12625pt x 417.56pt>
 File: ./Abbildungen/resolution.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/resolution.pdf>
@@ -1242,217 +1242,123 @@ funktion
  []
 
 [29] [30 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/resolution.pdf, page is rota
-ted 90 degrees>]
-
-LaTeX Warning: Reference `kap:akzeptanz' on page 31 undefined on input line 201
-.
-
-
-LaTeX Warning: Reference `eq:fit_pdf' on page 31 undefined on input line 210.
-
-
-LaTeX Warning: Reference `tab:constrained_parameters' on page 31 undefined on i
-nput line 217.
-
-
-LaTeX Warning: Reference `tab:fit_results' on page 31 undefined on input line 2
-40.
-
-
-LaTeX Warning: Reference `fig:fit_result' on page 31 undefined on input line 24
-0.
-
-<./Abbildungen/eigenzeitverteilung.pdf, id=573, 569.12625pt x 700.6175pt>
+ted 90 degrees>] [31]
+<./Abbildungen/eigenzeitverteilung.pdf, id=649, 569.12625pt x 700.6175pt>
 File: ./Abbildungen/eigenzeitverteilung.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/eigenzeitverteilung.pdf>
 Package pdftex.def Info: ./Abbildungen/eigenzeitverteilung.pdf used on input li
 ne 263.
 (pdftex.def)             Requested size: 418.25555pt x 514.91026pt.
-
-
-LaTeX Warning: Reference `eq:fit_pdf' on page 31 undefined on input line 264.
-
-
-LaTeX Warning: Reference `tab:fit_results' on page 31 undefined on input line 2
-64.
-
-
-LaTeX Warning: Reference `eq:fit_pdf' on page 31 undefined on input line 264.
-
-
-LaTeX Warning: Reference `tab:fit_results' on page 31 undefined on input line 2
-64.
-
-) [31] [32 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/eigenzeitverteilung.pdf>]
-[33] (D:\Uni\Bachelorarbeit\Arbeit\systematik.tex [34
+) [32] [33 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/eigenzeitverteilung.pdf>]
+(D:\Uni\Bachelorarbeit\Arbeit\systematik.tex [34
 
 
 
 
 ]
 Kapitel 6.
-<./Abbildungen/fit_bias.pdf, id=645, 569.12625pt x 203.76125pt>
+<./Abbildungen/fit_bias.pdf, id=715, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/fit_bias.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/fit_bias.pdf>
 Package pdftex.def Info: ./Abbildungen/fit_bias.pdf used on input line 9.
 (pdftex.def)             Requested size: 250.95587pt x 89.84798pt.
-
-
-LaTeX Warning: Reference `fig:fit_bias' on page 35 undefined on input line 14.
-
-
-LaTeX Warning: Reference `eq:fit_result' on page 35 undefined on input line 16.
-
-
-[35 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias.pdf, page is rotated 90 
-degrees>]
-
-LaTeX Warning: Reference `fig:toys_no_bkg' on page 36 undefined on input line 2
-5.
-
-
-LaTeX Warning: Reference `tab:fit_bias_events' on page 36 undefined on input li
-ne 34.
-
-
-LaTeX Warning: Reference `fig:fit_bias_events' on page 36 undefined on input li
-ne 34.
-
-<./Abbildungen/fit_bias_statistics.pdf, id=697, 569.12625pt x 417.56pt>
+ [35 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias.pdf, page is rotated 90
+ degrees>]
+<./Abbildungen/fit_bias_statistics.pdf, id=770, 569.12625pt x 417.56pt>
 File: ./Abbildungen/fit_bias_statistics.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/fit_bias_statistics.pdf>
 Package pdftex.def Info: ./Abbildungen/fit_bias_statistics.pdf used on input li
-ne 53.
+ne 56.
 (pdftex.def)             Requested size: 418.25555pt x 306.8806pt.
  [36] [37 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias_statistics.pdf, pa
-ge is rotated 90 degrees>]
-
-LaTeX Warning: Reference `tab:syst_fit_calib_data' on page 38 undefined on inpu
-t line 89.
-
-
-LaTeX Warning: Reference `kap:fit_bias' on page 38 undefined on input line 92.
-
-
-LaTeX Warning: Reference `tab:syst_fit_calib_toys' on page 38 undefined on inpu
-t line 113.
-
-
-LaTeX Warning: Reference `fig:toys_tag_calib' on page 38 undefined on input lin
-e 113.
-
-<./Abbildungen/tagging_calibration--.pdf, id=760, 569.12625pt x 203.76125pt>
+ge is rotated 90 degrees>] [38]
+<./Abbildungen/tagging_calibration--.pdf, id=849, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration--.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration--.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration--.pdf used on input 
-line 120.
+line 123.
 (pdftex.def)             Requested size: 292.7776pt x 104.82472pt.
 
-<./Abbildungen/tagging_calibration+-.pdf, id=761, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration+-.pdf, id=850, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration+-.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration+-.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration+-.pdf used on input 
-line 121.
+line 124.
 (pdftex.def)             Requested size: 292.7776pt x 104.82472pt.
 
-<./Abbildungen/tagging_calibration-+.pdf, id=762, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration-+.pdf, id=851, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration-+.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration-+.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration-+.pdf used on input 
-line 122.
+line 125.
 (pdftex.def)             Requested size: 292.7776pt x 104.82472pt.
 
-<./Abbildungen/tagging_calibration++.pdf, id=763, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration++.pdf, id=852, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration++.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration++.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration++.pdf used on input 
-line 123.
+line 126.
 (pdftex.def)             Requested size: 292.7776pt x 104.82472pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 [][]
  []
 
 
-LaTeX Warning: Float too large for page by 3.89867pt on input line 126.
+LaTeX Warning: Float too large for page by 3.89867pt on input line 129.
 
 
-LaTeX Warning: Reference `eq:fit_pdf' on page 38 undefined on input line 131.
-
-
-Overfull \hbox (2.58998pt too wide) in paragraph at lines 131--132
+Overfull \hbox (2.58998pt too wide) in paragraph at lines 134--135
 \OT1/cmr/m/n/10.95 In der Ana-ly-se wur-de der Ein-fluss ei-ner zeitabh[]angige
 n De-tek-to-rak-zep-tanz ver-nachl[]assigt.
  []
 
-[38] [39 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_calibration--.pdf, p
+[39] [40 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_calibration--.pdf, p
 age is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_ca
 libration+-.pdf, page is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abbi
 ldungen/tagging_calibration-+.pdf, page is rotated 90 degrees> <D:/Uni/Bachelor
 arbeit/Arbeit/Abbildungen/tagging_calibration++.pdf, page is rotated 90 degrees
->] [40]
-
-LaTeX Warning: Reference `tab:fit_akzeptanz' on page 41 undefined on input line
- 155.
-
-
-LaTeX Warning: Reference `fig:fit_akzeptanz' on page 41 undefined on input line
- 155.
-
-<./Abbildungen/time_acceptance_fit.pdf, id=974, 569.12625pt x 417.56pt>
+>] <./Abbildungen/time_acceptance_fit.pdf, id=1051, 569.12625pt x 417.56pt>
 File: ./Abbildungen/time_acceptance_fit.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/time_acceptance_fit.pdf>
 Package pdftex.def Info: ./Abbildungen/time_acceptance_fit.pdf used on input li
-ne 174.
+ne 177.
 (pdftex.def)             Requested size: 418.25555pt x 306.8806pt.
 
-
-LaTeX Warning: Reference `kap:akzeptanz_bestimmung' on page 41 undefined on inp
-ut line 180.
-
-
-LaTeX Warning: Reference `kap:fit_bias' on page 41 undefined on input line 180.
-
-
-<./Abbildungen/time_acceptance_toys.pdf, id=975, 569.12625pt x 203.76125pt>
+<./Abbildungen/time_acceptance_toys.pdf, id=1054, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/time_acceptance_toys.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/time_acceptance_toys.pdf>
 Package pdftex.def Info: ./Abbildungen/time_acceptance_toys.pdf used on input l
-ine 184.
+ine 187.
 (pdftex.def)             Requested size: 418.25555pt x 149.75183pt.
-
-
-LaTeX Warning: Reference `fig:toys_acceptance' on page 41 undefined on input li
-ne 189.
-
-) [41] [42 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_acceptance_fit.pdf, p
-age is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_accep
-tance_toys.pdf, page is rotated 90 degrees>]
+ [41] [42 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_acceptance_fit.pdf, pa
+ge is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_accept
+ance_toys.pdf, page is rotated 90 degrees>] [43]) [44]
 Kapitel 7.
-[43
+[45
 
 
 
-] [44
+] [46
 
 
 ]
@@ -1473,11 +1379,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 nodein = S042T&inscript =$
  []
 
-[45] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex [46
+[47] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex [48
 
 
 
-]) [47]
+]) [49]
 
 Package glossaries Warning: \makeglossaries hasn't been used,
 the glossaries will not be updated.
@@ -1497,27 +1403,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
 (D:\Uni\Bachelorarbeit\Arbeit\declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
+Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: 5F967BDF8F06BEB03A3C3F117D9C40F1;3699.
 
-
-Package rerunfilecheck Warning: File `bachelorarbeit.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bachelorarbeit.out':
-(rerunfilecheck)             Before: 843EC7F0E930348AE8DC4D5471DA5962;2834
-(rerunfilecheck)             After:  A1C43D7ADEEF5FDDC19C1195B9A1BBA0;3633.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 12821 strings out of 494045
- 188469 string characters out of 3148360
- 357841 words of memory out of 3000000
- 15580 multiletter control sequences out of 15000+200000
+ 12845 strings out of 494045
+ 188785 string characters out of 3148360
+ 360020 words of memory out of 3000000
+ 15596 multiletter control sequences out of 15000+200000
  19786 words of font info for 76 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  57i,16n,47p,1450b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1547,9 +1444,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bachelorarbeit.pdf (47 pages, 1582072 bytes).
+Output written on bachelorarbeit.pdf (49 pages, 1602639 bytes).
 PDF statistics:
- 1234 PDF objects out of 1440 (max. 8388607)
- 228 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1331 PDF objects out of 1440 (max. 8388607)
+ 236 named destinations out of 1000 (max. 500000)
+ 484 words of extra memory for PDF output out of 10000 (max. 10000000)
 
