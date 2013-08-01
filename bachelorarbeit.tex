@@ -10,19 +10,14 @@
 \usepackage[squaren]{SIunits} % zur Darstellung physikalischer Einheiten (Option squaren verhindert Probleme mit amssymb Paket)
 \usepackage{subfigure}        % mehrere Bilder in einer figure-Umgebung
 
-
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
-\usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
-\usepackage[toc]{glossaries}  % Glossar
+
+\usepackage{datatool}	% muss verwendet werden, da glossaries sonst einen Fehler verursacht
+\usepackage[toc]{glossaries} 
+
 
 \graphicspath{{./Abbildungen/}}
 
-%\makeglossaries
-%\makeindex
-
-% Glossar
-\newglossaryentry{OST}{name={OST}, description={Opposite Side Tagger}}
-\newglossaryentry{Toy MC}{name={Toy MC}, description={Zur Validierung des Fitters werden zufällig Daten gemäß einer gewünschten Verteilung generiert und im Anschluss gefittet}}
 
 
 % Definiere Kürzel
@@ -42,8 +37,6 @@
 \newcommand{\sinarg}{\Delta m_d t}
 
 
-
-
 \begin{document}
 
 % Binde Titelseite ein
@@ -52,23 +45,19 @@
 
 \chapter{Einleitung}
 
-\chapter{Das LHCb-Experiment}
-\section{Aufgaben und Ziele des Experimentes}
-\section{Der LHCb-Detektor}
-\subsection{VeLo}
-\subsection{Spurrekonstruktion}
-\subsection{RICH-Detektoren}
-\subsection{Kalorimeter}
-\subsection{Myonkammern}
-
+\include{detektor}
 \include{cp-verletzung}
-\include{datenselektion}
-\include{analyse}
-\include{systematik}
+%\include{datenselektion}
+%\include{analyse}
+%\include{systematik}
 
 \chapter{Zusammenfassung}
 
 \begin{thebibliography}{---}
+\bibitem{lhc-info} \url{http://home.web.cern.ch/about/accelerators/large-hadron-collider} (Stand: 01.08.2013)
+\bibitem{lhcb-info} \url{http://www.weltmaschine.de/experimente/lhcb/}(Stand: 01.08.2013)
+\bibitem{detector} The LHCb Collaboration, The LHCb Detector at the LHC, 2008 JINST, 3 S08005.
+\bibitem{thesis_linn} Christian Linn, ...
 \bibitem{lhcb-paper} LHCb-Analyse, ...
 \bibitem{wiki_standard} \url{http://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles-de.svg} (Stand: 07.07.2013)
 \bibitem{higgs} \url{http://press.web.cern.ch/press-releases/2013/03/new-results-indicate-particle-discovered-cern-higgs-boson}
@@ -84,7 +73,7 @@
 \bibitem{crystal_ball} \url{http://arxiv.org/pdf/1201.5069.pdf}
 \end{thebibliography}
 
-%\printglossaries 
+
 % Selbstständigkeitserklärung
 \include{declaration}
 \end{document}
