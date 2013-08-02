@@ -17,11 +17,27 @@ Im Gegensatz zu den anderen Experimenten ist der LHCb-Detektor ein einarmiger Vo
 
 
 \subsection{Spurdetektoren}
-\subsubsection{Vertex Locator (VeLo)}
-Aufgabe des Vertex Locator (VeLo) ist die Detektion des Primarvertex (Enstehung eines Teilchens) sowie des Sekundärvertex (erste Interaktion des Teilchens, meist Zerfall). Er ist sehr nah am Kollisisionspunt aus Silikonstreifen aufgebaut und besteht aus 21 Stationen. Um Schäden zu vermeiden, besteht der VeLo aus zwei Hälften, die erst zusammengeführt werden, sobald der Teilchenstrahl im Experiment stabil ist.
+Hauptaufgabe der Spurdektektoren ist die Impulsbestimmung geladener Teilchen. Dazu werden diese durch das Feld eines Dipolmagneten abgelenkt. Die Trajektorien werden mit den Stationen VELO, TT und T1-T3 gemessen, die im Folgenden detaillierter beschrieben werden. Die Ablenkung des Teilchens von seiner ursprünglichen Trajektorie gibt Aufschluss über den Impuls. Das Magnetfeld ist weitestgehend homogen mit einer dominierenden y-Komponente, sodass die Ablenkung hauptsächlich in der (x,z)-Ebene vonstattengeht. Über die Länge $l=10\meter$ integriert beträgt die Feldstärke $\int B\mathrm{d}l = 4\tesla\meter$. Um ladungsabhängige Detektorasymmetrien zu messen, kann die Orientierung des Magnetfeldes umgekehrt werden. \cite{thesis_linn}
+
+\subsubsection{Vertex Locator (VELO)}
+Aufgabe des Vertex Locator (VELO) ist die Detektion des Primärvertex (Enstehung eines Teilchens) sowie des Sekundärvertex (erste Interaktion des Teilchens, meist Zerfall). Er ist sehr nah am Kollisisionspunt aus Silikonstreifen aufgebaut und besteht aus 21 Stationen. Um Schäden zu vermeiden, besteht der VELO aus zwei Hälften, die erst zusammengeführt werden, sobald der Teilchenstrahl im Experiment stabil ist.
 
 \subsubsection{Tracker Turicensis (TT)}
-Der Tracker Turicensis (TT) besteht aus zwei Stationen, die sich hinter dem Magneten befinden und eine Detektionsfläche von etwa $8,4\meter^2$ bieten. Sie sind wie der VeLo aus Silikonstreifen aufgebaut und ermöglichen eine dreidimensionale Spurrekonstruktion, wobei die TT-Stationen so aufgebaut sind, dass die Präzision in der horizontalen Ablenkungsebene (x,z) des Magneten am besten ist. Die Auflösung eines einzelnen Teilchentreffers beträgt etwa $50\micro\meter$.
+Der Tracker Turicensis (TT) besteht aus zwei Stationen, die sich hinter dem Magneten befinden und eine Detektionsfläche von etwa $8,4\meter^2$ bieten. Sie sind wie der VELO aus Silikonstreifen aufgebaut und ermöglichen eine dreidimensionale Spurrekonstruktion, wobei die TT-Stationen so aufgebaut sind, dass die Präzision in der horizontalen Ablenkungsebene (x,z) des Magneten am besten ist. Die Auflösung eines einzelnen Teilchentreffers beträgt etwa $50\micro\meter$.
 
+\subsubsection{Inner Tracker (IT)}
+Im Zentrum der drei Stationen T1-T3 nach dem Dipolmagneten ist der sogenannte Inner Tracker platziert. Er ist $120\centi\meter$ breit und $40\centi\meter$ hoch, ebenfalls ein Silikonstreifendetektor und besteht aus vier Schichten, die ähnlich wie die TT Stationen aufgebaut sind. Er deckt eine Fläche von etwa $4\meter^2$ ab und erzielt ebenfalls eine Trefferauflösung von $50\micro\meter$.
+
+\subsubsection{Outer Tracker (OT)}
+Der Outer Tracker bildet den äußeren Teil der Stationen T1-T3, der nicht vom IT abgedeckt wird. Er besteht ebenfalls aus 4 Schichten und ist aus Driftröhrchen aufgebaut, die mit einem Gasgemisch aus Argon (70\%), CO$_2$(28,5\%) und O$_2$ (1,5\%) gefüllt sind. Im Innern der Röhrchen verläuft ein mit Gold beschichteter Anodendraht aus Wolfram. Die räumliche Auflösung eines einzelnen Röhrchens liegt bei $200\micro\meter$.
+
+\subsubsection{Klassifizierung von Spuren}
+Je nachdem, welche Detektoren getroffen wurden, teilt man die Spuren in vier unterschiedliche Kategorien ein:
+\begin{itemize}
+\item \textbf{VELO Spuren} enthalten Treffer ausschließlich im VELO und dienen hauptsächlich der Rekonstruktion des Primärvertex.
+\item Hinterlassen die Teilchen Treffer im VELO und den TT-Stationen, spricht man von \textbf{Upstream Spuren}. Hierbei handelt es sich dann um Teilchen mit kleinem Impuls, da der Magnet die Teilchen so stark ablenkt, dass jene den Akzeptanzbereich des Detektors verlassen und die anschließenden Detektoren nicht mehr passieren.
+\item Bei \textbf{Downstream Spuren} gibt es nur Treffer in den Stationen TT und T1-T3. Diese treten vor allem bei langlebigen Teilchen wie dem $\Kshort$ auf, die den VELO vor ihrem Zerfall verlassen. In dieser Arbeit werden ausschließlich Downstream Spuren verwendet (siehe dazu auch Kapitel \ref{kap:downstream})
+\item Gibt es Treffer in allen Stationen (VELO, TT, T1-T3), so spricht man von \textbf{Long Spuren}. Da es hier die meisten Treffer gibt, haben diese Spuren die präziseste Impulsauflösung. \cite{thesis_linn}
+\end{itemize}
 
 \subsection{Detektoren zur Teilchenidentifikation}
