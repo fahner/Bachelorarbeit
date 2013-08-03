@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  2 AUG 2013 18:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  3 AUG 2013 13:07
 entering extended mode
 **bachelorarbeit.tex
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.tex
@@ -897,7 +897,6 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 )) (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.aux
 (D:\Uni\Bachelorarbeit\Arbeit\ba_titlepage.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\detektor.aux)
-(D:\Uni\Bachelorarbeit\Arbeit\cp-verletzung.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\declaration.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -994,7 +993,7 @@ Kapitel 1.
 
 ]
 Kapitel 2.
-[9] <./Abbildungen/detektor.jpg, id=146, 821.0675pt x 522.95375pt>
+[9] <./Abbildungen/detektor.jpg, id=89, 821.0675pt x 522.95375pt>
 File: ./Abbildungen/detektor.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/detektor.jpg>
@@ -1017,13 +1016,44 @@ schlie-lich im VE-LO und die-nen haupts[]achlich
 LaTeX Warning: Reference `kap:downstream' on page 11 undefined on input line 39
 .
 
-[11]) [12]
+[11] [12]) [13] (D:\Uni\Bachelorarbeit\Arbeit\datenselektion.tex [14
+
+
+
+
+]
 Kapitel 3.
-[13
+
+Overfull \hbox (6.88873pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10.95 sug-ge-riert - le-dig-lich auf die Spu-ren der Myo-nen zur[]
+uck, so-dass nur das vom $\OML/cmm/m/it/10.95 B[]$\OT1/cmr/m/n/10.95 ausgesandt
+e
+ []
+
+[15]
+
+LaTeX Warning: Reference `kap:downstream' on page 16 undefined on input line 19
+.
+
+
+LaTeX Warning: Citation `lhcp-paper' on page 16 undefined on input line 20.
+
+
+LaTeX Warning: Reference `tab:cuts_stripping' on page 16 undefined on input lin
+e 25.
+
+[16]
+
+LaTeX Warning: Reference `tab:cuts_offline' on page 17 undefined on input line 
+52.
+
+[17]) [18]
+Kapitel 4.
+[19
 
 
 
-] [14
+] [20
 
 
 ]
@@ -1050,11 +1080,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 nodein = S042T&inscript =$
  []
 
-[15] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex [16
+[21] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex [22
 
 
 
-]) [17]
+]) [23]
 
 Package glossaries Warning: \makeglossaries hasn't been used,
 the glossaries will not be updated.
@@ -1068,6 +1098,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.aux
 (D:\Uni\Bachelorarbeit\Arbeit\ba_titlepage.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\detektor.aux)
+(D:\Uni\Bachelorarbeit\Arbeit\datenselektion.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
@@ -1078,69 +1109,42 @@ Package rerunfilecheck Warning: File `bachelorarbeit.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `bachelorarbeit.out':
-(rerunfilecheck)             Before: 308AA8B594D5FE41C9BA0EC55BC1E17D;1319
-(rerunfilecheck)             After:  283F53CD68012F24C679AC6F88406FD4;457.
+(rerunfilecheck)             Before: 283F53CD68012F24C679AC6F88406FD4;457
+(rerunfilecheck)             After:  BD69864C995EABA22B9316B1EB72F895;1260.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  12430 strings out of 494045
- 181120 string characters out of 3148360
- 341459 words of memory out of 3000000
- 15396 multiletter control sequences out of 15000+200000
+ 181181 string characters out of 3148360
+ 344753 words of memory out of 3000000
+ 15378 multiletter control sequences out of 15000+200000
  17846 words of font info for 67 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 57i,7n,47p,1450b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on bachelorarbeit.pdf (17 pages, 279237 bytes).
+ 57i,11n,47p,1450b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/euler/eurm10.pfb>
+Output written on bachelorarbeit.pdf (23 pages, 334940 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

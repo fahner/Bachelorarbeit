@@ -10,4 +10,22 @@
 \contentsline {subsubsection}{Outer Tracker (OT)}{11}{section*.5}
 \contentsline {subsubsection}{Klassifizierung von Spuren}{11}{section*.6}
 \contentsline {subsection}{\numberline {2.2.2}Detektoren zur Teilchenidentifikation}{12}{subsection.2.2.2}
-\contentsline {chapter}{\numberline {3}Zusammenfassung}{13}{chapter.3}
+\contentsline {subsubsection}{Die Ring Imaging Cherenkov Detektoren (RICH)}{12}{section*.7}
+\contentsline {subsubsection}{Kalorimetersystem}{12}{section*.8}
+\contentsline {subsubsection}{Myonkammern}{13}{section*.9}
+\contentsline {subsection}{\numberline {2.2.3}Trigger}{13}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Datenselektion}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Bereitgestellter Datensatz}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Schnitte}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Trigger}{15}{subsection.3.2.1}
+\contentsline {subsubsection}{L0 Trigger}{15}{section*.10}
+\contentsline {subsubsection}{High Level Trigger 1 (HLT1)}{15}{section*.11}
+\contentsline {subsubsection}{High Level Trigger 2 (HLT2)}{15}{section*.12}
+\contentsline {subsection}{\numberline {3.2.2}Downstream Spuren}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Stripping}{16}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Zus\IeC {\"a}tzliche Schnitte}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Geister-Wahrscheinlichkeit}{17}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Bester Kandidat}{17}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Fitbereiche}{18}{subsection.3.2.7}
+\contentsline {section}{\numberline {3.3}Verwendeter Datensatz}{18}{section.3.3}
+\contentsline {chapter}{\numberline {4}Zusammenfassung}{19}{chapter.4}

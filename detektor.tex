@@ -41,3 +41,26 @@ Je nachdem, welche Detektoren getroffen wurden, teilt man die Spuren in vier unt
 \end{itemize}
 
 \subsection{Detektoren zur Teilchenidentifikation}
+Neben der Rekonstruktion der Spuren ist es natürlich essentiell, auch die Teilchen zu identifizieren. Hierzu werden die Informationen der Detektoren RICH1/2, SPD, PS HCAL, ECAL sowie M1-M5 für eine Teilchenhypothese verwendet.
+
+\subsubsection{Die Ring Imaging Cherenkov Detektoren (RICH)}
+Die beiden RICH Detektoren nutzen die Cherenkov-Strahlung, um Teilchen voneinander zu unterscheiden, insbesondere $\pi^{\pm}$ und $K^{\pm}$. Ähnlich dem Machschen Kegel bei Schall emittieren geladene Teilchen Photonen in Kegelform, wenn sie ein Medium mit einer Geschwindigkeit $v$ passieren, die größer ist als die Lichtgeschwindigkeit $c'=c/n$ in diesem Medium ($n:$ Brechungsindex des Mediums). Für den Öffnungswinkel $\theta_{\text{C}}$ des Lichtkegels gilt dann:
+\begin{align}
+\cos \theta_{\text{C}} = \frac{c}{vn}.
+\end{align}
+Durch Messung des Öffnungswinkels und der Impulsinformation aus den Spurdetektoren lässt sich die Teilchenmasse bestimmen. RICH1 ist dabei für kleine Impulse im Bereich von $1\giga\electronvolt$ bis $60\giga\electronvolt$ zuständig und deckt den kompletten Akzeptanzbereich des Detektors ab, RICH2 arbeitet dagegen bei Impulsen von $15\giga\electronvolt$ bis $100\giga\electronvolt$ und deckt einen Winkelbereich von ca. $15\milli\rad$ bis $120\milli\rad$ in horizontaler und $100\milli\rad$ in vertikaler Ebene ab.
+
+\subsubsection{Kalorimetersystem}
+Das Kalorimetersystem dient zur Identifikation von Elektronen, Photonen sowie Hadronen und soll deren Energie und Position bestimmen. Durch Wechselwirkung mit dem Kalorimetermaterial erzeugen jene einen kaskadenartigen Zerfall. Bei den Subdetektoren des Systems handelt es sich um Szintillationsdetektoren. Diese sind im Einzelnen:
+\begin{itemize}
+\item Der \textbf{Scintillating Pad Detector (SPD)} kann nur geladene Teilchen detektieren und dient damit der Unterscheidung von Photon und Elektron.
+\item Auf den SPD und eine $12\milli\meter$ dicke Bleiplatte folgt der \textbf{Preshower Detector (PS)}. Die Platte löst Kaskaden von Photonen und Elektronen aus. Hadronische Kaskaden beginnen erst später und können damit unterschieden werden.
+\item Das \textbf{elektormagnetische Kalorimeter (ECAL)} besteht im Wechsel aus Blei- und Szintillationsplatten und detektiert Photonen- und Elektronenschauer.
+\item Beim \textbf{hadronischen Kalorimeter (HCAL)} wechseln sich Eisen- und Szintillationsplatten ab. Er ist sensitiv für hadronische Kaskaden.
+\end{itemize}
+
+\subsubsection{Myonkammern}
+Der LHCb-Detektor besitzt insgesamt 5 Myonenkammern (M1-M5). Zur Verbesserung der Impulsmessung im Trigger ist M1 vor den Kalorimetern angebracht, die restlichen am Ende des Detektors. Zwischen M2-M5 befinden sich $80\centi\meter$ dicke Eisenplatten zur Absorption hadronischer Teilchen. Ab einem Impuls von etwa $6\giga\electronvolt/c$ können die Myonen alle 5 Stationen passieren. \cite{thesis_linn}
+
+\subsection{Trigger}
+Der LHCb-Detektor besitzt ein dreistufiges Triggersystem, um die Ereignisrate von $40\mega\hertz$ auf $2-3\kilo\hertz$ zu reduzieren. Die hierin enthaltenen Informationen werden dann zur weiteren Bearbeitung gespeichert. Die drei Stufen bestehen aus dem Hardwaretrigger \textbf{L0}, der die Ereignisrate auf $1\mega\hertz$ senkt, sowie den beiden software-basierten \glqq High Level Trigger\grqq\ \textbf{HLT1}($50\kilo\hertz$) und \textbf{HLT2}($2-3\kilo\hertz$). Für die Trigger siehe auch Kapitel \label{kap:trigger}}
