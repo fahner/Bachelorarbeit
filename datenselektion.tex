@@ -1,32 +1,35 @@
 \chapter{Datenselektion}
+Dieses Kapitel beschreibt die notwendigen Schritte, um aus den Rohdaten des Detektors einen analysierbaren Datensatz (ein sog. NTupel) herzustellen. Wichtig ist dabei, den Datensatz von möglichst viel Untergrund zu bereinigen ohne sein eigentliches Signal zu verlieren.
+
 \section{Bereitgestellter Datensatz}
-\section{Schnitte}
-Um Signal besser vom Untergrund zu trennen, werden in mehreren Schritten diverse Schnitte angewandt.
+Die in dieser Arbeit verwendeten Daten entstammen aus Proton-Proton-Kollisionen und wurden im Jahre 2012 vom LHCb-Detektor bei einer Schwerpunktsenergie von $\sqrt{s} = 8\tera\electronvolt$ aufgenommen. Die integrierte Luminosität beträgt ca. $2\femto\barn^{-1}$. Vom Betreuer wurde ein vorgefertigter Datensatz zur Verfügung gestellt. Wesentliche Schritte bei der Erstellung waren die Rekonstruktion der Ereignisse mittels der Software \textsc{Brunel} sowie der Analyse mit dem Programm \textsc{Da Vinci}. Dabei findet zur Reduzierung des Untergrunds eine Vorselektion ab, die Stripping genannt wird. Die Software selbst bietet für jeden Zerfallskanal entsprechende Sätze von Selektionskriterien an. Die hier Verwendeten werden in Kapitel \label{kap:stripping} betrachtet.
+
+
+\section{Selektionskriterien}
+Wie bereits erwähnt, erfolgt die Reduzierung des Untergrunds in mehreren Schritten, die nun im Folgenden erläutert werden.
+
 \subsection{Trigger} \label{kap:trigger}
 Den erste Schritt bildet das Trigger-System, das schon während der Datennahme die Ereignisse sondiert. Der LHCb-Detektor verwendet dabei ein dreistufiges System: Der hardwarebasierte \glqq L0 Trigger \grqq reduziert die Ereignisrate von $40\mega\hertz$ auf $1\mega\hertz$. Im Anschluss folgt der zweiteilige, softwarebasierte \glqq High Level Trigger \grqq (HLT), der die Ereignisrate schlussendlich auf $2\kilo\hertz$ reduziert.\cite{trigger} 
 
-Die in dieser Analyse verwendeten Trigger-Entscheidungen entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
+Es stehen für verschiedenste Bedürfnisse diverse sogenannte \glqq Trigger-Linien\grqq\ zur Verfügung. Die in dieser Analyse verwendeten Linien entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
 
 \subsubsection{L0 Trigger}
 Hier wird keine spezielle Entscheidung benötigt.
 
 \subsubsection{High Level Trigger 1 (HLT1)}
-Hier wird die \texttt{HltDiMuonHighMassDecision} gewählt. Diese greift - wie der Name schon suggeriert - lediglich auf die Spuren der Myonen zurück, sodass nur das vom \Bd ausgesandte $J/\Psi \rightarrow \mu^+\mu^-$ für den Trigger verantwortlich ist. Es werden hierbei Schnitte auf die Qualität des $J\Psi$-Vertex, die Myonen-Spuren, sowie die Masse und den (Transversal)Impuls des $J\Psi$ angewandt. Die \texttt{HltDiMuonHighMassDecision} erzeugt kein Bias auf die Lebensdauer des \Bd-Mesons.
+Hier wird die \texttt{HltDiMuonHighMassDecision} gewählt. Diese greift - wie der Name schon suggeriert - lediglich auf die Spuren der Myonen zurück, sodass nur das vom \Bd ausgesandte $J/\Psi \rightarrow \mu^+\mu^-$ für den Trigger verantwortlich ist. Es werden hierbei zur Selektion die Qualität des $J\Psi$-Vertex, die Myonen-Spuren, sowie die Masse und der (Transversal)Impuls des $J\Psi$ berücksichtigt. Die \texttt{HltDiMuonHighMassDecision} erzeugt kein Bias auf die Lebensdauer des \Bd-Mesons.
 
 \subsubsection{High Level Trigger 2 (HLT2)}
-In dieser Analyse werden zwei unterschiedliche Entscheidungen verwendet. Zur Bestimmung der Detektorauflösung wird die \texttt{Hlt2DiMuonJPsiDecision} verwendet, die ähnliche Variablen wie beim HLT1 verwendet und somit auch kein Bias erzeugt. Für die reguläre Analyse wird jedoch die \texttt{Hlt2DiMuonDetachedJPsiDecision} verwendet, die zusätzlich die Signifikanz der Zerfallszeit eines $J/\Psi$ berücksichtigt. Dadurch kommt es jedoch zu einem Bias der Lebensdauer. Der Vorteil dieser Triggerwahl liegt jedoch darin, dass mehr Statistik zur Verfügung steht.
+In dieser Analyse werden zwei unterschiedliche Linien verwendet. Zur Bestimmung der Detektorauflösung wird die \texttt{Hlt2DiMuonJPsiDecision} verwendet, die ähnliche Variablen wie beim HLT1 verwendet und somit auch kein Bias erzeugt. Für die reguläre Analyse wird jedoch die \texttt{Hlt2DiMuonDetachedJPsiDecision} verwendet, die zusätzlich die Signifikanz der Zerfallszeit eines $J/\Psi$ berücksichtigt. Dadurch kommt es jedoch zu einem Bias der Lebensdauer. Der Vorteil dieser Triggerwahl liegt jedoch darin, dass mehr Statistik zur Verfügung steht.
 
-\subsection{Downstream Spuren} \ref{kap:downstream}
-Für die Rekonstruktion der $J/\Psi$ werden ausschließlich sog. \glqq Long\grqq-Spuren verwendet. Diese passieren das gesamte Rekonstruktionssystem. Durch die relativ lange Lebensdauer des $\Kshort$ kommt es in etwa 2/3 der Fälle vor, dass der VeLo dieses nicht mehr registriert. Hinterlassen Teilchen nur in den TT und T Stationen Spuren, so spricht man von \glqq Downstream\grqq-Spuren. Diese Analyse beschränkt sich auf ebenjene. Damit hat man im Vergleich zu $\Kshort$ aus Long-Spuren mehr Statistik zur Verfügung, muss aber bei Qualität der Rekonstruktion Einbußen hinnehmen, da die Informationen des VeLo fehlen. Insbesondere leidet die Präzision der Impuls- und Positionsmessungen. Folglich dürfen die Schnitte bei Downstream-Spuren teilweise nicht so hart sein wie bei Long-Spuren. \cite{lhcp-paper}
+
 
 \subsection{Stripping} \label{kap:stripping}
-!!! Achtung !!! Anpassen !!! Welches Stripping wurde verwendet???
-
-Die Schnitte, die hierbei angewandt wurden, sind in Tabelle \ref{tab:cuts_stripping} aufgeführt.
+Bei der Erstellung des Datensatzes verwendete der Betreuer für das Stripping die Softwareversion Stripping20r0p1. Es wird nun überprüft, welche Selektionskriterien dabei verwendet wurden. Für die Auswahl des $\JPsi$ wurde auf den Kriteriensatz \texttt{StdMassConstrainedJpsi2MuMu} zurückgegriffen, für das $\Kshort$ auf \texttt{StdLooseKsDD} sowie beim \Bd auf \texttt{BetaSBd2JpsiKsDetachedLine} in der regulären Analyse bzw. \texttt{BetaSBd2JpsiKsPrescaledLine} zur Bestimmung der Eigenzeitauflösung. Die in diesen Sätzen enthaltenen Kriterien sind in Tabelle \ref{tab:cuts_stripping} aufgeführt.
 
 \begin{table}[hptb]
 \centering
-\caption{Im Stripping verwendete Schnitte zur Selektion von \Bd, $\JPsi$ und $\Kshort$}
+\caption{Im Stripping verwendete Kriterien zur Selektion von \Bd, $\JPsi$ und $\Kshort$}
 \label{tab:cuts_stripping}
 $\begin{array}{l|ll}
 \hline \hline
@@ -46,14 +49,17 @@ $\Decaychannel$ & M($\Bd$) & \in [5150,5550] \mega\electronvolt/c^2 \\
 \end{array}$
 \end{table}
 
-Hierbei bezeichnen $M$ die rekonstruierte Masse, $p$ den Impuls sowie $p_T$ den Transversalimpuls eines Teilchens. Zur Rekonstruktion werden Spuren an die Detektortreffer gefittet. Um eine Aussage über die Güte des Fits zu erhalten, betrachtet man hier das entsprechende auf die Zahl der Freiheitsgrade (nDoF) normierte $\chi_{track}^2$. Analog gilt dies für die Rekonstruktion der Vertices ($\chi_{track}^2$). Je näher das reduzierte $\chi^2$ der 1 kommt, desto besser ist der Fit. !!! Impact Parameter !!! $Delta \ln \mathcal{L}_{\mu\pi}$ ist ein Maß für die Wahrscheinlichkeit, ein Myon als Pion zu interpretieren.
+In der Tabelle bezeichnen $M$ die rekonstruierte Masse, $p$ den Impuls sowie $p_T$ den Transversalimpuls eines Teilchens. Zur Rekonstruktion werden weiterhin Spuren an die Detektortreffer gefittet. Um eine Aussage über die Güte des Fits zu erhalten, betrachtet man hier das entsprechende auf die Zahl der Freiheitsgrade (nDoF) normierte $\chi_{track}^2$. Analog gilt dies für die Rekonstruktion der Vertices ($\chi_{track}^2$). Je näher das reduzierte $\chi^2$ der 1 kommt, desto besser ist der Fit. IP steht für den Stoßparameter und $Delta \ln \mathcal{L}_{\mu\pi}$ ist ein Maß für die Wahrscheinlichkeit, ein Myon als Pion zu interpretieren und umgekehrt. Ist der Wert größer als Null, so ist die Wahrscheinlichkeit, dass das Teilchen ein Myon ist größer, als diejenige, ein Pion zu sein.
 
-\subsection{Zusätzliche Schnitte}
-Um den Datensatz noch besser vom Untergrund zu bereinigen, werden einige Schnitte aus den Stripping verschärft und weitere eingeführt (siehe Tab. \ref{tab:cuts_offline}). Diese wurden aus \cite{lhcb-paper} übernommen.
+\subsection{Downstream Spuren} \ref{kap:downstream}
+Für die Rekonstruktion der $J/\Psi$ werden ausschließlich \glqq Long\grqq-Spuren verwendet. Diese passieren das gesamte Rekonstruktionssystem. Durch die relativ lange Lebensdauer des $\Kshort$ kommt es in etwa 2/3 der Fälle vor, dass der VELO dieses nicht mehr registriert. Hinterlassen Teilchen nur in den TT und T Stationen Spuren, so spricht man von \glqq Downstream\grqq-Spuren (siehe auch Kap. \ref{kap:spurklassen}. Diese Analyse beschränkt sich auf ebenjene. Damit hat man im Vergleich zu $\Kshort$ aus Long-Spuren mehr Statistik zur Verfügung, muss aber bei Qualität der Rekonstruktion Einbußen hinnehmen, da die Informationen des VeLo fehlen. Insbesondere leidet die Präzision der Impuls- und Positionsmessungen. Folglich dürfen die Selektionskriterien bei Downstream-Spuren teilweise nicht so hart sein wie bei Long-Spuren. \cite{lhcp-paper}
+
+\subsection{Zusätzliche Selektionskriterien}
+Um den Datensatz noch besser vom Untergrund zu bereinigen, werden einige Kriterien aus dem Stripping verschärft und weitere eingeführt (siehe Tab. \ref{tab:cuts_offline}). Diese wurden aus \cite{lhcb-paper} übernommen.
 
 \begin{table}[hptb]
 \centering
-\caption{Zusätzlich eingeführte Schnitte zur Untergrundbereinigung bzw. Selektion von \Bd, $\JPsi$ und $\Kshort$}
+\caption{Zusätzlich eingeführte Kriterien zur Untergrundbereinigung bzw. Selektion von \Bd, $\JPsi$ und $\Kshort$}
 \label{tab:cuts_offline}
 $\begin{array}{l|ll}
 \hline \hline
@@ -67,12 +73,12 @@ $\Decaychannel$ & M($\Bd$) & \in [5170,5420] \mega\electronvolt/c^2 \\
 \JPsi \rightarrow \mu^+\mu^- & \frac{\chi^2_{vtx}}{\text{nDof}}(\JPsi) & < 11 \\
 & |M(\mu^+\mu^-)-M(\JPsi)| & \in [3030,3165] \mega\electronvolt/c^2 \\ \hline
 \Kshort \rightarrow \pi^+\pi^- & \frac{\tau}{\sigma_\tau}(\Kshort) & > 5 \\
-& \frac{x}{\sigma_x}(\Kshort) & > 5 \\
+& \frac{l}{\sigma_l}(\Kshort) & > 5 \\
 & \frac{\chi^2_{track}}{\text{nDof}}(\pi^{\pm}) & < 3 \\
 & |M(\pi^+\pi^-)-M(\Kshort)| & \in [475,520] \mega\electronvolt/c^2 \\ \hline \hline
 \end{array}$
 \end{table}
-Die neu eingeführten Größen sind hier die Zerfallszeit $\tau$ und die Flugstrecke $x$ sowie deren Unsicherheit $\sigma_\tau$ und $\sigma_x$. Weiterhin gibt es noch einen kinematischen Fit des Zerfallsbaums (\glqq DecayTreeFit\grqq - DTF). Um die Wirkung der einzelnen Schnitte zu untersuchen, werden alle Schnitte bis auf den zu untersuchenden angewandt und in der Massenverteilung das Signal-zu-Untergrund-Verhältnis bestimmt. Dieses wird dann mit den entsprechenden Werten bei Anwendung aller Schnitte verglichen.
+Die neu eingeführten Größen sind hier die Eigenzeit $\tau$ und die Flugstrecke $l$ sowie deren Unsicherheit $\sigma_\tau$ und $\sigma_l$. Weiterhin gibt es noch einen kinematischen Fit des Zerfallsbaums (\glqq DecayTreeFit\grqq - DTF). Um die Wirkung der einzelnen Kriterien zu untersuchen, werden alle Schnitte bis auf den zu untersuchenden angewandt und in der Massenverteilung das Signal-zu-Untergrund-Verhältnis bestimmt. Dieses wird dann mit den entsprechenden Werten bei Anwendung aller Schnitte verglichen.
 
 !!! Muss fortgesetzt werden !!!
 
