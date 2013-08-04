@@ -1,11 +1,45 @@
-\BOOKMARK [0][-]{chapter.1}{Datenselektion}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Bereitgestellter Datensatz}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Selektionskriterien}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{Trigger}{section.1.2}% 4
-\BOOKMARK [2][-]{subsection.1.2.2}{Stripping}{section.1.2}% 5
-\BOOKMARK [2][-]{subsection.1.2.3}{Downstream Spuren}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.4}{Zus\344tzliche Selektionskriterien}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.5}{Geister-Wahrscheinlichkeit}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.6}{Bester Kandidat}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.7}{Fitbereiche}{section.1.2}% 10
-\BOOKMARK [1][-]{section.1.3}{Verwendeter Datensatz}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Das LHCb-Experiment}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Aufgaben und Ziele des Experimentes}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Der LHCb-Detektor}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Spurdetektoren}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{Detektoren zur Teilchenidentifikation}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.3}{Trigger}{section.2.2}% 7
+\BOOKMARK [0][-]{chapter.3}{CP-Verletzung in B-Meson-Systemen}{}% 8
+\BOOKMARK [1][-]{section.3.1}{B-Mesonen und der Zerfallskanal Bd0 J/Ks0}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.1.1}{Das Standardmodell der Teilchenphysik}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{B-Mesonen und ihre Mischung}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.3}{Der Zerfallskanal Bd0 J/Ks0}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{Diskrete Symmetrietransformationen}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{CP-Verletzung in der Mischung}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{Direkte CP-Verletzung}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.5}{CP-Verletzung in der Interferenz}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.6}{CKM-Formalismus}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Datenselektion}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Bereitgestellter Datensatz}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Selektionskriterien}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Trigger}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Stripping}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Verwendete Spurklassen}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.4}{Zus\344tzliche Selektionskriterien}{section.4.2}% 24
+\BOOKMARK [1][-]{section.4.3}{Verwendeter Datensatz}{chapter.4}% 25
+\BOOKMARK [0][-]{chapter.5}{Analyse / Fit}{}% 26
+\BOOKMARK [1][-]{section.5.1}{Maximum Likelihood Funktion}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{Fitmethode sFit}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{Fit der Massenverteilung und Bestimmung der sWeigths}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{Fit der Eigenzeitverteilung}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.4.1}{Produktionsasymmetrie}{section.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.4.2}{Bestimmung des Anfangszustandes der Bd0-Mesonen\(Flavour Tagging\)}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.3}{Eigenzeitaufl\366sung und -akzeptanz}{section.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.4.4}{Fitfunktion}{section.5.4}% 34
+\BOOKMARK [1][-]{section.5.5}{Ergebnisse}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter.6}{Absch\344tzung systematischer Unsicherheiten}{}% 36
+\BOOKMARK [1][-]{section.6.1}{Fitmethode}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.2}{Kalibration des Taggings}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.3}{Einfluss einer zeitabh\344ngigen Akzeptanz}{chapter.6}% 39
+\BOOKMARK [2][-]{subsection.6.3.1}{Bestimmung der Akzeptanzfunktion}{section.6.3}% 40
+\BOOKMARK [2][-]{subsection.6.3.2}{Bestimmung des Einflusses}{section.6.3}% 41
+\BOOKMARK [1][-]{section.6.4}{Korrelation zwischen Masse und Eigenzeit}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.5}{Eigenzeitaufl\366sung}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.6}{Gesamtsystematik}{chapter.6}% 44
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 45
