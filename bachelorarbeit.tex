@@ -42,20 +42,18 @@
 % Binde Titelseite ein
 \include{ba_titlepage}
 \tableofcontents
-
-\chapter{Einleitung}
-
+\include{einleitung}
 \include{detektor}
 \include{cp-verletzung}
 \include{datenselektion}
 \include{analyse}
 \include{systematik}
-
 \chapter{Zusammenfassung}
-% Selbstständigkeitserklärung
-\include{declaration}
+
 
 \begin{thebibliography}{---}
+\bibitem{cern-courier} Cern Courier \url{http://cerncourier.com/cws/article/cern/53421}
+\bibitem{roadmap} LHCb roadmap \url{http://arxiv.org/ftp/arxiv/papers/0912/0912.4179.pdf}
 \bibitem{lhc-info} \url{http://home.web.cern.ch/about/accelerators/large-hadron-collider} (Stand: 01.08.2013)
 \bibitem{lhcb-info} \url{http://www.weltmaschine.de/experimente/lhcb/}(Stand: 01.08.2013)
 \bibitem{detector} The LHCb Collaboration, The LHCb Detector at the LHC, 2008 JINST, 3 S08005.
@@ -77,7 +75,8 @@
 \bibitem{crystal_ball} \url{http://arxiv.org/pdf/1201.5069.pdf}
 \end{thebibliography}
 
-
+% Selbstständigkeitserklärung
+\include{declaration}
 
 \end{document}
 
