@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{7}{chapter.1}
 \contentsline {chapter}{\numberline {2}Das LHCb-Experiment}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Aufgaben und Ziele des Experimentes}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Der LHCb-Detektor}{9}{section.2.2}
+\contentsline {section}{\numberline {2.2}Der LHCb-Detektor}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Spurdetektoren}{10}{subsection.2.2.1}
 \contentsline {subsubsection}{Vertex Locator (VELO)}{11}{section*.2}
 \contentsline {subsubsection}{Tracker Turicensis (TT)}{11}{section*.3}
@@ -15,16 +15,15 @@
 \contentsline {subsubsection}{Myonkammern}{13}{section*.9}
 \contentsline {subsection}{\numberline {2.2.3}Trigger}{13}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}CP-Verletzung in B-Meson-Systemen}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}B-Mesonen und der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Das Standardmodell der Teilchenphysik}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}B-Mesonen und ihre Mischung}{16}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{16}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Diskrete Symmetrietransformationen}{17}{section.3.2}
+\contentsline {section}{\numberline {3.1}Das Standardmodell der Teilchenphysik}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}B-Mesonen und ihre Mischung}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Diskrete Symmetrietransformationen}{17}{section.3.4}
 \contentsline {subsubsection}{Scheinbare $\mathcal {CP}$-Invarianz}{18}{section*.10}
-\contentsline {section}{\numberline {3.3}$\mathcal {CP}$-Verletzung in der Mischung}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}Direkte $\mathcal {CP}$-Verletzung}{20}{section.3.4}
-\contentsline {section}{\numberline {3.5}$\mathcal {CP}$-Verletzung in der Interferenz}{20}{section.3.5}
-\contentsline {section}{\numberline {3.6}CKM-Formalismus}{22}{section.3.6}
+\contentsline {section}{\numberline {3.5}$\mathcal {CP}$-Verletzung in der Mischung}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Direkte $\mathcal {CP}$-Verletzung}{20}{section.3.6}
+\contentsline {section}{\numberline {3.7}$\mathcal {CP}$-Verletzung in der Interferenz}{20}{section.3.7}
+\contentsline {section}{\numberline {3.8}CKM-Formalismus}{22}{section.3.8}
 \contentsline {chapter}{\numberline {4}Datenselektion}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Bereitgestellter Datensatz}{25}{section.4.1}
 \contentsline {section}{\numberline {4.2}Selektionskriterien}{25}{section.4.2}
