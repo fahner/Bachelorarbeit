@@ -2,22 +2,19 @@
 Dieses Kapitel beschreibt die notwendigen Schritte, um aus den Rohdaten des Detektors einen analysierbaren Datensatz (ein sog. NTupel) herzustellen. Wichtig ist dabei, den Datensatz von möglichst viel Untergrund zu bereinigen ohne sein eigentliches Signal zu verlieren.
 
 \section{Bereitgestellter Datensatz}
-Die in dieser Arbeit verwendeten Daten entstammen aus Proton-Proton-Kollisionen und wurden im Jahre 2012 vom LHCb-Detektor bei einer Schwerpunktsenergie von $\sqrt{s} = 8\tera\electronvolt$ aufgenommen. Die integrierte Luminosität beträgt ca. $2\femto\barn^{-1}$. Vom Betreuer wurde ein vorgefertigter Datensatz zur Verfügung gestellt. Wesentliche Schritte bei der Erstellung waren die Rekonstruktion der Ereignisse mittels der Software \textsc{Brunel} sowie der Analyse mit dem Programm \textsc{Da Vinci}. Dabei findet zur Reduzierung des Untergrunds eine Vorselektion ab, die Stripping genannt wird. Die Software selbst bietet für jeden Zerfallskanal entsprechende Sätze von Selektionskriterien an. Die hier Verwendeten werden in Kapitel \label{kap:stripping} betrachtet.
+Die in dieser Arbeit verwendeten Daten entstammen aus Proton-Proton-Kollisionen und wurden im Jahre 2012 vom LHCb-Detektor bei einer Schwerpunktsenergie von $\sqrt{s} = 8\tera\electronvolt$ aufgenommen. Die integrierte Luminosität beträgt ca. $2\femto\barn^{-1}$. Vom Betreuer wurde ein vorgefertigter Datensatz zur Verfügung gestellt. Wesentliche Schritte bei der Erstellung waren die Rekonstruktion der Ereignisse mittels der Software \textsc{Brunel} sowie der Analyse mit dem Programm \textsc{Da Vinci}. Dabei findet zur Reduzierung des Untergrunds eine Vorselektion statt, die Stripping genannt wird. Die Software selbst bietet für jeden Zerfallskanal entsprechende Sätze von Selektionskriterien an. Die hier Verwendeten werden in Kapitel \ref{kap:stripping} betrachtet.
 
 
 \section{Selektionskriterien}
 Wie bereits erwähnt, erfolgt die Reduzierung des Untergrunds in mehreren Schritten, die nun im Folgenden erläutert werden.
 
 \subsection{Trigger} \label{kap:trigger}
-Den erste Schritt bildet das Trigger-System, das schon während der Datennahme die Ereignisse sondiert. Der LHCb-Detektor verwendet dabei ein dreistufiges System: Der hardwarebasierte \glqq L0 Trigger \grqq reduziert die Ereignisrate von $40\mega\hertz$ auf $1\mega\hertz$. Im Anschluss folgt der zweiteilige, softwarebasierte \glqq High Level Trigger \grqq (HLT), der die Ereignisrate schlussendlich auf $2\kilo\hertz$ reduziert.\cite{trigger} 
+Den erste Schritt bildet das Trigger-System, das schon während der Datennahme die Ereignisse sondiert. Der LHCb-Detektor verwendet dabei ein dreistufiges System: Der hardwarebasierte \glqq L0 Trigger \grqq reduziert die Ereignisrate von $40\mega\hertz$ auf $1\mega\hertz$. Im Anschluss folgt der zweiteilige, softwarebasierte \glqq High Level Trigger \grqq (HLT), der die Ereignisrate schlussendlich auf $2-3\kilo\hertz$ reduziert. \cite{trigger} 
 
-Es stehen für verschiedenste Bedürfnisse diverse sogenannte \glqq Trigger-Linien\grqq\ zur Verfügung. Die in dieser Analyse verwendeten Linien entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
-
-\subsubsection{L0 Trigger}
-Hier wird keine spezielle Entscheidung benötigt.
+Es stehen für verschiedenste Bedürfnisse diverse sogenannte \glqq Triggerlines\grqq\ zur Verfügung. Die in dieser Analyse verwendeten Triggerlines entsprechen denen der 2011 Analyse \cite{lhcb-paper} und wurden wie folgt gewählt:
 
 \subsubsection{High Level Trigger 1 (HLT1)}
-Hier wird die \texttt{HltDiMuonHighMassDecision} gewählt. Diese greift - wie der Name schon suggeriert - lediglich auf die Spuren der Myonen zurück, sodass nur das vom \Bd\ ausgesandte $J/\Psi \rightarrow \mu^+\mu^-$ für den Trigger verantwortlich ist. Es werden hierbei zur Selektion die Qualität des $J\Psi$-Vertex, die Myonen-Spuren, sowie die Masse und der (Transversal)Impuls des $J\Psi$ berücksichtigt. Die \texttt{HltDiMuonHighMassDecision} erzeugt kein Bias auf die Lebensdauer des \Bd-Mesons.
+Hier wird der \texttt{HltDiMuonHighMass} Trigger gewählt. Dieser greift - wie der Name schon suggeriert - lediglich auf die Spuren der Myonen zurück, sodass nur das vom \Bd\ ausgesandte $J/\Psi \rightarrow \mu^+\mu^-$ für den Trigger verantwortlich ist. Es werden hierbei zur Selektion die Qualität des $J\Psi$-Vertex, die Myonen-Spuren, sowie die Masse und der (Transversal)Impuls des $J\Psi$ berücksichtigt. Die \texttt{HltDiMuonHighMassDecision} erzeugt kein Bias auf die Lebensdauer des \Bd-Mesons.
 
 \subsubsection{High Level Trigger 2 (HLT2)}
 In dieser Analyse werden zwei unterschiedliche Linien verwendet. Zur Bestimmung der Detektorauflösung wird die \texttt{Hlt2DiMuonJPsiDecision} verwendet, die ähnliche Variablen wie beim HLT1 verwendet und somit auch kein Bias erzeugt. Für die reguläre Analyse wird jedoch die \texttt{Hlt2DiMuonDetachedJPsiDecision} verwendet, die zusätzlich die Signifikanz der Zerfallszeit eines $J/\Psi$ berücksichtigt. Dadurch kommt es jedoch zu einem Bias der Lebensdauer. Der Vorteil dieser Triggerwahl liegt jedoch darin, dass mehr Statistik zur Verfügung steht.

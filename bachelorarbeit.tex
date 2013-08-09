@@ -1,6 +1,10 @@
-\documentclass[a4paper]{scrbook}
+\documentclass[ a4paper,
+                12pt, 
+                twoside, 
+                chapterprefix,                
+              ]{scrreprt}
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
+\usepackage[english,ngerman]{babel}
 
 \usepackage{array}            % Tabellen im Mathemodus (Matrizen)
 \usepackage{graphicx}         % Einbindung von Grafiken
@@ -12,8 +16,14 @@
 
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
 
-\usepackage{datatool}	% muss verwendet werden, da glossaries sonst einen Fehler verursacht
+\usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
 \usepackage[toc]{glossaries} 
+
+%\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+%\usepackage[osf,sc]{mathpazo}
+%\linespread{1.10}
+%\usepackage{bera}
 
 
 \graphicspath{{./Abbildungen/}}
@@ -36,6 +46,7 @@
 \newcommand{\SPlot}{$_s\mathcal{P}lot$}
 \newcommand{\sinarg}{\Delta m_d t}
 
+%\pagestyle{headings}
 
 \begin{document}
 
