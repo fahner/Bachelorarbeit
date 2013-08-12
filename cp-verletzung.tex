@@ -60,10 +60,11 @@ Wendet man nun aber die Transformationen $\mathcal{P}$ und $\mathcal{C}$ direkt 
 Diese Arbeit beschäftigt sich mit der \CP-Verletzung im B-Mesonen-System. Eine genaue Kenntnis der \CP-Verletzung ermöglicht Präzisionstests des Standardmodells. Weiterhin ist insbesondere das B-Meson-System sensitiv für \glqq neue Physik\grqq\, da durch Schleifen innerhalb der Prozesse (siehe Abb. \ref{fig:bmixing} und \ref{fig:decay}) Beiträge von Theorien jenseits des Standardmodells möglich sind und evtl. zu Abweichungen führen. Dabei unterscheidet man prinzipiell drei Arten von \CP-Verletzung:
 \begin{enumerate}
 \item \CP-Verletzung in der Mischung (auch indirekte \CP-Verletzung): \\
-      Die Oszillationen eines \Bd\ in ein \Bdbar und umgekehrt laufen unterschiedlich ab.
+      Sie tritt immer dann auf, wenn die Masseneigenzustände eines neutralen Meson Systems nicht den \CP-Eigenzuständen entsprechen. In der Folge laufen die Oszillationen beispielsweise eines \Bd\ in ein \Bdbar\ und umgekehrt unterschiedlich ab.
 \item direkte \CP-Verletzung: \\
-      Die Breiten der Zerfälle eines \Bd\ bzw. \Bdbar\ in $\JPsi\Kshort$ sind unterschiedlich: $\Gamma (\text{\Bd} \rightarrow \JPsi\Kshort) \neq \Gamma (\text{\Bdbar} \rightarrow \JPsi\Kshort)$
-\item \CP-Verletzung in der Interferenz: \\ !!! hier fehlt noch was !!!
+      Sie tritt dann auf, wenn sich die Zerfallsamplitude eines B-Mesons in eines Endzutand $f$ von der (\CP-konjugierten) Zerfallsamplitude des Anti-B-Mesons in den Zustand $\overline{f}$ unterscheidet. Demnach sind dann die Breiten der direkten Zerfälle unterschiedlich: $\Gamma (\text{B} \rightarrow f) \neq \Gamma (\overline{\text{B}} \rightarrow \overline{f})$.
+\item \CP-Verletzung in der Interferenz: \\
+      Sie kommt dadurch zum Ausdruck, dass der zeitabhängige Zerfall eines anfänglich reinen Flavourzustandes für ein Teilchen und ein Antiteilchen unterschiedlich ist. Diese Art der \CP-Verletzung kann bei neutralen Mesonen auftreten, wenn der Endzustand ein \CP-Eigenzustand ist. Hintergrund ist, dass es zu \CP-verletzenden Interferenzen der Zerfallsamplituden für direkten Zerfall (z.B. $\text{\Bd} \rightarrow \JPsi\Kshort$) und Zerfall nach Mischung ($\text{\Bd} \rightarrow \text{\Bdbar} \rightarrow \JPsi\Kshort$) kommt.
 \end{enumerate}
 Die nun folgenden Herleitungen und Erklärungen der drei Arten der \CP-Verletzung basieren auf den Ausführungen aus \cite{kleinknecht}.
 
@@ -119,11 +120,15 @@ Ist \CP erhalten, dann sollten die Zerfallsraten, ergo auch die Zerfallsamplitud
 
 
 \section{\CP-Verletzung in der Interferenz}
-Die Zustände \ref{eq:b_heavy} und \ref{eq:b_light} haben eine nahezu gleiche Anzahl an Zerfällskanäle. Dies hat zur Folge, dass die Lebensdauern des schweren und leichten Zustands innerhalb weniger Prozent gleich sind:
+Die Zustände aus den Gleichungen (\ref{eq:b_heavy}) und (\ref{eq:b_light}) haben eine nahezu gleiche Anzahl an Zerfällskanäle. Dies hat zur Folge, dass die Lebensdauern des schweren und leichten Zustands innerhalb weniger Prozent gleich sind:
+\begin{align}
+\Delta \Gamma := \Gamma_h - \Gamma_l \approx 0.
+\end{align}
+Demnach wird im Folgenden 
 \begin{align}
 \Gamma := \Gamma_h = \Gamma_l \label{eq:Gamma}
 \end{align}
-Weiterhin sagt das Standard Modell nur eine kleine \CP-Verletzung in der \Bd - \Bdbar - Mischung voraus, sodass
+verwendet. Weiterhin sagt das Standard Modell nur eine kleine \CP-Verletzung in der \Bd - \Bdbar - Mischung voraus, sodass
 \begin{align}
 \left|\frac{p}{q}\right| = 1 \qquad \text{in } \mathcal{O}(10^{-3}). \label{eg:pq_approx}
 \end{align}
