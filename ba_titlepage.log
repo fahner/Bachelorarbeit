@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  13 AUG 2013 13:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  13 AUG 2013 17:55
 entering extended mode
 **ba_titlepage.tex
 (D:\Uni\Bachelorarbeit\Arbeit\ba_titlepage.tex
@@ -33,18 +33,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 \begin{center}
+l.3 \begin{center}
                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--3
 [] 
  []
 
 ! Undefined control sequence.
-l.4 \Large
+l.5 \Large
           \textbf{Fakult√§t f√ºr Physik und Astronomie\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -57,64 +57,64 @@ Missing character: There is no § in font cmbx10!
 Missing character: There is no √ in font cmbx10!
 Missing character: There is no º in font cmbx10!
 
-Overfull \hbox (36.46506pt too wide) in paragraph at lines 5--5
+Overfull \hbox (36.46506pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 Fakultt 
  []
 
 
-Overfull \hbox (8.24997pt too wide) in paragraph at lines 5--5
+Overfull \hbox (8.24997pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 fr 
  []
 
 
-Overfull \hbox (33.7998pt too wide) in paragraph at lines 5--5
+Overfull \hbox (33.7998pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 Physik 
  []
 
 
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 5--5
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 und 
  []
 
 
-Overfull \hbox (17.06378pt too wide) in paragraph at lines 5--5
+Overfull \hbox (17.06378pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 As- 
  []
 
 
-Overfull \hbox (45.14561pt too wide) in paragraph at lines 5--5
+Overfull \hbox (45.14561pt too wide) in paragraph at lines 6--6
  \OT1/cmr/bx/n/10 tronomie 
  []
 
 Missing character: There is no √ in font cmbx10!
 Missing character: There is no § in font cmbx10!
 
-Overfull \hbox (50.57614pt too wide) in paragraph at lines 5--6
+Overfull \hbox (50.57614pt too wide) in paragraph at lines 6--7
  []\OT1/cmr/bx/n/10 Ruprecht- 
  []
 
 
-Overfull \hbox (30.90398pt too wide) in paragraph at lines 5--6
+Overfull \hbox (30.90398pt too wide) in paragraph at lines 6--7
  \OT1/cmr/bx/n/10 Karls- 
  []
 
 
-Overfull \hbox (50.86223pt too wide) in paragraph at lines 5--6
+Overfull \hbox (50.86223pt too wide) in paragraph at lines 6--7
  \OT1/cmr/bx/n/10 Universitt 
  []
 
 
-Overfull \hbox (21.29851pt too wide) in paragraph at lines 5--6
+Overfull \hbox (21.29851pt too wide) in paragraph at lines 6--7
  \OT1/cmr/bx/n/10 Hei- 
  []
 
 
-Overfull \hbox (18.68741pt too wide) in paragraph at lines 5--6
+Overfull \hbox (18.68741pt too wide) in paragraph at lines 6--7
  \OT1/cmr/bx/n/10 del- 
  []
 
 
-Overfull \hbox (22.62491pt too wide) in paragraph at lines 5--6
+Overfull \hbox (22.62491pt too wide) in paragraph at lines 6--7
  \OT1/cmr/bx/n/10 berg 
  []
 
@@ -126,8 +126,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \normalsize
-               
+l.10 \normalsize
+                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -169,7 +169,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.13 \Large
+l.14 \Large
            \textbf{Patrick Fahner}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -178,17 +178,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (36.39563pt too wide) in paragraph at lines 13--13
+Overfull \hbox (36.39563pt too wide) in paragraph at lines 14--14
  []\OT1/cmr/bx/n/10 Patrick 
  []
 
 
-Overfull \hbox (22.09013pt too wide) in paragraph at lines 13--13
+Overfull \hbox (22.09013pt too wide) in paragraph at lines 14--14
  \OT1/cmr/bx/n/10 Fah- 
  []
 
 
-Overfull \hbox (16.39577pt too wide) in paragraph at lines 13--13
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 14--14
  \OT1/cmr/bx/n/10 ner 
  []
 
@@ -200,7 +200,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \normalsize
+l.15 \normalsize
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -237,7 +237,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.18 \Large
+l.19 \Large
            \textbf{August 2013}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -246,12 +246,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (36.23035pt too wide) in paragraph at lines 18--19
+Overfull \hbox (36.23035pt too wide) in paragraph at lines 19--20
  []\OT1/cmr/bx/n/10 August 
  []
 
 
-Overfull \hbox (22.99988pt too wide) in paragraph at lines 18--19
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 19--20
  \OT1/cmr/bx/n/10 2013 
  []
 
@@ -263,7 +263,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \newpage
+l.21 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -278,14 +278,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \normalsize
+l.25 \normalsize
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.25 \Huge
+l.27 \Huge
           {\textbf{Messung von $\sin(2\beta)$ im Zerfall \Decaychannel}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -294,13 +294,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
+(Font)              <5> on input line 27.
 ! Undefined control sequence.
 <argument> ...(2\beta )$ im Zerfall \Decaychannel 
                                                   
-l.25 ...n $\sin(2\beta)$ im Zerfall \Decaychannel}
+l.27 ...n $\sin(2\beta)$ im Zerfall \Decaychannel}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -309,32 +309,32 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (43.78725pt too wide) in paragraph at lines 25--27
+Overfull \hbox (43.78725pt too wide) in paragraph at lines 27--29
  []\OT1/cmr/bx/n/10 Messung 
  []
 
 
-Overfull \hbox (17.8888pt too wide) in paragraph at lines 25--27
+Overfull \hbox (17.8888pt too wide) in paragraph at lines 27--29
  \OT1/cmr/bx/n/10 von 
  []
 
 
-Overfull \hbox (35.75119pt too wide) in paragraph at lines 25--27
+Overfull \hbox (35.75119pt too wide) in paragraph at lines 27--29
  $[]\OT1/cmr/bx/n/10 (2\OML/cmm/b/it/10 \OT1/cmr/bx/n/10 )$ 
  []
 
 
-Overfull \hbox (12.77771pt too wide) in paragraph at lines 25--27
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 27--29
  \OT1/cmr/bx/n/10 im 
  []
 
 
-Overfull \hbox (20.86797pt too wide) in paragraph at lines 25--27
+Overfull \hbox (20.86797pt too wide) in paragraph at lines 27--29
  \OT1/cmr/bx/n/10 Zer- 
  []
 
 
-Overfull \hbox (15.49295pt too wide) in paragraph at lines 25--27
+Overfull \hbox (15.49295pt too wide) in paragraph at lines 27--29
  \OT1/cmr/bx/n/10 fall 
  []
 
@@ -346,7 +346,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \normalsize
+l.30 \normalsize
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -515,7 +515,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \end{titlepage}
+l.37 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -529,7 +529,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \newpage
+l.38 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -537,7 +537,7 @@ or  <return>  to continue without it.
 
 [2]
 ! Undefined control sequence.
-l.38 \section
+l.40 \section
              *{\abstractname}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -547,7 +547,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.38 \section*{\abstractname
+l.40 \section*{\abstractname
                             }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -624,7 +624,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.39 ...erzu wurde der Zerfallskanal \Decaychannel
+l.41 ...erzu wurde der Zerfallskanal \Decaychannel
                                                   \ ausgewertet in Daten, di...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -704,7 +704,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.39 ...r Schwerpunktsenergie von $\sqrt{s}=8\tera
+l.41 ...r Schwerpunktsenergie von $\sqrt{s}=8\tera
                                                   \electronvolt$ aufgenommen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -713,7 +713,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.39 ...senergie von $\sqrt{s}=8\tera\electronvolt
+l.41 ...senergie von $\sqrt{s}=8\tera\electronvolt
                                                   $ aufgenommen wurden und e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -783,7 +783,7 @@ Missing character: There is no § in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.39 ...ierten Luminosit√§t von ungef√§hr $2\femto
+l.41 ...ierten Luminosit√§t von ungef√§hr $2\femto
                                                   \barn^{-1}$ entsprechen. A...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -792,7 +792,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.39 ...n Luminosit√§t von ungef√§hr $2\femto\barn
+l.41 ...n Luminosit√§t von ungef√§hr $2\femto\barn
                                                   ^{-1}$ entsprechen. Als Ba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -880,7 +880,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.39 ...011 aufgenommenen Daten (\cite{lhcb-paper}
+l.41 ...011 aufgenommenen Daten (\cite{lhcb-paper}
                                                   ). Das Ergebnis
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -889,7 +889,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 39.
+LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 41.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -912,7 +912,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{align*}
+l.42 \begin{align*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -921,13 +921,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 \sin
+l.43 \sin
          (2\beta) = 0,711 \pm 0,059(\text{stat.}) \pm 0,033(\text{syst.})
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.41 \sin(2\beta) = 0,711 \pm 0,059(\text
+l.43 \sin(2\beta) = 0,711 \pm 0,059(\text
                                          {stat.}) \pm 0,033(\text{syst.})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -936,7 +936,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.41 ...11 \pm 0,059(\text{stat.}) \pm 0,033(\text
+l.43 ...11 \pm 0,059(\text{stat.}) \pm 0,033(\text
                                                   {syst.})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -951,7 +951,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{align*}
+l.44 \end{align*}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -960,7 +960,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.42 \end{align*}
+l.44 \end{align*}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1007,7 +1007,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.43 ...alyse $\sin(2\beta) = 0.72 \pm 0,07 (\text
+l.45 ...alyse $\sin(2\beta) = 0.72 \pm 0,07 (\text
                                                   {stat.}) \pm 0,04 (\text{s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1016,7 +1016,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 ...72 \pm 0,07 (\text{stat.}) \pm 0,04 (\text
+l.45 ...72 \pm 0,07 (\text{stat.}) \pm 0,04 (\text
                                                   {syst.})$ (\cite{lhcb-pape...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1030,7 +1030,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.43 ...pm 0,04 (\text{syst.})$ (\cite{lhcb-paper}
+l.45 ...pm 0,04 (\text{syst.})$ (\cite{lhcb-paper}
                                                   ) als auch mit dem aktuell...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1039,7 +1039,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 43.
+LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1089,7 +1089,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.43 ...ta) = 0,682 \pm 0,019$ (\cite{pdg-average}
+l.45 ...ta) = 0,682 \pm 0,019$ (\cite{pdg-average}
                                                   ) kompatibel. Ein wichtige...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1098,7 +1098,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pdg-average' on page  undefined on input line 43.
+LaTeX Warning: Citation `pdg-average' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1305,99 +1305,99 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--44
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--46
 []
  []
 
 
-Overfull \hbox (31.23964pt too wide) in paragraph at lines 38--44
+Overfull \hbox (31.23964pt too wide) in paragraph at lines 40--46
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (23.57637pt too wide) in paragraph at lines 38--44
+Overfull \hbox (23.57637pt too wide) in paragraph at lines 40--46
 $[] \OT1/cmr/m/n/10 =$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 38--44
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 8$
  []
 
 
-Overfull \hbox (15.73616pt too wide) in paragraph at lines 38--44
+Overfull \hbox (15.73616pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 2[]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 38--44
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 40--46
 []
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 38--44
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 40--46
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (32.22227pt too wide) in paragraph at lines 38--44
+Overfull \hbox (32.22227pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 711 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (59.97348pt too wide) in paragraph at lines 38--44
+Overfull \hbox (59.97348pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 059([]) \OMS/cmsy/m/n/10 
 $
  []
 
 
-Overfull \hbox (53.24777pt too wide) in paragraph at lines 38--44
+Overfull \hbox (53.24777pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 033([])$
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 38--44
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 40--46
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (25.55563pt too wide) in paragraph at lines 38--44
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 72 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (54.97346pt too wide) in paragraph at lines 38--44
+Overfull \hbox (54.97346pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 07([]) \OMS/cmsy/m/n/10 $
 
  []
 
 
-Overfull \hbox (48.24776pt too wide) in paragraph at lines 38--44
+Overfull \hbox (48.24776pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 04([])$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 38--44
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 40--46
 []
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 38--44
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 40--46
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (32.22227pt too wide) in paragraph at lines 38--44
+Overfull \hbox (32.22227pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 682 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (24.44447pt too wide) in paragraph at lines 38--44
+Overfull \hbox (24.44447pt too wide) in paragraph at lines 40--46
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 019$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 38--44
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 40--46
 []
  []
 
@@ -1408,12 +1408,12 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \selectlanguage{english}
+l.49 \selectlanguage{english}
                              
 You may proceed, but expect unexpected results
 
 ! Undefined control sequence.
-l.49 \section
+l.51 \section
              *{\abstractname}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1423,7 +1423,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.49 \section*{\abstractname
+l.51 \section*{\abstractname
                             }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1503,7 +1503,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.50 ... evaluates the decay channel \Decaychannel
+l.52 ... evaluates the decay channel \Decaychannel
                                                   \ of data taken by the LHC...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1565,7 +1565,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.50 ... center of mass energy of $\sqrt{s}=8\tera
+l.52 ... center of mass energy of $\sqrt{s}=8\tera
                                                   \electronvolt$ with an int...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1574,7 +1574,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.50 ...ss energy of $\sqrt{s}=8\tera\electronvolt
+l.52 ...ss energy of $\sqrt{s}=8\tera\electronvolt
                                                   $ with an integrated lumin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1616,7 +1616,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.50 ...an integrated luminosity of about $2\femto
+l.52 ...an integrated luminosity of about $2\femto
                                                   \barn^{-1}$. Based on an L...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1625,7 +1625,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.50 ...tegrated luminosity of about $2\femto\barn
+l.52 ...tegrated luminosity of about $2\femto\barn
                                                   ^{-1}$. Based on an LHCb a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1678,7 +1678,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \begin{align*}
+l.53 \begin{align*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1687,13 +1687,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 \sin
+l.54 \sin
          (2\beta) = 0,711 \pm 0,059(\text{stat.}) \pm 0,033(\text{syst.})
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.52 \sin(2\beta) = 0,711 \pm 0,059(\text
+l.54 \sin(2\beta) = 0,711 \pm 0,059(\text
                                          {stat.}) \pm 0,033(\text{syst.})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1702,7 +1702,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.52 ...11 \pm 0,059(\text{stat.}) \pm 0,033(\text
+l.54 ...11 \pm 0,059(\text{stat.}) \pm 0,033(\text
                                                   {syst.})
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1717,7 +1717,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{align*}
+l.55 \end{align*}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1726,7 +1726,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 \end{align*}
+l.55 \end{align*}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1778,7 +1778,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.54 ...esult $\sin(2\beta) = 0.72 \pm 0,07 (\text
+l.56 ...esult $\sin(2\beta) = 0.72 \pm 0,07 (\text
                                                   {stat.}) \pm 0,04 (\text{s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1787,7 +1787,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.54 ...72 \pm 0,07 (\text{stat.}) \pm 0,04 (\text
+l.56 ...72 \pm 0,07 (\text{stat.}) \pm 0,04 (\text
                                                   {syst.})$ (\cite{lhcb-pape...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1801,7 +1801,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.54 ...pm 0,04 (\text{syst.})$ (\cite{lhcb-paper}
+l.56 ...pm 0,04 (\text{syst.})$ (\cite{lhcb-paper}
                                                   ) as well as the world ave...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1810,7 +1810,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 54.
+LaTeX Warning: Citation `lhcb-paper' on page  undefined on input line 56.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1843,7 +1843,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.54 ...ta) = 0,682 \pm 0,019$ (\cite{pdg-average}
+l.56 ...ta) = 0,682 \pm 0,019$ (\cite{pdg-average}
                                                   ). Furthermore this thesis...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1852,7 +1852,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pdg-average' on page  undefined on input line 54.
+LaTeX Warning: Citation `pdg-average' on page  undefined on input line 56.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1999,94 +1999,94 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 49--54
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--56
 []
  []
 
 
-Overfull \hbox (31.23964pt too wide) in paragraph at lines 49--54
+Overfull \hbox (31.23964pt too wide) in paragraph at lines 51--56
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (23.57637pt too wide) in paragraph at lines 49--54
+Overfull \hbox (23.57637pt too wide) in paragraph at lines 51--56
 $[] \OT1/cmr/m/n/10 =$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 8$
  []
 
 
-Overfull \hbox (15.73616pt too wide) in paragraph at lines 49--54
+Overfull \hbox (15.73616pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 2[]$
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 49--54
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 51--56
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (32.22227pt too wide) in paragraph at lines 49--54
+Overfull \hbox (32.22227pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 711 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (59.97348pt too wide) in paragraph at lines 49--54
+Overfull \hbox (59.97348pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 059([]) \OMS/cmsy/m/n/10 
 $
  []
 
 
-Overfull \hbox (53.24777pt too wide) in paragraph at lines 49--54
+Overfull \hbox (53.24777pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 033([])$
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 49--54
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 51--56
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (25.55563pt too wide) in paragraph at lines 49--54
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 72 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (54.97346pt too wide) in paragraph at lines 49--54
+Overfull \hbox (54.97346pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 07([]) \OMS/cmsy/m/n/10 $
 
  []
 
 
-Overfull \hbox (48.24776pt too wide) in paragraph at lines 49--54
+Overfull \hbox (48.24776pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 04([])$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--54
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--56
 []
  []
 
 
-Overfull \hbox (41.79515pt too wide) in paragraph at lines 49--54
+Overfull \hbox (41.79515pt too wide) in paragraph at lines 51--56
 $[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =$
  []
 
 
-Overfull \hbox (32.22227pt too wide) in paragraph at lines 49--54
+Overfull \hbox (32.22227pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 682 \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (24.44447pt too wide) in paragraph at lines 49--54
+Overfull \hbox (24.44447pt too wide) in paragraph at lines 51--56
 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 019$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--54
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--56
 []
  []
 
@@ -2097,7 +2097,7 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \selectlanguage{ngerman}
+l.59 \selectlanguage{ngerman}
                              
 You may proceed, but expect unexpected results
 

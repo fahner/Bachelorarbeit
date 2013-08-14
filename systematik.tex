@@ -13,19 +13,18 @@ Es ist allgemein bekannt, dass die Parameterabschätzung der Maximum-Likelihood-
 
 Abbildung \ref{fig:fit_bias} zeigt sowohl die Verteilung der gefitteten Amplitude $\SJPsi$ als auch die Pulls, die sich mittels $(\SJPsi^{\text{gefittet}} - \SJPsi^{\text{generiert}})/\sigma^{\text{gefittet}}$ berechnen lassen. Der Mittelwert der Amplitudenverteilung (links) $\SJPsi^{\text{ToyMC}} = 0,7234 \pm 0,0004$ weicht signifikant vom generierten Wert $\SJPsi = 0,7200$ ab, es gibt also ein Bias. An der Pull-Verteilung lassen sich prinzipiell zwei Dinge beobachten:
 \begin{enumerate}
-    \item An der Verschiebung des Pull-Mittelwertes $\mu = 0,0522 \pm 0,0067$ von der Null sieht man deutlich, dass es - wie bereits erwähnt - einen kleinen, aber signifikanten Bias gibt. Indem dieser Bias mit der statistischen Unsicherheit aus dem Fitergebnis (siehe Gl. \ref{eq:fit_result}) multipliziert wird, erhält man eine Abschätzung der aus der Fitmethode resultierenden Unsicherheit:
+    \item An der Verschiebung des Pull-Mittelwertes $\mu = 0,0522 \pm 0,0067$ von der Null sieht man deutlich, dass es - wie bereits erwähnt - einen kleinen, aber signifikanten Bias gibt. Indem dieser Bias mit der statistischen Unsicherheit aus dem Fitergebnis (siehe Gl. (\ref{eq:fit_result})) multipliziert wird, erhält man eine Abschätzung der aus der Fitmethode resultierenden Unsicherheit:
         \begin{align}
         \delta\SJPsi^{Fit} = 0,0522 \cdot 0,0626 = 0,0033
         \end{align}
 
-    \item Mit einem $\sigma = 0,941 \pm 0,005$ ist die Pull-Verteilung signifikant zu schmal. Bei einer zufälligen Streuung der Werte wird $\sigma=1$ erwartet. Dies bedeutet, dass der Fit den statistischen Fehler um $5,6\%$ überschätzt. Dieses Ergebnis kann später als Faktor zur Korrektur des statistischen Fehlers verwendet werden. 
+    \item Mit einem $\sigma = 0,941 \pm 0,005$ ist die Pull-Verteilung signifikant zu schmal. Bei einer zufälligen Streuung der Werte wird $\sigma=1$ erwartet. Dies bedeutet, dass der Fit den statistischen Fehler um $5,6\%$ überschätzt. Jenes Ergebnis kann später als Faktor zur Korrektur des statistischen Fehlers verwendet werden. 
 \end{enumerate}
 
 \subsubsection{Ursachen des Bias und der Fehlerüberschätzung}
 Es bleibt zu klären, welche Ursachen zu dem Bias und der Fehlerüberschätzung führen. Wie bereits erwähnt, verfälscht die Likelihood-Methode für zu wenige Messwerte / Ereignisse die Parameterabschätzung. Demnach liegt die Vermutung nahe, dass im vorliegenden Datensatz zu wenig Ereignisse (\glqq Statistik\grqq) vorhanden sind. Daher wurden weitere Toy MC Studien mit unterschiedlicher Anzahl an Teilchen pro Toy durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:fit_bias_events} aufgeführt und in Abbildung \ref{fig:fit_bias_events} nochmals visualisiert. Man sieht, dass das Bias mit erhöhter Statistik deutlich reduziert wird und damit zu wenig Statistik als Hauptursache hierfür angesehen werden kann.
 
 Die Fehlerüberschätzung tritt auf, sobald man in den Toys Untergrund miteinbezieht (ohne Untergrund erhält man ein $\sigma=1,007\pm 0,005$ und ist damit kompatibel zur Eins). Es ist bekannt, dass die verwendete sFit-Methode die Fehlerpropagation (gerade bei Untergrund) nicht korrekt ausführt. Es wurde vom Betreuer eine Fehlerkorrektur implementiert, dabei handelt es sich jedoch um eine Näherung. Für eine tiefergehende Studie müsste die Fehlerkorrektur entsprechend analysiert werden.
-
 \begin{table}[hptb]
 \centering
 \caption{Toy MC Studien mit unterschiedlicher Anzahl an generierten Ereignissen pro Toy. Genannt wird der Mittelwert $\mu$ der $\SJPsi$-Pull-Verteilung}
@@ -61,20 +60,19 @@ im regulären Eigenzeitfit die Startwerte der Parameter $p_0$ und $p_1$ um ihre 
 \begin{align}
 \SJPsi = 0,5347 \pm 0,0626 
 \end{align}
-
 \begin{table}[hptb]
 \centering
 \caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Startwerte für $p_0$ und $p_1$ $\pm$ ihrer systematischen Unsicherheiten}
 \label{tab:syst_fit_calib_data}
-\begin{tabular}{cc|r@{$\pm$}l|r}
+$\begin{array}{cc|r@{\pm}l|r}
 \hline\hline
-$p_0$  &  $p_1$  &  \multicolumn{2}{c|}{$\SJPsi$}  & $\Delta\SJPsi$   \\ \hline
+p_0  &  p_1  &  \multicolumn{2}{c|}{\SJPsi}  & \Delta\SJPsi   \\ \hline
 0,382 - 0,008  &  0,981 - 0,024  &  0,5109 & 0,0604  &  -0,0238 \\
 0,382 - 0,008  &  0,981 + 0,024  &  0,5103 & 0,0604  &  -0,0244 \\
 0,382 + 0,008  &  0,981 - 0,024  &  0,5599 & 0,0649  &   0,0252 \\
 0,382 + 0,008  &  0,981 + 0,024  &  0,5591 & 0,0648  &   0,0244 \\
 \hline\hline
-\end{tabular}
+\end{array}$
 \end{table}
 
 Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_data} zu entnehmen. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0252$.
@@ -84,7 +82,6 @@ Eine weitere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toy
 \begin{align}
 \SJPsi = 0,7234 \pm 0,0004.
 \end{align}
-
 \begin{table}[hptb]
 \centering
 \caption{Variation des Fitergebnisses für $\SJPsi$ bei Veränderung der Parameterwerte $p_0$ und $p_1$ $\pm$ ihrer systematischen Unsicherheiten bei der Generation von Toys}
@@ -101,11 +98,9 @@ p_0  &  p_1  &  \multicolumn{2}{c|}{\SJPsi}  & \Delta\SJPsi   \\ \hline
 \end{table}
 
 Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen, die dazugehörigen Plots werden in Abbildung \ref{fig:toys_tag_calib} gezeigt. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0331$ und ist auch größer als bei Variation der Parameter in den Daten. Dementsprechend wird der systematische Fehler durch die Tagging Kalibrierung mit ebendiesem Wert konservativ abgeschätzt:
-
 \begin{align}
 \delta\SJPsi^{\text{FTK}} = 0,0331\ .
 \end{align}
-
 \begin{figure}[hptb]
 \centering
 \subfigure[{$p_0 - \Delta p_0$,  $p_1 - \Delta p_1$}]{\includegraphics[width=0.7\textwidth]{tagging_calibration--}}
@@ -116,9 +111,8 @@ Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen, die dazu
 \label{fig:toys_tag_calib}
 \end{figure}
 
-
 \section{Einfluss einer zeitabhängigen Akzeptanz} \label{kap:akzeptanz}
-In der Analyse wurde der Einfluss einer zeitabhängigen Detektorakzeptanz vernachlässigt. Nimmt man an, dass sich die Akzeptanz von \Bd- und \Bdbar-Mesonen nicht unterscheiden, so hat die Akzeptanz keinen Einfluss auf die \CP-Asymmetrie nach Gleichung \ref{eq:cp_asymm}, da sie sich hier herauskürzt. Beim Fit der Amplitude nach Gleichung \ref{eq:fit_pdf} ist dies aber nicht zwangsläufig so. Um die Vernachlässigung einer zeitabhängigen Akzeptanz zu rechtfertigen, wird zunächst eine Bestimmung der Akzeptanz durchgeführt und anschließend mit einer Toy MC Studie ihr Einfluss überprüft.
+In der Analyse wurde der Einfluss einer zeitabhängigen Detektorakzeptanz vernachlässigt. Nimmt man an, dass sich die Akzeptanz von \Bd- und \Bdbar-Mesonen nicht unterscheiden, so hat die Akzeptanz keinen Einfluss auf die \CP-Asymmetrie nach Gleichung (\ref{eq:cp_asymm}), da sie sich hier herauskürzt. Beim Fit der Amplitude nach Gleichung (\ref{eq:fit_pdf}) ist dies aber nicht zwangsläufig so. Um die Vernachlässigung einer zeitabhängigen Akzeptanz zu rechtfertigen, wird zunächst eine Bestimmung der Akzeptanz durchgeführt und anschließend mit einer Toy MC Studie ihr Einfluss überprüft.
 
 \subsubsection{Bestimmung einer Akzeptanzfunktion} 
 \Bd-Mesonen haben eine relativ lange Lebensdauer. Um sie von kurzlebigem Untergrund zu unterscheiden, befinden sich auf den Triggern und dem Stripping entsprechende Selektionen auf die Signifikanz der Zerfallslänge. Dies hat zur Folge, dass für kleine Flugzeiten ($t \lesssim 0,3\pico\second$) kaum \Bd-Mesonen im Detektor registriert werden. Es hat sich herausgestellt \cite{lhcb-paper}, dass dieser Effekt gut durch die Funktion
@@ -140,7 +134,6 @@ Zur Bestimmung der Parameter wird die Trennung von \Bd- und \Bdbar-Mesonen aufge
 \mathcal{P}_{acc}(t) \propto \epsilon(t)\cdot \e^{-t/\tau} = \e^{-t/\tau}\cdot\frac{2}{\pi}\arctan[t\cdot \exp(at+b)](1 + \beta t)
 \end{align}
 Die beiden Parameter $\tau$ und $\beta$ sind stark miteinander korreliert. Für eine geeignete Bestimmung der Parameter der Akzeptanz-Funktion wird daher die Lebensdauer auf den PDG-Wert $\tau = 1,519 \pm 0,007 \pico\second$ \cite{pdg-tau} gaußisch eingeschränkt, die anderen Parameter sind frei. Die Ergebnisse sind in Tabelle \ref{tab:fit_akzeptanz} aufgeführt, die entsprechenden Plots in Abbildung \ref{fig:fit_akzeptanz}. 
-
 \begin{table}[hptb]
 \centering
 \caption{Ergebnis des Fits zur Bestimmung der zeitlichen Akzeptanz. $\tau$ wurde auf den PDG-Wert $\tau = 1,519 \pm 0,007 \pico\second$ \cite{pdg-tau} gaußisch eingeschränkt.}
@@ -155,34 +148,31 @@ $\beta$   &  (-0,0090 & 0,0076) & $\ps^{-1}$ \\
 \hline \hline
 \end{tabular}
 \end{table}
-
 \begin{figure}[hptb]
 \centering
 \includegraphics[width=\textwidth]{time_acceptance_fit}
-\caption{Fit an die Eigenzeit-Verteilung aller \Bd-Mesonen mit eingeschlossener Akzeptanzfunktion (oben) sowie die entsprechende Pull-Verteilung (unten). Links: kurzlebiger Zeitbereich ($t<1,5\pico\second$), Rechts: gesamtes Eigenzeitspektrum ($0\ps < t < 14\ps$)}
+\caption{Fit an die Eigenzeit-Verteilung aller \Bd-Mesonen mit eingeschlossener Akzeptanzfunktion (oben) sowie die entsprechende Pull-Verteilung (unten). Links: kurzlebiger Zeitbereich ($t<1,5\pico\second$), Rechts: gesamtes Eigenzeitspektrum ($0\ps < t < 14\ps$).}
 \label{fig:fit_akzeptanz}
 \end{figure}
 
 \subsubsection{Bestimmung des Einflusses}
 Durch die Selektion der Eigenzeit ab $t = 0,3\ps$ in der Datenselektion spielt die Akzeptanz für kleine Eigenzeiten kaum eine Rolle Dies wird dadurch deutlich, dass die Akzeptanzfunktion $\epsilon(0,3\ps) = 0,992$ und damit fast Eins ist. In der Analyse aus 2011 \cite{lhcb-paper} wurde nur ein geringer Effekt auf das Fitergebnis beobachtet. Dies soll nun verifiziert und das Vorgehen, im Eigenzeitfit die zeitliche Detektorakzeptanz zu vernachlässigen, gerechtfertigt werden. Mit den oben bestimmten Parametern wird die zeitliche Akzeptanz bei der Erzeugung von Daten einer weiteren Toy MC Studie berücksichtigt, der anschließende Fit aber ohne Akzeptanzfunktion durchgeführt. Die zur Erzeugung verwendeten Parameter entsprechen ansonsten denen in Kapitel \ref{kap:fit_bias}.
-
 \begin{figure}[hptb]
 \centering
 \includegraphics[width = \textwidth]{time_acceptance_toys}
-\caption{Untersuchung des Einflusses einer zeitlichen Akzeptanz: Verteilung der aus der Toy MC Studie erhaltenen Amplituden $\SJPsi$ (links) sowie die dazugehörigen Pulls (rechts)}
+\caption{Untersuchung des Einflusses einer zeitlichen Akzeptanz: Verteilung der aus der Toy MC Studie erhaltenen Amplituden $\SJPsi$ (links) sowie die dazugehörigen Pulls (rechts).}
 \label{fig:toys_acceptance}
 \end{figure}
 
-Der Mittelwert der Amplitudenverteilung beträgt $\SJPsi = 0,72420 \pm 0,00041$. Die Abweichung vom Referenzwert (Fit Bias, siehe Kap. \ref{kap:fit_bias} $\SJPsi = 0,72343 \pm 0,00041$,
+Der Mittelwert der Amplitudenverteilung beträgt $\SJPsi = 0,72420 \pm 0,00041$. Die Abweichung vom Referenzwert $\SJPsi = 0,72343 \pm 0,00041$ (siehe Kap. \ref{kap:fit_bias}),
 \begin{align}
-\delta\SJPsi^{\text{Akz.}} = 0,00077\,
+\delta\SJPsi^{\text{Akz.}} = 0,00077\ ,
 \end{align}
 wird zur Abschätzung des Fehlers durch Vernachlässigung einer Akzeptanzfunktion verwendet. Gerade im Vergleich zum Einfluss des Flavour Taggings auf $\SJPsi$ ist dieser hier sehr gering. Somit erscheint das Vorgehen, keine Akzeptanz im Eigenzeitfit zu verwenden, gerechtfertigt.
 
 
 \section{Korrelation zwischen Masse und Eigenzeit}
-Die sFit-Methode funktioniert dann gut, wenn der Untergrund der Massenverteilung eben ist und die Massenverteilung des Signals unabhängig von der gemessenen Eigenzeit ist. Es soll nun eine etwaige Korrelation zwischen Masse und Eigenzeit untersucht und der Einfluss auf $\SJPsi$ festgestellt werden. Dazu wird die Massenverteilung in vier verschiedenen Zeitbereichen gefittet, die Tabelle \ref{tab:mass_ct} zu entnehmen sind. Anschließend wird die gesamte Eigenzeitverteilung gefittet, dabei werden aber die Massenparameter des Signals auf die in den 4 Massenfits erhaltenen Werte fixiert. Die Ergebnisse des jeweiligen Fits sind ebenfalls in Tabelle \ref{tab:mass_ct} aufgeführt.
-
+Die sFit-Methode funktioniert dann gut, wenn der Untergrund der Massenverteilung eben und die Massenverteilung des Signals unabhängig von der gemessenen Eigenzeit ist. Es soll nun eine etwaige Korrelation zwischen Masse und Eigenzeit untersucht und der Einfluss auf $\SJPsi$ festgestellt werden. Dazu wird die Massenverteilung in vier verschiedenen Zeitbereichen gefittet, die Tabelle \ref{tab:mass_ct} zu entnehmen sind. Anschließend wird die gesamte Eigenzeitverteilung gefittet, dabei werden aber die Massenparameter des Signals auf die in den 4 Massenfits erhaltenen Werte fixiert. Die Ergebnisse des jeweiligen Fits sind ebenfalls in Tabelle \ref{tab:mass_ct} aufgeführt.
 \begin{table}[hptb]
 \centering
 \caption{Einteilung der Eigenzeitbereiche sowie Fitresultate für $\SJPsi$ bei Fixierung der Masse auf die in den Zeitbereichen enthaltene Massenform. Weiterhin werden die Abweichung $\Delta\SJPsi$ vom regulären Datenfit und der Signalanzahl $N_{sig}$ eines jeden Eigenzeitbereichs genannt.}
@@ -197,13 +187,13 @@ Nr. & Eigenzeitfenster des Massenfits & \multicolumn{2}{c}{$\SJPsi$} & $\Delta\S
 \end{tabular}
 \end{table}
 
-Zur Abschätzung des Fehlers werden zunächst die Abweichungen $\Delta\SJPsi$ vom (noch verdeckten) Referenzwert aus dem regulären Eigenzeitfit $\SJPsi = 0,5347 \pm 0,0626$ berechnet (siehe Kap. \ref{kap:fitergebnis} und diese dann - gewichtet nach der Signalzahl $N_{sig}$ eines jeden Bereichs - quadratisch gemittelt:
+Zur Abschätzung des Fehlers werden zunächst die Abweichungen $\Delta\SJPsi$ vom (noch verdeckten) Referenzwert aus dem regulären Eigenzeitfit $\SJPsi = 0,5347 \pm 0,0626$ berechnet (siehe Kap. \ref{kap:fitergebnis}) und diese dann - gewichtet nach der Signalzahl $N_{sig}$ eines jeden Bereichs - quadratisch gemittelt:
 \begin{align}
 \delta\SJPsi^{m/t} = \sqrt{\frac{\sum N_i (\Delta\SJPsi)_i}{\sum N_i}} = 0,0018
 \end{align}
 
 \section{Eigenzeitauflösung} \label{kap:aufloesung}
-Bei einer effektiven Eigenzeitauflösung von $\sigma_{eff} = (0,0665 \pm 0,0013)\ps$ im Vergleich zur \Bd-Oszillationsfrequenz $\delta m_d = (0,521 \pm 0.039)\hbar\ps$ erwartet man keine nennenswerten Effekte auf die Amplitude $\SJPsi$. Um überhaupt einen Effekt zu sehen, werden die Auflösungsparameter $\sigma_i$ um 20\% ihres Werte erhöht bzw. gesenkt und damit dann der Datensatz gefittet. Die größte Abweichung vom Referenzwert des regulären Eigenzeitfits wird als systematischer Fehler angenommen. Die Ergenisse finden sich in Tabelle \ref{tab:syst_resolution}.
+Bei einer effektiven Eigenzeitauflösung von $\sigma_{eff} = (0,0665 \pm 0,0013)\ps$ im Vergleich zur \Bd-Oszillationsfrequenz $\delta m_d = (0,521 \pm 0.039)\hbar\ps$ erwartet man keine nennenswerten Effekte auf die Amplitude $\SJPsi$. Um überhaupt einen Effekt zu sehen, werden die Auflösungsparameter $\sigma_i$ um 20\% ihres Werte erhöht bzw. gesenkt und damit dann der Datensatz gefittet. Die größte Abweichung vom Referenzwert des regulären Eigenzeitfits wird als systematischer Fehler angenommen. Die Ergebnisse finden sich in Tabelle \ref{tab:syst_resolution}.
 
 \begin{table}[hptb]
 \centering

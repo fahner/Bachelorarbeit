@@ -1,7 +1,8 @@
 \documentclass[ a4paper,
                 12pt, 
                 twoside, 
-                chapterprefix,                
+                chapterprefix, 
+               % headsepline           
               ]{scrreprt}
 \usepackage[utf8]{inputenc}
 \usepackage[english,ngerman]{babel}
@@ -13,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage[squaren]{SIunits} % zur Darstellung physikalischer Einheiten (Option squaren verhindert Probleme mit amssymb Paket)
 \usepackage{subfigure}        % mehrere Bilder in einer figure-Umgebung
+\usepackage{ziffer}           % ermöglicht deutsche Dezimaltrennung mit Komma
 
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
 
@@ -24,6 +26,7 @@
 %\usepackage[osf,sc]{mathpazo}
 %\linespread{1.10}
 %\usepackage{bera}
+
 
 
 \graphicspath{{./Abbildungen/}}
@@ -55,6 +58,9 @@
 
 % Binde Titelseite ein
 \include{ba_titlepage}
+\pagestyle{headings}
+\KOMAoptions{headsepline=true}
+%\recalctypearea
 \tableofcontents
 \include{einleitung}
 \include{detektor}
@@ -75,6 +81,7 @@
 \bibitem{lhcb-paper} T. Brambach et al., \textit{Measurement of $\mathit{\sin(2\beta)}$ in the decay \Decaychannel\ with the 2011 LHCb data}, LHCb-ANA-2012-016.
 \bibitem{wiki_standard} \url{http://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles-de.svg} (Stand: 07.07.2013).
 \bibitem{higgs} CERN, Pressemitteilung, 2013, \url{http://press.web.cern.ch/press-releases/2013/03/new-results-indicate-particle-discovered-cern-higgs-boson} (Stand: 13.08.2013).
+\bibitem{wu-experiment} C.S. Wu, \textit{Experimental Test of Parity Conservation in Beta Decay}, 1957 Phys. Rev., \textbf{105} 1413-1415.
 \bibitem{kleinknecht}  Konrad Kleinknecht, \textit{Uncovering \CP\ Violation}, \textit{Experimental Clarification in the Neutral K Meson and B Meson Systems}, Springer, Heidelberg, 2003.
 \bibitem{dreieck} \url{http://inspirehep.net/record/1085541/files/figs_CKM_triangle.png} (Stand: 03.08.2013).
 \bibitem{pdg-tau} \url{http://pdglive.lbl.gov/popupblockdata.brl?nodein=S042T&inscript=Y&fsizein=1&clumpin0=} (Stand: 02.07.2013).
