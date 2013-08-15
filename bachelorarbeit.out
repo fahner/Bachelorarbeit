@@ -5,38 +5,38 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Spurdetektoren}{section.2.2}% 5
 \BOOKMARK [2][-]{subsection.2.2.2}{Detektoren zur Teilchenidentifikation}{section.2.2}% 6
 \BOOKMARK [2][-]{subsection.2.2.3}{Trigger}{section.2.2}% 7
-\BOOKMARK [0][-]{chapter.3}{CP-Verletzung in B-Meson-Systemen}{}% 8
+\BOOKMARK [0][-]{chapter.3}{CP-Verletzungin B-Meson-Systemen}{}% 8
 \BOOKMARK [1][-]{section.3.1}{Das Standardmodell der Teilchenphysik}{chapter.3}% 9
 \BOOKMARK [1][-]{section.3.2}{B-Mesonen und ihre Mischung}{chapter.3}% 10
 \BOOKMARK [1][-]{section.3.3}{Der Zerfallskanal Bd0 J/Ks0}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.4}{Diskrete Symmetrietransformationen}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.5}{CP-Verletzung in der Mischung}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.6}{Direkte CP-Verletzung}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.7}{CP-Verletzung in der Interferenz}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.7}{CP-Verletzung in der Interferenz zwischen Mischung und Zerfall}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.8}{CKM-Formalismus}{chapter.3}% 16
 \BOOKMARK [0][-]{chapter.4}{Datenselektion}{}% 17
-\BOOKMARK [1][-]{section.4.1}{Bereitgestellter Datensatz}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{Selektionskriterien}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.2.1}{Trigger}{section.4.2}% 20
-\BOOKMARK [2][-]{subsection.4.2.2}{Stripping}{section.4.2}% 21
-\BOOKMARK [2][-]{subsection.4.2.3}{Verwendete Spurklassen}{section.4.2}% 22
-\BOOKMARK [2][-]{subsection.4.2.4}{Zus\344tzliche Selektionskriterien}{section.4.2}% 23
-\BOOKMARK [1][-]{section.4.3}{Verwendeter Datensatz}{chapter.4}% 24
-\BOOKMARK [0][-]{chapter.5}{Analyse / Fit}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Maximum Likelihood Funktion}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.2}{Fitmethode sFit}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.3}{Fit der Massenverteilung und Bestimmung der sWeigths}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.4}{Fit der Eigenzeitverteilung}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.4.1}{Produktionsasymmetrie}{section.5.4}% 30
-\BOOKMARK [2][-]{subsection.5.4.2}{Bestimmung des Anfangszustandes der Bd0-Mesonen \(Flavour Tagging\)}{section.5.4}% 31
-\BOOKMARK [2][-]{subsection.5.4.3}{Eigenzeitaufl\366sung und -akzeptanz}{section.5.4}% 32
-\BOOKMARK [2][-]{subsection.5.4.4}{Fitfunktion}{section.5.4}% 33
-\BOOKMARK [1][-]{section.5.5}{Ergebnisse}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Absch\344tzung systematischer Unsicherheiten}{}% 35
-\BOOKMARK [1][-]{section.6.1}{Fitmethode}{chapter.6}% 36
-\BOOKMARK [1][-]{section.6.2}{Kalibration der Flavour-Tagging-Algorithmen}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.3}{Einfluss einer zeitabh\344ngigen Akzeptanz}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.4}{Korrelation zwischen Masse und Eigenzeit}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.5}{Eigenzeitaufl\366sung}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.6}{Gesamtsystematik}{chapter.6}% 41
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Selektionskriterien}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.1.1}{Trigger}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.2}{Stripping}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.3}{Verwendete Spurklassen}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.4}{Zus\344tzliche Selektionskriterien}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Verf\374gbare Statistik}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Analyse}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Maximum Likelihood Funktion}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Fitmethode sFit}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Fit der Massenverteilung und Bestimmung der sWeigths}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.4}{Fit der Eigenzeitverteilung}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.4.1}{Produktionsasymmetrie}{section.5.4}% 29
+\BOOKMARK [2][-]{subsection.5.4.2}{Bestimmung des Produktionsflavours der Bd0-Mesonen \(Flavour Tagging\)}{section.5.4}% 30
+\BOOKMARK [2][-]{subsection.5.4.3}{Eigenzeitaufl\366sung und -akzeptanz}{section.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.4.4}{Fitfunktion}{section.5.4}% 32
+\BOOKMARK [1][-]{section.5.5}{Ergebnisse}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Absch\344tzung systematischer Unsicherheiten}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Fitmethode}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Kalibration der Flavour Tagging Algorithmen}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{Einfluss einer zeitabh\344ngigen Akzeptanz}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.4}{Korrelation zwischen Masse und Eigenzeit}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.5}{Eigenzeitaufl\366sung}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.6}{Gesamtsystematik}{chapter.6}% 40
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 41
+\BOOKMARK [0][-]{chapter*.24}{Literaturverzeichnis}{}% 42

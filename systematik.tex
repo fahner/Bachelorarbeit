@@ -24,7 +24,7 @@ Abbildung \ref{fig:fit_bias} zeigt sowohl die Verteilung der gefitteten Amplitud
 \subsubsection{Ursachen des Bias und der Fehlerüberschätzung}
 Es bleibt zu klären, welche Ursachen zu dem Bias und der Fehlerüberschätzung führen. Wie bereits erwähnt, verfälscht die Likelihood-Methode für zu wenige Messwerte / Ereignisse die Parameterabschätzung. Demnach liegt die Vermutung nahe, dass im vorliegenden Datensatz zu wenig Ereignisse (\glqq Statistik\grqq) vorhanden sind. Daher wurden weitere Toy MC Studien mit unterschiedlicher Anzahl an Teilchen pro Toy durchgeführt. Die Ergebnisse sind in Tabelle \ref{tab:fit_bias_events} aufgeführt und in Abbildung \ref{fig:fit_bias_events} nochmals visualisiert. Man sieht, dass das Bias mit erhöhter Statistik deutlich reduziert wird und damit zu wenig Statistik als Hauptursache hierfür angesehen werden kann.
 
-Die Fehlerüberschätzung tritt auf, sobald man in den Toys Untergrund miteinbezieht (ohne Untergrund erhält man ein $\sigma=1,007\pm 0,005$ und ist damit kompatibel zur Eins). Es ist bekannt, dass die verwendete sFit-Methode die Fehlerpropagation (gerade bei Untergrund) nicht korrekt ausführt. Es wurde vom Betreuer eine Fehlerkorrektur implementiert, dabei handelt es sich jedoch um eine Näherung. Für eine tiefergehende Studie müsste die Fehlerkorrektur entsprechend analysiert werden.
+Die Fehlerüberschätzung tritt auf, sobald man in den Toys Untergrund miteinbezieht (ohne Untergrund erhält man ein $\sigma=1,007\pm 0,005$ und ist damit kompatibel zur Eins). Es ist bekannt, dass die verwendete sFit-Methode die Fehlerpropagation (gerade bei Untergrund) nicht korrekt ausführt. Es wurde zuvor eine Fehlerkorrektur implementiert, dabei handelt es sich jedoch um eine Näherung. Für eine tiefergehende Studie müsste die Fehlerkorrektur entsprechend analysiert werden.
 \begin{table}[hptb]
 \centering
 \caption{Toy MC Studien mit unterschiedlicher Anzahl an generierten Ereignissen pro Toy. Genannt wird der Mittelwert $\mu$ der $\SJPsi$-Pull-Verteilung}
@@ -39,16 +39,15 @@ Teilchen pro Toy & \multicolumn{2}{c}{$\mu$}  \\ \hline
 \hline \hline
 \end{tabular}
 \end{table}
-
 \begin{figure}[hptb]
 \centering
 \includegraphics[width=\textwidth]{fit_bias_statistics}
-\caption{Toy MC Studien mit unterschiedlicher Anzahl an generierten Ereignissen pro Toy. Als Maß für das Fit Bias dient der Mittelwert $\mu$ der $\SJPsi$-Pull-Verteilung}. Der erste Eintrag entspricht der in Daten vorliegenden Statistik.
+\caption{Toy MC Studien mit unterschiedlicher Anzahl an generierten Ereignissen pro Toy. Als Maß für das Fit Bias dient der Mittelwert $\mu$ der $\SJPsi$-Pull-Verteilung. Der erste Eintrag entspricht der in Daten vorliegenden Statistik.}
 \label{fig:fit_bias_events}
 \end{figure}
 
-\section{Kalibration der Flavour-Tagging-Algorithmen}
-Im Fit wird bei den Parametern der Tagging Kalibration durch \glqq gaußische\grqq\ Einschränkung der Parameter deren statistische Fehler berücksichtigt. Bislang unbeachtet blieben die systematischen Fehler von $p_0$ und $p_1$, deren Einfluss im Folgenden untersucht wird. Leider sind die externen Studien zur Systematik des in dieser Analyse verwendeten Flavour-Taggings noch nicht abgeschlossen, sodass die systematischen Fehler $\delta p_0^{\text{stat.}}$ sowie $\delta p_1^{\text{stat.}}$ noch nicht vorliegen. Um dennoch ein Gefühl für den Einfluss des Flavour-Taggings zu bekommen, werden die systematischen Fehler der 2011-Analyse (\cite{lhcb-paper}) herangezogen. Die Annahme und Erwartung ist, dass sich die Systematiken zwischen 2011 und 2012 kaum unterscheiden. Für eine endgültige Analyse, muss dieser Schritt jedoch wiederholt werden, sobald die Analyse des Flavour-Taggings aus 2012 abgeschlossen ist. In dieser Arbeit werden nun folgende Werte und Fehler der Kalibrationsparameter $p_0$ und $p_1$ verwendet:
+\section{Kalibration der Flavour Tagging Algorithmen}
+Im Fit wird bei den Parametern der Tagging Kalibration durch gaußische Einschränkung der Parameter deren statistische Fehler berücksichtigt. Bislang unbeachtet blieben die systematischen Fehler von $p_0$ und $p_1$, deren Einfluss im Folgenden untersucht wird. Leider sind die externen Studien zur Systematik des in dieser Analyse verwendeten Flavour Taggings noch nicht abgeschlossen, sodass die systematischen Fehler $\delta p_0^{\text{stat.}}$ sowie $\delta p_1^{\text{stat.}}$ noch nicht vorliegen. Um dennoch ein Gefühl für den Einfluss des Flavour Taggings zu bekommen, werden die systematischen Fehler der 2011-Analyse (\cite{lhcb-paper}) herangezogen. Die Annahme und Erwartung ist, dass sich die Systematiken zwischen 2011 und 2012 kaum unterscheiden. Für eine endgültige Analyse, muss dieser Schritt jedoch wiederholt werden, sobald die Analyse des Flavour Taggings aus 2012 abgeschlossen ist. Eine weitere Möglichkeit wäre dann, die Parameter im Eigenzeitfit mit $\sigma = \sqrt{\sigma_{\text{stat.}}^2+\sigma_{\text{syst.}}^2}$ gaußisch einzuschränken In dieser Arbeit werden nun folgende Werte und Fehler der Kalibrationsparameter $p_0$ und $p_1$ verwendet:
 \begin{align}
 p_0 &= 0,382 \pm 0,003\ \text{(stat.)} \pm 0,008\ \text{(syst.)}, \\
 p_1 &= 0,981 \pm 0,024\ \text{(stat.)} \pm 0,012\ \text{(syst.)}.
@@ -78,7 +77,7 @@ p_0  &  p_1  &  \multicolumn{2}{c|}{\SJPsi}  & \Delta\SJPsi   \\ \hline
 Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_data} zu entnehmen. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0252$.
 
 \subsubsection{Variation der Parameter in Toy MC}
-Eine weitere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toys mit verfälschten $p_0$ und $p_1$ zu generieren und diese dann normal zu fitten. Im Folgenden werden bei der Generation der Toys die Parameter $p_0$ und $p_1$ um ihre systematischen Unsicherheiten variiert, der Fit dann allerdings mit den ursprünglichen Parameterwerten durchgeführt. Als Referenzwert dient die Toy MC Studie aus Kapitel \ref{kap:fit_bias}, da dort mit den regulären Parametern $p_0$ und $p_1$ generiert und gefittet wurde. Jene Amplitude betrug
+Eine präzisere Möglichkeit der Abschätzung besteht darin, sich entsprechende Toys mit verfälschten $p_0$ und $p_1$ zu generieren und diese dann normal zu fitten. Im Folgenden werden bei der Generation der Toys die Parameter $p_0$ und $p_1$ um ihre systematischen Unsicherheiten variiert, der Fit dann allerdings mit den ursprünglichen Parameterwerten durchgeführt. Als Referenzwert dient die Toy MC Studie aus Kapitel \ref{kap:fit_bias}, da dort mit den regulären Parametern $p_0$ und $p_1$ generiert und gefittet wurde. Jene Amplitude betrug
 \begin{align}
 \SJPsi = 0,7234 \pm 0,0004.
 \end{align}
@@ -96,10 +95,9 @@ p_0  &  p_1  &  \multicolumn{2}{c|}{\SJPsi}  & \Delta\SJPsi   \\ \hline
 \hline\hline
 \end{array}$
 \end{table}
-
 Die Ergebnisse sind Tabelle \ref{tab:syst_fit_calib_toys} zu entnehmen, die dazugehörigen Plots werden in Abbildung \ref{fig:toys_tag_calib} gezeigt. Die größte Abweichung beträgt hier $\Delta\SJPsi = 0,0331$ und ist auch größer als bei Variation der Parameter in den Daten. Dementsprechend wird der systematische Fehler durch die Tagging Kalibrierung mit ebendiesem Wert konservativ abgeschätzt:
 \begin{align}
-\delta\SJPsi^{\text{FTK}} = 0,0331\ .
+\delta\SJPsi^{\text{FTK}} = 0,0331.
 \end{align}
 \begin{figure}[hptb]
 \centering
@@ -133,20 +131,20 @@ Zur Bestimmung der Parameter wird die Trennung von \Bd- und \Bdbar-Mesonen aufge
 \begin{align}
 \mathcal{P}_{acc}(t) \propto \epsilon(t)\cdot \e^{-t/\tau} = \e^{-t/\tau}\cdot\frac{2}{\pi}\arctan[t\cdot \exp(at+b)](1 + \beta t)
 \end{align}
-Die beiden Parameter $\tau$ und $\beta$ sind stark miteinander korreliert. Für eine geeignete Bestimmung der Parameter der Akzeptanz-Funktion wird daher die Lebensdauer auf den PDG-Wert $\tau = 1,519 \pm 0,007 \pico\second$ \cite{pdg-tau} gaußisch eingeschränkt, die anderen Parameter sind frei. Die Ergebnisse sind in Tabelle \ref{tab:fit_akzeptanz} aufgeführt, die entsprechenden Plots in Abbildung \ref{fig:fit_akzeptanz}. 
+Die beiden Parameter $\tau$ und $\beta$ sind stark miteinander korreliert. Für eine geeignete Bestimmung der Parameter der Akzeptanz-Funktion wird daher die Lebensdauer auf den PDG-Wert $\tau = (1,519 \pm 0,007)\pico\second$ \cite{pdg-tau} gaußisch eingeschränkt, die anderen Parameter sind frei. Die Ergebnisse sind in Tabelle \ref{tab:fit_akzeptanz} aufgeführt, die entsprechenden Plots in Abbildung \ref{fig:fit_akzeptanz}. 
 \begin{table}[hptb]
 \centering
-\caption{Ergebnis des Fits zur Bestimmung der zeitlichen Akzeptanz. $\tau$ wurde auf den PDG-Wert $\tau = 1,519 \pm 0,007 \pico\second$ \cite{pdg-tau} gaußisch eingeschränkt.}
+\caption{Ergebnis des Fits zur Bestimmung der zeitlichen Akzeptanz. $\tau$ wurde auf den PDG-Wert $\tau = (1,519 \pm 0,007)\pico\second$ \cite{pdg-tau} gaußisch eingeschränkt.}
 \label{tab:fit_akzeptanz}
-\begin{tabular}{lr@{$\pm$}ll}
+$\begin{array}{llr@{\pm}l}
 \hline \hline 
-Parameter & \multicolumn{2}{c}{Ergebnis} & \\ \hline
-$\tau$    &  (1,519   & 0,007) & $\ps$ \\
-$a $       &  (47,9    & 5,6) & $\ps^{-1}$ \\
-$b$       &  -8,4    & 1,1 \\
-$\beta$   &  (-0,0090 & 0,0076) & $\ps^{-1}$ \\ 
+\multicolumn{2}{l}{\text{Parameter}} & \multicolumn{2}{c}{\text{Ergebnis}}  \\ \hline
+\tau  & [\ps]  &  1,519 & 0,007 \\
+a   & [\ps]  &  47,9    & 5,6 \\
+b   &  -8,4    & 1,1 \\
+\beta & [\ps^{-1}]  & -0,0090 & 0,0076 \\ 
 \hline \hline
-\end{tabular}
+\end{array}$
 \end{table}
 \begin{figure}[hptb]
 \centering
@@ -201,13 +199,12 @@ Bei einer effektiven Eigenzeitauflösung von $\sigma_{eff} = (0,0665 \pm 0,0013)
 \label{tab:syst_resolution}
 \begin{tabular}{l c c c r@{$\pm$}l r }
 \hline \hline
-Variation & $sigma_1$ & $sigma_2$ & $sigma_3$ & \multicolumn{2}{c}{$\SJPsi$} & $\Delta\SJPsi$ \\ \hline
+Variation & $\sigma_1$ & $\sigma_2$ & $\sigma_3$ & \multicolumn{2}{c}{$\SJPsi$} & $\Delta\SJPsi$ \\ \hline
 $+20\%$ & 0,576 & 0,05275 & 0,1118 & 0,5351 & 0,0626 & 0,0004 \\
 $-20\%$ & 0,384 & 0,03517 & 0,0746 & 0,5345 & 0,0625 & -0,0002 \\ \hline \hline
 \end{tabular}
 \end{table}
-
-Es zeigt sich, dass eine exakte Bestimmung der Auflösung nicht von Nöten ist, da sie im Vergleich zu anderen Systematiken vor allem gegenüber der Flavour-Tagging Kalibration vernachlässigt werden kann. Dennoch wird ein sytematischer Fehler durch die Auflösung mit
+Es zeigt sich, dass eine exakte Bestimmung der Auflösung nicht von Nöten ist, da sie im Vergleich zu anderen Systematiken vor allem gegenüber der Flavour Tagging Kalibration vernachlässigt werden kann. Dennoch wird ein sytematischer Fehler durch die Auflösung mit
 \begin{align}
 \delta\SJPsi^{\text{Res.}} = 0,0004
 \end{align}
@@ -215,7 +212,6 @@ assoziiert.
 
 \section{Gesamtsystematik}
 Tabelle \ref{tab:syst_gesamt} fasst nochmals alle systematischen Unsicherheiten zusammen. Der Gesamtfehler wird durch quadratische Addition berechnet.
-
 \begin{table}[hptb]
 \centering
 \caption{Zusammenfassung der systematischen Unsicherheiten}
@@ -224,11 +220,11 @@ Tabelle \ref{tab:syst_gesamt} fasst nochmals alle systematischen Unsicherheiten 
 \hline \hline
 Effekt & $\delta\SJPsi$ \\ \hline
 Fitmethode & 0,0033 \\
-Flavour-Tagging Kalibration & 0,0331 \\
+Flavour Tagging Kalibration & 0,0331 \\
 Eigenzeitakzeptanz & 0,0008 \\
 Korrelation Masse $\leftrightarrow$ Eigenzeit & 0,0018 \\ 
 Eigenzeitauflösung & 0,0004 \\ \hline 
 Gesamt & 0,0333 \\ \hline \hline
 \end{tabular}
 \end{table}
-Es ist deutlich zu erkennen, dass die Kalibration der Flavour-Tagging-Algorithmen die dominierende Systematik ist. Obwohl hier zur Abschätzung der Systematik Werte der 2011-Kalibration genommen werden mussten, wird sich an dieser Tatsache nicht viel ändern, sobald diese Untersuchung mit Werten aus 2012 wiederholt wurde. Der systematischen Fehler von $\delta\SJPsi^{\text{stat.}}=0,0333$ ist nur etwa halb so groß wie der statistische $\delta\SJPsi^{\text{syst.}}=0,0626$. Damit ist definitiv noch Potential da, die Präzision durch mehr Datennahme zu verbessern.
+Es ist deutlich zu erkennen, dass die Kalibration der Flavour Tagging Algorithmen die dominierende Systematik ist. Obwohl hier zur Abschätzung der Systematik Werte der 2011-Kalibration genommen werden mussten, wird sich an dieser Tatsache nicht viel ändern, sobald diese Untersuchung mit Werten aus 2012 wiederholt wurde. Der systematische Fehler von $\delta\SJPsi^{\text{stat.}}=0,0333$ ist nur etwa halb so groß wie der statistische $\delta\SJPsi^{\text{syst.}}=0,0626$. Damit ist definitiv noch Potential da, die Präzision durch mehr Datennahme zu verbessern. Zudem ist auch zu erwarten, dass die systematischen Unsicherheiten der Flavour Tagging Kalibration mit mehr Daten ebenfalls reduziert wird.

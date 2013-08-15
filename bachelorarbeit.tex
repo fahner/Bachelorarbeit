@@ -1,7 +1,9 @@
 \documentclass[ a4paper,
                 12pt, 
                 twoside, 
-                chapterprefix, 
+                chapterprefix,
+                BCOR=10mm,
+                bibtotoc, 
                % headsepline           
               ]{scrreprt}
 \usepackage[utf8]{inputenc}
@@ -16,12 +18,14 @@
 \usepackage{subfigure}        % mehrere Bilder in einer figure-Umgebung
 \usepackage{ziffer}           % ermöglicht deutsche Dezimaltrennung mit Komma
 
+\usepackage[hyphens]{url}
 \usepackage{hyperref}         % für automatische Verlinkungen in der pdf
 
 \usepackage{datatool}	      % muss verwendet werden, da glossaries sonst einen Fehler verursacht
 \usepackage[toc]{glossaries} 
 
-%\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 %\usepackage{textcomp}
 %\usepackage[osf,sc]{mathpazo}
 %\linespread{1.10}
@@ -60,7 +64,7 @@
 \include{ba_titlepage}
 \pagestyle{headings}
 \KOMAoptions{headsepline=true}
-%\recalctypearea
+\recalctypearea
 \tableofcontents
 \include{einleitung}
 \include{detektor}
@@ -72,29 +76,52 @@
 
 
 \begin{thebibliography}{---}
+\bibitem{lhcb-paper} T. Brambach et al., \textit{Measurement of $\mathit{\sin(2\beta)}$ in the decay \Decaychannel\ with the 2011 LHCb data}, LHCb-ANA-2012-016.
+
+\bibitem{pdg-average} \url{http://pdg8.lbl.gov/rpp2013v2/pdgLive/DataBlock.action?node=S042BET} (Stand: 13.08.2013)
+
 \bibitem{cern-courier} Nico Serra, Tom Blake, \textit{Chasing new physics with electroweak penguins}, 2013 \textit{CERN Courier}, \textbf{5} 15-17 
 \bibitem{roadmap} The LHCb Collaboration et al., \textit{Roadmap for selected key measurements of LHCb}, LHCb-PUB-2009-029, [\texttt{arXiv:0912.4179v3}]. 
+
 \bibitem{lhc-info} \url{http://home.web.cern.ch/about/accelerators/large-hadron-collider} (Stand: 01.08.2013).
+
 \bibitem{lhcb-info} \url{http://www.weltmaschine.de/experimente/lhcb/} (Stand: 01.08.2013).
+
+\bibitem{detektorakzeptanz} Johan Luisier, \textit{Measurement of B-meson lifetime ratios with the LHCb detector}, 2011. Dissertation erreichbar unter \url{http://lphe.epfl.ch/publications/theses/these.jl.pdf} (Stand: 15.08.2013).
+
+\bibitem{thesis_linn} Christian Linn, \textit{Measurement of the CP-violating phase $\Phi_{\text{s}}$ using $B_s^0 \rightarrow J/\Psi\Phi$ and $B_s^0 \rightarrow J/\Psi\pi^+\pi^-$ decays with the LHCb experiment}, 2013. Dissertation erreichbar unter \url{http://www.physi.uni-heidelberg.de//Publications/linn_thesis.pdf} (Stand: 13.08.2013).
+
 \bibitem{detector} The LHCb Collaboration et al., \textit{The LHCb Detector at the LHC}, 2008 \textit{JINST}, \textbf{3} S08005.
-\bibitem{thesis_linn} Christian Linn, \textit{Measurement of the CP-violating phase $\Phi_{\text{s}}$ using $B_s^0 \rightarrow J/\Psi\Phi$ and $B_s^0 \rightarrow J/\Psi\pi^+\pi^-$ decays with the LHCb experiment} 2013. Dissertation erreichbar unter \url{http://www.physi.uni-heidelberg.de//Publications/linn_thesis.pdf} (Stand: 13.08.2013).
-\bibitem{lhcb-paper} T. Brambach et al., \textit{Measurement of $\mathit{\sin(2\beta)}$ in the decay \Decaychannel\ with the 2011 LHCb data}, LHCb-ANA-2012-016.
+
 \bibitem{wiki_standard} \url{http://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles-de.svg} (Stand: 07.07.2013).
+
 \bibitem{higgs} CERN, Pressemitteilung, 2013, \url{http://press.web.cern.ch/press-releases/2013/03/new-results-indicate-particle-discovered-cern-higgs-boson} (Stand: 13.08.2013).
+
 \bibitem{wu-experiment} C.S. Wu, \textit{Experimental Test of Parity Conservation in Beta Decay}, 1957 Phys. Rev., \textbf{105} 1413-1415.
+
 \bibitem{kleinknecht}  Konrad Kleinknecht, \textit{Uncovering \CP\ Violation}, \textit{Experimental Clarification in the Neutral K Meson and B Meson Systems}, Springer, Heidelberg, 2003.
+
 \bibitem{dreieck} \url{http://inspirehep.net/record/1085541/files/figs_CKM_triangle.png} (Stand: 03.08.2013).
-\bibitem{pdg-tau} \url{http://pdglive.lbl.gov/popupblockdata.brl?nodein=S042T&inscript=Y&fsizein=1&clumpin0=} (Stand: 02.07.2013).
+
 \bibitem{nir} Yosef Nir, \textit{The CKM Matrix and New Physics}, 2003 \textit{Nucl. Phys. B (Proc. Suppl.)}, \textbf{117} 111-116.
+
 \bibitem{noguchi} S. Noguchi, \textit{CP violation in B Meson Decays}, 2003 \textit{Nucl. Phys. A}, \textbf{721} 151c-160c.
+
 \bibitem{trigger} \url{http://lhcb-trig.web.cern.ch/lhcb-trig/} (Stand: 13.08.2013).
+
 \bibitem{sfit} Yuehong Xie, \textit{sFit: a method for background subtraction in maximum likelihood fit}, 2009, [\texttt{arXiv:0905.0724v1}].
-\bibitem{splot} M. Pivk, F.R. Le Diberder, \SPlot\textit{: a statistical tool to unfold data distributions}, 2005, [\texttt{arXiv:physics/0402083v3}]
+
+\bibitem{splot} M. Pivk, F.R. Le Diberder, \SPlot\textit{: a statistical tool to unfold data distributions}, 2005, [\texttt{arXiv:physics/0402083v3}].
+
 \bibitem{tagging} Stefania Vecchi, \textit{OS combination for Reco14}, 2013, LHCb Flavour Tagging Meeting 20.06.2013.
+
 \bibitem{2010-analyse} T. Brambach et al., \textit{Measurement of CP violation in the time-dependent analysis of \Decaychannel\ decays with the 2010 data}, LHCb-ANA-2011-004.
+
 \bibitem{crystal_ball} The CMS Collaboration, \textit{Suppression of non-prompt $J/\Psi$, prompt $J/\Psi$, and $\Upsilon$(1S)
 in PbPb collisions at $\sqrt{s_{NN}} = 2.76 \tera\electronvolt$}, 2013, [\texttt{arXiv:1201.5069v2}].
-\bibitem{pdg-average} \url{http://pdg8.lbl.gov/rpp2013v2/pdgLive/DataBlock.action?node=S042BET} (Stand: 13.08.2013)
+
+\bibitem{pdg-tau} \url{http://pdglive.lbl.gov/popupblockdata.brl?nodein=S042T&inscript=Y&fsizein=1&clumpin0=} (Stand: 02.07.2013).
+
 \end{thebibliography}
 
 % Selbstständigkeitserklärung
