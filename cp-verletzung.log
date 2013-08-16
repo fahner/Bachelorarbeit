@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 11:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 15:18
 entering extended mode
 **cp-verletzung.tex
 (D:\Uni\Bachelorarbeit\Arbeit\cp-verletzung.tex
@@ -15,7 +15,7 @@ sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            [\CP-Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
+            [\CP-Verletzung im B-Meson-System]{\CP-Verletzung im B-Meson-Sys...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -30,7 +30,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 \chapter[
-             \CP-Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
+             \CP-Verletzung im B-Meson-System]{\CP-Verletzung im B-Meson-Sys...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -38,7 +38,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 l.1 \chapter[\CP
-                -Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
+                -Verletzung im B-Meson-System]{\CP-Verletzung im B-Meson-Sys...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -74,8 +74,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.1 ...-Verletzung im B-Meson-System]{\boldmath\CP
-                                                  -Verletzung\unboldmath\ im...
+l.1 \chapter[\CP-Verletzung im B-Meson-System]{\CP
+                                                  -Verletzung im B-Meson-Sys...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -109,10 +109,6 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1.
 ! Undefined control sequence.
 l.2 \section
             {Das Standardmodell der Teilchenphysik}
@@ -368,6 +364,10 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
 Missing character: There is no , in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3250,6 +3250,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
@@ -3825,7 +3826,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3836,7 +3837,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3846,8 +3847,8 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> ... kleine Korrektur auf Grund von \CP 
-                                                  -Verletzung im kaon-System...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+                                                  -Verletzung im Kaon-System...
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3864,7 +3865,7 @@ Missing character: There is no � in font cmr10!
 ! Undefined control sequence.
 <write> ...Reference `fig:decay' on page \thepage 
                                                   \space undefined\on@line .
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3878,7 +3879,7 @@ LaTeX Warning: Reference `fig:decay' on page  undefined on input line 23.
 ! Undefined control sequence.
 <recently read> \Kshort 
                         
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3889,7 +3890,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...0$ stehen. Das entsprechende \Bdbar 
                                                   \ hätte dann ein $\overli...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3902,7 +3903,7 @@ Missing character: There is no � in font cmr10!
 ! Undefined control sequence.
 <argument> ... Die Argumentation, dass sowohl \Bd 
                                                   \ als auch \Bdbar \ in den...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3913,7 +3914,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ..., dass sowohl \Bd \ als auch \Bdbar 
                                                   \ in den selben Endzustand...
-l.23 ... $K^0/\overline{K^0}$-Mischung existiert.}
+l.23 ...$K^0-/\overline{K^0}$-Mischung existiert.}
                                                   . Diese Teilchen sind eben...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4012,8 +4013,8 @@ Overfull \hbox (11.11115pt too wide) in paragraph at lines 23--23
  []
 
 
-Overfull \hbox (23.61118pt too wide) in paragraph at lines 23--23
-\OT1/cmr/m/n/10 kaon-
+Overfull \hbox (26.66673pt too wide) in paragraph at lines 23--23
+\OT1/cmr/m/n/10 Kaon-
  []
 
 
@@ -4337,8 +4338,13 @@ Overfull \hbox (12.7778pt too wide) in paragraph at lines 23--23
  []
 
 
-Overfull \hbox (35.72226pt too wide) in paragraph at lines 23--23
-$\OML/cmm/m/it/10 K[]=[]$\OT1/cmr/m/n/10 -
+Overfull \hbox (21.47226pt too wide) in paragraph at lines 23--23
+$\OML/cmm/m/it/10 K[] \OMS/cmsy/m/n/10  $
+ []
+
+
+Overfull \hbox (22.0278pt too wide) in paragraph at lines 23--23
+$\OML/cmm/m/it/10 =[]$\OT1/cmr/m/n/10 -
  []
 
 
@@ -4752,6 +4758,34 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -4775,7 +4809,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...amm. Die Abbildung wurde \cite{lhcb-paper}
+l.28 ...ss). Die Abbildung wurde \cite{lhcb-paper}
                                                    entnommen.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5360,6 +5394,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -5388,8 +5423,15 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no P in font nullfont!
+! Undefined control sequence.
+l.41 ...vorliegenden Arbeit allerdings nur die \CP
+                                                  -Verletzung gemessen werde...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no - in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -5439,7 +5481,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -6728,14 +6770,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{kleinknecht}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.49 ...erletzung nachgewiesen. \cite{kleinknecht}
-                                                  
+l.49 ...Verletzung nachgewiesen \cite{kleinknecht}
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6746,41 +6787,7 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Citation `kleinknecht' on page  undefined on input line 49.
 
 Missing character: There is no ] in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--50
-[]
- []
-
-
-Overfull \hbox (15.54562pt too wide) in paragraph at lines 48--50
-$[]$
- []
-
-
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--50
-$\OMS/cmsy/m/n/10 P$
- []
-
-
-Overfull \hbox (5.84865pt too wide) in paragraph at lines 48--50
-$\OMS/cmsy/m/n/10 C$
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 48--50
-[]
- []
-
-
-Overfull \hbox (13.62645pt too wide) in paragraph at lines 48--50
-$[]$
- []
-
-
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--50
-[] 
- []
-
+Missing character: There is no . in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -6788,7 +6795,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \begin{figure}
+l.50 \begin{figure}
                    [hptb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6801,7 +6808,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.53 \includegraphics
+l.52 \includegraphics
                      [width = 0.8\textwidth]{cp_invarianz}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6822,7 +6829,7 @@ Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.53 \includegraphics[width = 0.8\textwidth]
+l.52 \includegraphics[width = 0.8\textwidth]
                                             {cp_invarianz}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6831,7 +6838,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.53 \includegraphics[width = 0.8\textwidth]
+l.52 \includegraphics[width = 0.8\textwidth]
                                             {cp_invarianz}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6846,13 +6853,13 @@ Missing character: There is no p in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 \includegraphics[width = 0.8\textwidth]{cp_
+l.52 \includegraphics[width = 0.8\textwidth]{cp_
                                                 invarianz}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.53 ...phics[width = 0.8\textwidth]{cp_invarianz}
+l.52 ...phics[width = 0.8\textwidth]{cp_invarianz}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6867,7 +6874,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \caption
+l.53 \caption
              {Scheinbare $\mathcal{CP}$-Invarianz: Während eine reine $\mat...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6876,7 +6883,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.54 \caption{Scheinbare $
+l.53 \caption{Scheinbare $
                           \mathcal{CP}$-Invarianz: Während eine reine $\mat...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6891,7 +6898,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \caption{Scheinbare $\mathcal
+l.53 \caption{Scheinbare $\mathcal
                                   {CP}$-Invarianz: Während eine reine $\mat...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6908,7 +6915,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...$-Invarianz: Während eine reine $\mathcal
+l.53 ...$-Invarianz: Während eine reine $\mathcal
                                                   {P}$- oder $\mathcal{C}$-T...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6922,7 +6929,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...d eine reine $\mathcal{P}$- oder $\mathcal
+l.53 ...d eine reine $\mathcal{P}$- oder $\mathcal
                                                   {C}$-Transformation zu in ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6940,7 +6947,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ... scheint es bei der kombinierten $\mathcal
+l.53 ... scheint es bei der kombinierten $\mathcal
                                                   {CP}$-Transformation keine...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6949,7 +6956,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no C in font nullfont!
 Missing character: There is no P in font nullfont!
 ! Extra }, or forgotten $.
-l.54 ...richtung, dicke Pfeile: Spinausrichtung).}
+l.53 ...richtung, dicke Pfeile: Spinausrichtung).}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6964,7 +6971,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{figure}
+l.55 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6973,7 +6980,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.56 \end{figure}
+l.55 \end{figure}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6986,43 +6993,13 @@ Missing character: There is no � in font cmr10!
 ! Missing } inserted.
 <inserted text> 
                 }
-l.56 \end{figure}
+l.55 \end{figure}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 51--57
-[]
- []
-
-
-Overfull \hbox (153.98207pt too wide) in paragraph at lines 51--57
-$[]\OML/cmm/m/it/10 nvarianz[]$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Invarianz \O
-T1/cmr/m/n/10 :$
- []
-
-
-Overfull \hbox (796.39667pt too wide) in paragraph at lines 51--57
-$\OML/cmm/m/it/10 Whrendeinereine$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 oder$$\OM
-S/cmsy/m/n/10  \OML/cmm/m/it/10 TransformationzuinderNaturnichtrealisiertenZust
-ndenfhrt; scheintesbeiderkombinierten$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Trans
-formationkeinenWiderspruchzugeben\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 dnnePfeile \
-OT1/cmr/m/n/10 :$
- []
-
-
-Overfull \hbox (149.9468pt too wide) in paragraph at lines 51--57
-$\OML/cmm/m/it/10 Impulsausrichtung; dickePfeile \OT1/cmr/m/n/10 :$
- []
-
-
-Overfull \hbox (82.34184pt too wide) in paragraph at lines 51--57
-$\OML/cmm/m/it/10 Spinausrichtung\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :[]$ 
- []
 
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -7058,7 +7035,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.58 Diese Arbeit beschäftigt sich mit der \CP
+l.56 Diese Arbeit beschäftigt sich mit der \CP
                                                -Verletzung im B-Mesonen-Syst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7118,7 +7095,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.58 ...sonen-System. Eine genaue Kenntnis der \CP
+l.56 ...sonen-System. Eine genaue Kenntnis der \CP
                                                   -Verletzung ermöglicht Pr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7237,8 +7214,8 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.58 ...ere das B-Meson-System sensitiv für \glqq
-                                                   neue Physik\grqq\, da dur...
+l.56 ...ere das B-Meson-System sensitiv für \glqq
+                                                   neue Physik\grqq, da durc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7256,14 +7233,15 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.58 ...ystem sensitiv für \glqq neue Physik\grqq
-                                                  \, da durch Schleifen inne...
+l.56 ...ystem sensitiv für \glqq neue Physik\grqq
+                                                  , da durch Schleifen inner...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no , in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -7313,7 +7291,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `fig:bmixing' on page \thepage 
                                                   \space undefined\on@line .
-l.58 ...der Prozesse (siehe Abb. \ref{fig:bmixing}
+l.56 ...der Prozesse (siehe Abb. \ref{fig:bmixing}
                                                    und \ref{fig:decay}) Beit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7322,7 +7300,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:bmixing' on page  undefined on input line 58.
+LaTeX Warning: Reference `fig:bmixing' on page  undefined on input line 56.
 
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -7330,7 +7308,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <write> ...Reference `fig:decay' on page \thepage 
                                                   \space undefined\on@line .
-l.58 ...Abb. \ref{fig:bmixing} und \ref{fig:decay}
+l.56 ...Abb. \ref{fig:bmixing} und \ref{fig:decay}
                                                   ) Beiträge von Theorien j...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7339,7 +7317,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:decay' on page  undefined on input line 58.
+LaTeX Warning: Reference `fig:decay' on page  undefined on input line 56.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no B in font nullfont!
@@ -7475,7 +7453,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.58 ...cheidet man prinzipiell drei Arten von \CP
+l.56 ...cheidet man prinzipiell drei Arten von \CP
                                                   -Verletzung:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7496,24 +7474,79 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 58--59
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--57
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 58--59
+Overfull \hbox (15.54562pt too wide) in paragraph at lines 48--57
+$[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--57
+$\OMS/cmsy/m/n/10 P$
+ []
+
+
+Overfull \hbox (5.84865pt too wide) in paragraph at lines 48--57
+$\OMS/cmsy/m/n/10 C$
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 48--57
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 58--59
+Overfull \hbox (13.62645pt too wide) in paragraph at lines 48--57
+$[]$
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--57
+[]
+ []
+
+
+Overfull \hbox (153.98207pt too wide) in paragraph at lines 48--57
+$[]\OML/cmm/m/it/10 nvarianz[]$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Invarianz \O
+T1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (796.39667pt too wide) in paragraph at lines 48--57
+$\OML/cmm/m/it/10 Whrendeinereine$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 oder$$\OM
+S/cmsy/m/n/10  \OML/cmm/m/it/10 TransformationzuinderNaturnichtrealisiertenZust
+ndenfhrt; scheintesbeiderkombinierten$$\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Trans
+formationkeinenWiderspruchzugeben\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 dnnePfeile \
+OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (149.9468pt too wide) in paragraph at lines 48--57
+$\OML/cmm/m/it/10 Impulsausrichtung; dickePfeile \OT1/cmr/m/n/10 :$
+ []
+
+
+Overfull \hbox (82.34184pt too wide) in paragraph at lines 48--57
+$\OML/cmm/m/it/10 Spinausrichtung\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :[]$
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 48--57
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 48--57
 []
  []
 
 ! Undefined control sequence.
 <argument> \boldmath \CP 
                          -Verletzung in der Mischung (auch indirekte \CP -Ve...
-l.60 ...uch indirekte \CP-Verletzung):\unboldmath}
+l.58 ...uch indirekte \CP-Verletzung):\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7524,7 +7557,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...in der Mischung (auch indirekte \CP 
                                                   -Verletzung):\unboldmath 
-l.60 ...uch indirekte \CP-Verletzung):\unboldmath}
+l.58 ...uch indirekte \CP-Verletzung):\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7616,7 +7649,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.61 ...ines neutralen Meson-Systems nicht den \CP
+l.59 ...ines neutralen Meson-Systems nicht den \CP
                                                   -Eigenzuständen entsprech...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7708,7 +7741,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.61 ...der Oszillationen beispielsweise eines \Bd
+l.59 ...der Oszillationen beispielsweise eines \Bd
                                                   \ in ein \Bdbar\ unterschi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7722,7 +7755,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.61 ...en beispielsweise eines \Bd\ in ein \Bdbar
+l.59 ...en beispielsweise eines \Bd\ in ein \Bdbar
                                                   \ unterschiedlich von der ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7757,7 +7790,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.61 ...dbar\ unterschiedlich von der eines \Bdbar
+l.59 ...dbar\ unterschiedlich von der eines \Bdbar
                                                   \ in ein \Bd.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7771,7 +7804,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.61 ...chiedlich von der eines \Bdbar\ in ein \Bd
+l.59 ...chiedlich von der eines \Bdbar\ in ein \Bd
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7781,62 +7814,62 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (3.83331pt too wide) in paragraph at lines 60--62
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 -
  []
 
 
-Overfull \hbox (54.31918pt too wide) in paragraph at lines 60--62
+Overfull \hbox (54.31918pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 Verletzung
  []
 
 
-Overfull \hbox (9.58328pt too wide) in paragraph at lines 60--62
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 in
  []
 
 
-Overfull \hbox (16.39577pt too wide) in paragraph at lines 60--62
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 der
  []
 
 
-Overfull \hbox (22.48042pt too wide) in paragraph at lines 60--62
+Overfull \hbox (22.48042pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 Mis-
  []
 
 
-Overfull \hbox (29.38873pt too wide) in paragraph at lines 60--62
+Overfull \hbox (29.38873pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 chung
  []
 
 
-Overfull \hbox (27.63177pt too wide) in paragraph at lines 60--62
+Overfull \hbox (27.63177pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 (auch
  []
 
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 60--62
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 in-
  []
 
 
-Overfull \hbox (13.4166pt too wide) in paragraph at lines 60--62
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 di-
  []
 
 
-Overfull \hbox (25.81934pt too wide) in paragraph at lines 60--62
+Overfull \hbox (25.81934pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 rekte
  []
 
 
-Overfull \hbox (3.83331pt too wide) in paragraph at lines 60--62
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 -
  []
 
 
-Overfull \hbox (61.98581pt too wide) in paragraph at lines 60--62
+Overfull \hbox (61.98581pt too wide) in paragraph at lines 58--60
 \OT1/cmr/bx/n/10 Verletzung): 
  []
 
@@ -7848,7 +7881,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7858,7 +7891,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{kap:cp-verletzung}{{}{\thepage 
                                                  }}
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7871,7 +7904,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:standardmodell}{{}{\thepage 
                                                   }}
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7883,7 +7916,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:bmixing}{{}{\thepage 
                                            }}
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7895,7 +7928,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:decay}{{}{\thepage 
                                          }}
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7907,7 +7940,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:cp_invarianz}{{}{\thepage 
                                                 }}
-l.62 \item \textbf
+l.60 \item \textbf
                   {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7920,7 +7953,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> Direkte \boldmath \CP 
                                  -Verletzung:\unboldmath 
-l.62 ...rekte \boldmath\CP-Verletzung:\unboldmath}
+l.60 ...rekte \boldmath\CP-Verletzung:\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8009,7 +8042,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.63 ...Mesons in eines Endzutand $f$ von der (\CP
+l.61 ...Mesons in eines Endzutand $f$ von der (\CP
                                                   -konjugierten) Zerfallsamp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8162,7 +8195,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.63 ... Zerfälle unterschiedlich: $\Gamma (\text
+l.61 ... Zerfälle unterschiedlich: $\Gamma (\text
                                                   {B} \rightarrow f) \neq \G...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8171,7 +8204,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.63 ...rightarrow f) \neq \Gamma (\overline{\text
+l.61 ...rightarrow f) \neq \Gamma (\overline{\text
                                                   {B}} \rightarrow \overline...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8181,54 +8214,54 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (37.83316pt too wide) in paragraph at lines 62--64
+Overfull \hbox (37.83316pt too wide) in paragraph at lines 60--62
 \OT1/cmr/bx/n/10 Direkte
  []
 
 
-Overfull \hbox (3.83331pt too wide) in paragraph at lines 62--64
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 60--62
 \OT1/cmr/bx/n/10 -
  []
 
 
-Overfull \hbox (57.51361pt too wide) in paragraph at lines 62--64
+Overfull \hbox (57.51361pt too wide) in paragraph at lines 60--62
 \OT1/cmr/bx/n/10 Verletzung: 
  []
 
 
-Overfull \hbox (5.97226pt too wide) in paragraph at lines 62--64
+Overfull \hbox (5.97226pt too wide) in paragraph at lines 60--62
 $\OML/cmm/m/it/10 f$
  []
 
 
-Overfull \hbox (5.97226pt too wide) in paragraph at lines 62--64
+Overfull \hbox (5.97226pt too wide) in paragraph at lines 60--62
 $[]$
  []
 
 
-Overfull \hbox (31.00345pt too wide) in paragraph at lines 62--64
+Overfull \hbox (31.00345pt too wide) in paragraph at lines 60--62
 $\OT1/cmr/m/n/10  (\OML/cmm/m/it/10 B \OMS/cmsy/m/n/10 !$
  []
 
 
-Overfull \hbox (20.41667pt too wide) in paragraph at lines 62--64
+Overfull \hbox (20.41667pt too wide) in paragraph at lines 60--62
 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =$
  []
 
 
-Overfull \hbox (31.00345pt too wide) in paragraph at lines 62--64
+Overfull \hbox (31.00345pt too wide) in paragraph at lines 60--62
 $\OT1/cmr/m/n/10  ([] \OMS/cmsy/m/n/10 !$
  []
 
 
-Overfull \hbox (9.86116pt too wide) in paragraph at lines 62--64
+Overfull \hbox (9.86116pt too wide) in paragraph at lines 60--62
 $[]\OT1/cmr/m/n/10 )$ 
  []
 
 ! Undefined control sequence.
 <argument> \boldmath \CP 
                          -Verletzung in der Interferenz zwischen Mischung un...
-l.64 ...zwischen Mischung und Zerfall:\unboldmath}
+l.62 ...zwischen Mischung und Zerfall:\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8393,7 +8426,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.65 ...hen unterschiedlich ist. Diese Art der \CP
+l.63 ...hen unterschiedlich ist. Diese Art der \CP
                                                   -Verletzung kann bei neutr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8466,7 +8499,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.65 ...nen auftreten, wenn der Endzustand ein \CP
+l.63 ...nen auftreten, wenn der Endzustand ein \CP
                                                   -Eigenzustand ist. Hinterg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8515,7 +8548,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no u in font nullfont!
 ! Undefined control sequence.
-l.65 ...stand ist. Hintergrund ist, dass es zu \CP
+l.63 ...stand ist. Hintergrund ist, dass es zu \CP
                                                   -verletzenden Interferenze...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8597,7 +8630,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <recently read> \text 
                       
-l.65 ...lituden für direkten Zerfall (z.B. $\text
+l.63 ...lituden für direkten Zerfall (z.B. $\text
                                                   {\Bd} \rightarrow \JPsi\Ks...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8606,7 +8639,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...den für direkten Zerfall (z.B. $\text{\Bd
+l.63 ...den für direkten Zerfall (z.B. $\text{\Bd
                                                   } \rightarrow \JPsi\Kshort...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8615,7 +8648,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...erfall (z.B. $\text{\Bd} \rightarrow \JPsi
+l.63 ...erfall (z.B. $\text{\Bd} \rightarrow \JPsi
                                                   \Kshort$) und Zerfall nach...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8624,7 +8657,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...(z.B. $\text{\Bd} \rightarrow \JPsi\Kshort
+l.63 ...(z.B. $\text{\Bd} \rightarrow \JPsi\Kshort
                                                   $) und Zerfall nach Mischu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8659,7 +8692,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <recently read> \text 
                       
-l.65 ...Kshort$) und Zerfall nach Mischung ($\text
+l.63 ...Kshort$) und Zerfall nach Mischung ($\text
                                                   {\Bd} \rightarrow \text{\B...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8668,7 +8701,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...rt$) und Zerfall nach Mischung ($\text{\Bd
+l.63 ...rt$) und Zerfall nach Mischung ($\text{\Bd
                                                   } \rightarrow \text{\Bdbar...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8677,7 +8710,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...ch Mischung ($\text{\Bd} \rightarrow \text
+l.63 ...ch Mischung ($\text{\Bd} \rightarrow \text
                                                   {\Bdbar} \rightarrow \JPsi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8686,7 +8719,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...hung ($\text{\Bd} \rightarrow \text{\Bdbar
+l.63 ...hung ($\text{\Bd} \rightarrow \text{\Bdbar
                                                   } \rightarrow \JPsi\Kshort...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8695,7 +8728,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...rightarrow \text{\Bdbar} \rightarrow \JPsi
+l.63 ...rightarrow \text{\Bdbar} \rightarrow \JPsi
                                                   \Kshort$) kommt.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8704,7 +8737,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.65 ...row \text{\Bdbar} \rightarrow \JPsi\Kshort
+l.63 ...row \text{\Bdbar} \rightarrow \JPsi\Kshort
                                                   $) kommt.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8720,87 +8753,87 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (3.83331pt too wide) in paragraph at lines 64--66
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 -
  []
 
 
-Overfull \hbox (54.31918pt too wide) in paragraph at lines 64--66
+Overfull \hbox (54.31918pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 Verletzung
  []
 
 
-Overfull \hbox (9.58328pt too wide) in paragraph at lines 64--66
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 in
  []
 
 
-Overfull \hbox (16.39577pt too wide) in paragraph at lines 64--66
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 der
  []
 
 
-Overfull \hbox (14.58325pt too wide) in paragraph at lines 64--66
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 In-
  []
 
 
-Overfull \hbox (18.31242pt too wide) in paragraph at lines 64--66
+Overfull \hbox (18.31242pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 ter-
  []
 
 
-Overfull \hbox (30.29153pt too wide) in paragraph at lines 64--66
+Overfull \hbox (30.29153pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 ferenz
  []
 
 
-Overfull \hbox (24.98041pt too wide) in paragraph at lines 64--66
+Overfull \hbox (24.98041pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 zwis-
  []
 
 
-Overfull \hbox (22.84016pt too wide) in paragraph at lines 64--66
+Overfull \hbox (22.84016pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 chen
  []
 
 
-Overfull \hbox (22.48042pt too wide) in paragraph at lines 64--66
+Overfull \hbox (22.48042pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 Mis-
  []
 
 
-Overfull \hbox (29.38873pt too wide) in paragraph at lines 64--66
+Overfull \hbox (29.38873pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 chung
  []
 
 
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 64--66
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 und
  []
 
 
-Overfull \hbox (20.86797pt too wide) in paragraph at lines 64--66
+Overfull \hbox (20.86797pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 Zer-
  []
 
 
-Overfull \hbox (18.68738pt too wide) in paragraph at lines 64--66
+Overfull \hbox (18.68738pt too wide) in paragraph at lines 62--64
 \OT1/cmr/bx/n/10 fall: 
  []
 
 
-Overfull \hbox (12.77773pt too wide) in paragraph at lines 64--66
+Overfull \hbox (12.77773pt too wide) in paragraph at lines 62--64
 $[] \OMS/cmsy/m/n/10 !$
  []
 
 
-Overfull \hbox (12.77773pt too wide) in paragraph at lines 64--66
+Overfull \hbox (12.77773pt too wide) in paragraph at lines 62--64
 $[] \OMS/cmsy/m/n/10 !$
  []
 
 
-Overfull \hbox (12.77773pt too wide) in paragraph at lines 64--66
+Overfull \hbox (12.77773pt too wide) in paragraph at lines 62--64
 $[] \OMS/cmsy/m/n/10 !$ 
  []
 
@@ -8862,7 +8895,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.67 ...en und Erklärungen der drei Arten der \CP
+l.65 ...en und Erklärungen der drei Arten der \CP
                                                   -Verletzung basieren auf d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8916,7 +8949,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.67 ...f den Ausführungen aus \cite{kleinknecht}
+l.65 ...f den Ausführungen aus \cite{kleinknecht}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8925,17 +8958,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `kleinknecht' on page  undefined on input line 67.
+LaTeX Warning: Citation `kleinknecht' on page  undefined on input line 65.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 67--68
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 65--66
                 [] 
  []
 
 ! Undefined control sequence.
-l.69 \section
+l.67 \section
              [\CP-Verletzung in der Mischung]{\boldmath\CP-Verletzung\ \unbo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8945,7 +8978,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.69 \section[\CP
+l.67 \section[\CP
                  -Verletzung in der Mischung]{\boldmath\CP-Verletzung\ \unbo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8979,7 +9012,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.69 ...P-Verletzung in der Mischung]{\boldmath\CP
+l.67 ...P-Verletzung in der Mischung]{\boldmath\CP
                                                   -Verletzung\ \unboldmath i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9065,13 +9098,11 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ket 
                      
-l.70 ...voureigenzustände zum Zeitpunkt t=0 $\Ket
+l.68 ...reigenzustände zum Zeitpunkt $t=0$, $\Ket
                                                   {\text{\Bd}\vphantom{\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9080,7 +9111,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...genzustände zum Zeitpunkt t=0 $\Ket{\text
+l.68 ...zustände zum Zeitpunkt $t=0$, $\Ket{\text
                                                   {\Bd}\vphantom{\text{\Bdba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9089,7 +9120,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...ustände zum Zeitpunkt t=0 $\Ket{\text{\Bd
+l.68 ...ände zum Zeitpunkt $t=0$, $\Ket{\text{\Bd
                                                   }\vphantom{\text{\Bdbar}}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9100,7 +9131,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9111,7 +9142,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9122,7 +9153,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9133,7 +9164,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9144,7 +9175,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9155,7 +9186,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9166,7 +9197,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9177,7 +9208,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...0 $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.68 ..., $\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \Ket{\overline{b}d\vph...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9186,7 +9217,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...\text{\Bd}\vphantom{\text{\Bdbar}}} = \Ket
+l.68 ...\text{\Bd}\vphantom{\text{\Bdbar}}} = \Ket
                                                   {\overline{b}d\vphantom{\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9197,7 +9228,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9208,7 +9239,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9219,7 +9250,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9230,7 +9261,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9241,7 +9272,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9252,7 +9283,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9263,7 +9294,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9274,7 +9305,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{\overline{b}d\vphantom{\text{\Bdbar}}
                                                   }$ und $\Ket{\text{\Bdbar}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9288,7 +9319,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ket 
                      
-l.70 ...ne{b}d\vphantom{\text{\Bdbar}}}$ und $\Ket
+l.68 ...ne{b}d\vphantom{\text{\Bdbar}}}$ und $\Ket
                                                   {\text{\Bdbar}} = \Ket{b\o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9297,7 +9328,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...\vphantom{\text{\Bdbar}}}$ und $\Ket{\text
+l.68 ...\vphantom{\text{\Bdbar}}}$ und $\Ket{\text
                                                   {\Bdbar}} = \Ket{b\overlin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9306,7 +9337,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...om{\text{\Bdbar}}}$ und $\Ket{\text{\Bdbar
+l.68 ...om{\text{\Bdbar}}}$ und $\Ket{\text{\Bdbar
                                                   }} = \Ket{b\overline{d}\vp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9315,7 +9346,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.70 ...\Bdbar}}}$ und $\Ket{\text{\Bdbar}} = \Ket
+l.68 ...\Bdbar}}}$ und $\Ket{\text{\Bdbar}} = \Ket
                                                   {b\overline{d}\vphantom{\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9326,7 +9357,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9337,7 +9368,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9348,7 +9379,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9359,7 +9390,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9370,7 +9401,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9381,7 +9412,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9392,7 +9423,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9403,7 +9434,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.70 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
+l.68 ...\Ket{b\overline{d}\vphantom{\text{\Bdbar}}
                                                   }$, die sich unter \CP-Tra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9425,7 +9456,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.70 ...antom{\text{\Bdbar}}}$, die sich unter \CP
+l.68 ...antom{\text{\Bdbar}}}$, die sich unter \CP
                                                   -Transformation gemäß
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9462,14 +9493,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{align}
+l.69 \begin{align}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.72 \text
+l.70 \text
           {\CP}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9478,7 +9509,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 \text{\CP
+l.70 \text{\CP
               }\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9487,7 +9518,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 \text{\CP}\Ket
+l.70 \text{\CP}\Ket
                    {\text{\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9496,7 +9527,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 \text{\CP}\Ket{\text
+l.70 \text{\CP}\Ket{\text
                          {\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9505,7 +9536,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 \text{\CP}\Ket{\text{\Bd
+l.70 \text{\CP}\Ket{\text{\Bd
                              }\vphantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9516,7 +9547,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.72 ...CP}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...CP}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \e^{\im\phi}\Ket{\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9527,7 +9558,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.72 ...CP}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...CP}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } = \e^{\im\phi}\Ket{\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9537,7 +9568,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.72 ...t{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e
+l.70 ...t{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e
                                                   ^{\im\phi}\Ket{\text{\Bdba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9548,13 +9579,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 ...{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e^
+l.70 ...{\text{\Bd}\vphantom{\text{\Bdbar}}} = \e^
                                                   {\im\phi}\Ket{\text{\Bdbar...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.72 ...xt{\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im
+l.70 ...xt{\Bd}\vphantom{\text{\Bdbar}}} = \e^{\im
                                                   \phi}\Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9563,7 +9594,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...phantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket
+l.70 ...phantom{\text{\Bdbar}}} = \e^{\im\phi}\Ket
                                                   {\text{\Bdbar}} \qquad \te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9572,7 +9603,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...m{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\text
+l.70 ...m{\text{\Bdbar}}} = \e^{\im\phi}\Ket{\text
                                                   {\Bdbar}} \qquad \text{\CP...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9581,7 +9612,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...{\Bdbar}}} = \e^{\im\phi}\Ket{\text{\Bdbar
+l.70 ...{\Bdbar}}} = \e^{\im\phi}\Ket{\text{\Bdbar
                                                   }} \qquad \text{\CP}\Ket{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9590,7 +9621,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...^{\im\phi}\Ket{\text{\Bdbar}} \qquad \text
+l.70 ...^{\im\phi}\Ket{\text{\Bdbar}} \qquad \text
                                                   {\CP}\Ket{\text{\Bdbar}} =...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9599,7 +9630,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...m\phi}\Ket{\text{\Bdbar}} \qquad \text{\CP
+l.70 ...m\phi}\Ket{\text{\Bdbar}} \qquad \text{\CP
                                                   }\Ket{\text{\Bdbar}} = \e^...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9608,7 +9639,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...}\Ket{\text{\Bdbar}} \qquad \text{\CP}\Ket
+l.70 ...}\Ket{\text{\Bdbar}} \qquad \text{\CP}\Ket
                                                   {\text{\Bdbar}} = \e^{-\im...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9617,7 +9648,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...\text{\Bdbar}} \qquad \text{\CP}\Ket{\text
+l.70 ...\text{\Bdbar}} \qquad \text{\CP}\Ket{\text
                                                   {\Bdbar}} = \e^{-\im\phi}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9626,7 +9657,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...Bdbar}} \qquad \text{\CP}\Ket{\text{\Bdbar
+l.70 ...Bdbar}} \qquad \text{\CP}\Ket{\text{\Bdbar
                                                   }} = \e^{-\im\phi}\Ket{\te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9635,7 +9666,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ... \qquad \text{\CP}\Ket{\text{\Bdbar}} = \e
+l.70 ... \qquad \text{\CP}\Ket{\text{\Bdbar}} = \e
                                                   ^{-\im\phi}\Ket{\text{\Bd}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9644,7 +9675,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...d \text{\CP}\Ket{\text{\Bdbar}} = \e^{-\im
+l.70 ...d \text{\CP}\Ket{\text{\Bdbar}} = \e^{-\im
                                                   \phi}\Ket{\text{\Bd}\vphan...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9653,7 +9684,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...CP}\Ket{\text{\Bdbar}} = \e^{-\im\phi}\Ket
+l.70 ...CP}\Ket{\text{\Bdbar}} = \e^{-\im\phi}\Ket
                                                   {\text{\Bd}\vphantom{\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9662,7 +9693,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...t{\text{\Bdbar}} = \e^{-\im\phi}\Ket{\text
+l.70 ...t{\text{\Bdbar}} = \e^{-\im\phi}\Ket{\text
                                                   {\Bd}\vphantom{\text{\Bdba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9671,7 +9702,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.72 ...ext{\Bdbar}} = \e^{-\im\phi}\Ket{\text{\Bd
+l.70 ...ext{\Bdbar}} = \e^{-\im\phi}\Ket{\text{\Bd
                                                   }\vphantom{\text{\Bdbar}}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9682,7 +9713,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9693,7 +9724,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9704,7 +9735,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9715,7 +9746,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9726,7 +9757,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9737,7 +9768,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9748,7 +9779,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9759,7 +9790,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.72 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.70 ...hi}\Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9774,7 +9805,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \end{align}
+l.71 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9783,7 +9814,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 \end{align}
+l.71 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -9892,14 +9923,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \begin{align}
+l.73 \begin{align}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.76 \im
+l.74 \im
          \diff{}{t}\begin{pmatrix} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9908,7 +9939,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 \im \diff
+l.74 \im \diff
               {}{t}\begin{pmatrix} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9920,7 +9951,7 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 \im \diff{}{t}\begin{pmatrix} \Ket
+l.74 \im \diff{}{t}\begin{pmatrix} \Ket
                                        {\text{\Bd}\vphantom{\text{\Bdbar}}} ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -9928,7 +9959,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \Ket 
                 
-l.76 \im \diff{}{t}\begin{pmatrix} \Ket
+l.74 \im \diff{}{t}\begin{pmatrix} \Ket
                                        {\text{\Bd}\vphantom{\text{\Bdbar}}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9937,7 +9968,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 \im \diff{}{t}\begin{pmatrix} \Ket{\text
+l.74 \im \diff{}{t}\begin{pmatrix} \Ket{\text
                                              {\Bd}\vphantom{\text{\Bdbar}}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9946,7 +9977,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 \im \diff{}{t}\begin{pmatrix} \Ket{\text{\Bd
+l.74 \im \diff{}{t}\begin{pmatrix} \Ket{\text{\Bd
                                                  }\vphantom{\text{\Bdbar}}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9957,7 +9988,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9968,7 +9999,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9979,7 +10010,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9990,7 +10021,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10001,7 +10032,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10012,7 +10043,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10023,7 +10054,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10034,7 +10065,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10045,7 +10076,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \Ket 
                      
-l.76 ...text{\Bd}\vphantom{\text{\Bdbar}}} \\ \Ket
+l.74 ...text{\Bd}\vphantom{\text{\Bdbar}}} \\ \Ket
                                                   {\text{\Bdbar}} \end{pmatr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10054,7 +10085,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 ...Bd}\vphantom{\text{\Bdbar}}} \\ \Ket{\text
+l.74 ...Bd}\vphantom{\text{\Bdbar}}} \\ \Ket{\text
                                                   {\Bdbar}} \end{pmatrix} = ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10063,7 +10094,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 ...antom{\text{\Bdbar}}} \\ \Ket{\text{\Bdbar
+l.74 ...antom{\text{\Bdbar}}} \\ \Ket{\text{\Bdbar
                                                   }} \end{pmatrix} = \left(M...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10074,7 +10105,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ...ar}}} \\ \Ket{\text{\Bdbar}} \end{pmatrix}
+l.74 ...ar}}} \\ \Ket{\text{\Bdbar}} \end{pmatrix}
                                                    = \left(M - \frac{\im}{2}...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10086,7 +10117,7 @@ Missing character: There is no = in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 ... \Ket{\text{\Bdbar}} \end{pmatrix} = \left
+l.74 ... \Ket{\text{\Bdbar}} \end{pmatrix} = \left
                                                   (M - \frac{\im}{2} \Gamma\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10094,7 +10125,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \im 
                
-l.76 ...}} \end{pmatrix} = \left(M - \frac{\im}{2}
+l.74 ...}} \end{pmatrix} = \left(M - \frac{\im}{2}
                                                    \Gamma\right) \begin{pmat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10105,7 +10136,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Ket 
                 
-l.76 ...\im}{2} \Gamma\right) \begin{pmatrix} \Ket
+l.74 ...\im}{2} \Gamma\right) \begin{pmatrix} \Ket
                                                   {\text{\Bd}\vphantom{\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10114,7 +10145,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 ...} \Gamma\right) \begin{pmatrix} \Ket{\text
+l.74 ...} \Gamma\right) \begin{pmatrix} \Ket{\text
                                                   {\Bd}\vphantom{\text{\Bdba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10123,7 +10154,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.76 ...amma\right) \begin{pmatrix} \Ket{\text{\Bd
+l.74 ...amma\right) \begin{pmatrix} \Ket{\text{\Bd
                                                   }\vphantom{\text{\Bdbar}}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10134,7 +10165,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10145,7 +10176,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10156,7 +10187,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10167,7 +10198,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10178,7 +10209,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text 
                  {\Bdbar }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10189,7 +10220,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
+l.74 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
@@ -10199,6 +10230,6 @@ Here is how much of TeX's memory you used:
  3436 multiletter control sequences out of 15000+200000
  6397 words of font info for 23 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 20i,11n,21p,1858b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 20i,11n,21p,1860b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 !  ==> Fatal error occurred, no output PDF file produced!

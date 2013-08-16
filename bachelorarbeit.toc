@@ -2,64 +2,64 @@
 \select@language {ngerman}
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{7}{chapter.1}
-\contentsline {chapter}{\numberline {2}Das LHCb-Experiment}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Aufgaben und Ziele des Experimentes}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Der LHCb-Detektor}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Spurdetektoren}{10}{subsection.2.2.1}
-\contentsline {subsubsection}{Vertex Locator (VELO)}{10}{section*.4}
-\contentsline {subsubsection}{Trigger Tracker (TT)}{10}{section*.5}
-\contentsline {subsubsection}{Inner Tracker (IT)}{10}{section*.6}
-\contentsline {subsubsection}{Outer Tracker (OT)}{10}{section*.7}
-\contentsline {subsubsection}{Klassifizierung von Spuren}{11}{section*.8}
-\contentsline {subsection}{\numberline {2.2.2}Detektoren zur Teilchenidentifikation}{11}{subsection.2.2.2}
-\contentsline {subsubsection}{Die Ring Imaging Cherenkov Detektoren (RICH)}{11}{section*.9}
-\contentsline {subsubsection}{Kalorimetersystem}{12}{section*.10}
-\contentsline {subsubsection}{Myonkammern}{12}{section*.11}
-\contentsline {subsection}{\numberline {2.2.3}Trigger}{12}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}$\mathcal {CP}$-Verletzung im B-Meson-System}{14}{chapter.3}
-\contentsline {section}{\numberline {3.1}Das Standardmodell der Teilchenphysik}{14}{section.3.1}
-\contentsline {section}{\numberline {3.2}B-Mesonen und ihre Mischung}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Diskrete Symmetrietransformationen}{16}{section.3.4}
-\contentsline {subsubsection}{Scheinbare \relax \mathversion {bold}$\mathcal {CP}$\relax \mathversion {normal}-Invarianz}{17}{section*.12}
-\contentsline {section}{\numberline {3.5}$\mathcal {CP}$-Verletzung in der Mischung}{18}{section.3.5}
-\contentsline {section}{\numberline {3.6}Direkte $\mathcal {CP}$-Verletzung}{20}{section.3.6}
-\contentsline {section}{\numberline {3.7}$\mathcal {CP}$-Verletzung in der Interferenz zwischen Mischung und Zerfall}{20}{section.3.7}
-\contentsline {section}{\numberline {3.8}CKM-Formalismus}{22}{section.3.8}
-\contentsline {chapter}{\numberline {4}Datenselektion}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Selektionskriterien}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Trigger}{24}{subsection.4.1.1}
-\contentsline {subsubsection}{High Level Trigger 1 (HLT1)}{25}{section*.13}
-\contentsline {subsubsection}{High Level Trigger 2 (HLT2)}{25}{section*.14}
-\contentsline {subsection}{\numberline {4.1.2}Stripping}{25}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Verwendete Spurklassen}{26}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Zus\IeC {\"a}tzliche Selektionskriterien}{26}{subsection.4.1.4}
-\contentsline {subsubsection}{Bester Kandidat}{28}{section*.15}
-\contentsline {subsubsection}{Geisterspuren}{28}{section*.16}
-\contentsline {subsubsection}{Fitbereiche}{29}{section*.17}
-\contentsline {section}{\numberline {4.2}Verf\IeC {\"u}gbare Statistik}{29}{section.4.2}
-\contentsline {chapter}{\numberline {5}Analyse}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Maximum Likelihood Funktion}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Fitmethode sFit}{31}{section.5.2}
-\contentsline {section}{\numberline {5.3}Fit der Massenverteilung und Bestimmung der sWeigths}{32}{section.5.3}
-\contentsline {section}{\numberline {5.4}Fit der Eigenzeitverteilung}{33}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Produktionsasymmetrie}{35}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Bestimmung des Produktionsflavours der $B_d^0$-Mesonen (Flavour Tagging)}{35}{subsection.5.4.2}
-\contentsline {subsubsection}{Effektive Tagging Effizienz}{38}{section*.18}
-\contentsline {subsection}{\numberline {5.4.3}Eigenzeitaufl\IeC {\"o}sung und -akzeptanz}{38}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Fitfunktion}{41}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Ergebnisse}{41}{section.5.5}
-\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}Fitmethode}{45}{section.6.1}
-\contentsline {subsubsection}{Ursachen des Bias und der Fehler\IeC {\"u}bersch\IeC {\"a}tzung}{46}{section*.19}
-\contentsline {section}{\numberline {6.2}Kalibration der Flavour Tagging Algorithmen}{47}{section.6.2}
-\contentsline {subsubsection}{Variation der Parameter in den Daten}{47}{section*.20}
+\contentsline {chapter}{\numberline {2}Das LHCb-Experiment}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Aufgaben und Ziele des Experimentes}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Der LHCb-Detektor}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Spurdetektoren}{11}{subsection.2.2.1}
+\contentsline {subsubsection}{Vertex Locator (VELO)}{11}{section*.4}
+\contentsline {subsubsection}{Trigger Tracker (TT)}{11}{section*.5}
+\contentsline {subsubsection}{Inner Tracker (IT)}{11}{section*.6}
+\contentsline {subsubsection}{Outer Tracker (OT)}{11}{section*.7}
+\contentsline {subsubsection}{Klassifizierung von Spuren}{12}{section*.8}
+\contentsline {subsection}{\numberline {2.2.2}Detektoren zur Teilchenidentifikation}{12}{subsection.2.2.2}
+\contentsline {subsubsection}{Die Ring Imaging Cherenkov Detektoren (RICH)}{12}{section*.9}
+\contentsline {subsubsection}{Kalorimetersystem}{13}{section*.10}
+\contentsline {subsubsection}{Myonkammern}{13}{section*.11}
+\contentsline {subsection}{\numberline {2.2.3}Trigger}{13}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}$\mathcal {CP}$-Verletzung im B-Meson-System}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Das Standardmodell der Teilchenphysik}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}B-Mesonen und ihre Mischung}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Der Zerfallskanal $B_d^0 \rightarrow J/\Psi K_s^0$}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Diskrete Symmetrietransformationen}{17}{section.3.4}
+\contentsline {subsubsection}{Scheinbare \relax \mathversion {bold}$\mathcal {CP}$\relax \mathversion {normal}-Invarianz}{18}{section*.12}
+\contentsline {section}{\numberline {3.5}$\mathcal {CP}$-Verletzung in der Mischung}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Direkte $\mathcal {CP}$-Verletzung}{21}{section.3.6}
+\contentsline {section}{\numberline {3.7}$\mathcal {CP}$-Verletzung in der Interferenz zwischen Mischung und Zerfall}{21}{section.3.7}
+\contentsline {section}{\numberline {3.8}CKM-Formalismus}{23}{section.3.8}
+\contentsline {chapter}{\numberline {4}Datenselektion}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Selektionskriterien}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Trigger}{25}{subsection.4.1.1}
+\contentsline {subsubsection}{High Level Trigger 1 (HLT1)}{26}{section*.13}
+\contentsline {subsubsection}{High Level Trigger 2 (HLT2)}{26}{section*.14}
+\contentsline {subsection}{\numberline {4.1.2}Stripping}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Verwendete Spurklassen}{27}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Zus\IeC {\"a}tzliche Selektionskriterien}{27}{subsection.4.1.4}
+\contentsline {subsubsection}{Bester Kandidat}{29}{section*.15}
+\contentsline {subsubsection}{Geisterspuren}{29}{section*.16}
+\contentsline {subsubsection}{Fitbereiche}{30}{section*.17}
+\contentsline {section}{\numberline {4.2}Verf\IeC {\"u}gbare Statistik}{30}{section.4.2}
+\contentsline {chapter}{\numberline {5}Analyse}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}Maximum Likelihood Funktion}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}sFit Methode}{32}{section.5.2}
+\contentsline {section}{\numberline {5.3}Fit der Massenverteilung und Bestimmung der sWeigths}{33}{section.5.3}
+\contentsline {section}{\numberline {5.4}Fit der Eigenzeitverteilung}{34}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Produktionsasymmetrie}{36}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Bestimmung des Produktionsflavours der $B_d^0$-Mesonen (Flavour Tagging)}{36}{subsection.5.4.2}
+\contentsline {subsubsection}{Effektive Tagging Effizienz}{39}{section*.18}
+\contentsline {subsection}{\numberline {5.4.3}Eigenzeitaufl\IeC {\"o}sung und -akzeptanz}{39}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Fitfunktion}{42}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Ergebnisse}{42}{section.5.5}
+\contentsline {chapter}{\numberline {6}Absch\IeC {\"a}tzung systematischer Unsicherheiten}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fitmethode}{46}{section.6.1}
+\contentsline {subsubsection}{Ursachen des Bias und der Fehler\IeC {\"u}bersch\IeC {\"a}tzung}{47}{section*.19}
+\contentsline {section}{\numberline {6.2}Kalibration der Flavour Tagging Algorithmen}{49}{section.6.2}
+\contentsline {subsubsection}{Variation der Parameter in den Daten}{49}{section*.20}
 \contentsline {subsubsection}{Variation der Parameter in Toy MC}{49}{section*.21}
-\contentsline {section}{\numberline {6.3}Einfluss einer zeitabh\IeC {\"a}ngigen Akzeptanz}{51}{section.6.3}
-\contentsline {subsubsection}{Bestimmung einer Akzeptanzfunktion}{51}{section*.22}
-\contentsline {subsubsection}{Bestimmung des Einflusses}{53}{section*.23}
-\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Eigenzeit}{53}{section.6.4}
-\contentsline {section}{\numberline {6.5}Eigenzeitaufl\IeC {\"o}sung}{54}{section.6.5}
-\contentsline {section}{\numberline {6.6}Gesamtsystematik}{55}{section.6.6}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{56}{chapter.7}
-\contentsline {chapter}{Literaturverzeichnis}{57}{chapter*.24}
+\contentsline {section}{\numberline {6.3}Einfluss einer zeitabh\IeC {\"a}ngigen Akzeptanz}{50}{section.6.3}
+\contentsline {subsubsection}{Bestimmung einer Akzeptanzfunktion}{52}{section*.22}
+\contentsline {subsubsection}{Bestimmung des Einflusses}{52}{section*.23}
+\contentsline {section}{\numberline {6.4}Korrelation zwischen Masse und Eigenzeit}{54}{section.6.4}
+\contentsline {section}{\numberline {6.5}Eigenzeitaufl\IeC {\"o}sung}{55}{section.6.5}
+\contentsline {section}{\numberline {6.6}Gesamtsystematik}{56}{section.6.6}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{57}{chapter.7}
+\contentsline {chapter}{Literaturverzeichnis}{58}{chapter*.24}

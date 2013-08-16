@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 13:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 17:15
 entering extended mode
 **bachelorarbeit.tex
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.tex
@@ -956,6 +956,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
+
+LaTeX Warning: Unused global option(s):
+    [listtotoc].
+
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.aux
 (D:\Uni\Bachelorarbeit\Arbeit\ba_titlepage.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\einleitung.aux)
@@ -966,28 +970,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (D:\Uni\Bachelorarbeit\Arbeit\systematik.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\zusammenfassung.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\declaration.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 64.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1011,7 +1015,7 @@ Option `squaren' provided!
  Command \squaren defined by SIunits package!
 
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 65.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1020,9 +1024,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.out)
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.out)
@@ -1094,14 +1098,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
  []
 
 
-Overfull \hbox (6.71742pt too wide) in paragraph at lines 55--56
-\T1/lmr/m/n/12 which is in good agree-ment with the 2011 LHCb re-sult $[]\OT1/l
-mr/m/n/12 (2\OML/lmm/m/it/12 \OT1/lmr/m/n/12 ) = 0[]72 \OMS/lmsy/m/n/12  \OT1
-/lmr/m/n/12 0[]07([]) \OMS/lmsy/m/n/12 $
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
@@ -1124,28 +1121,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 4.
-
-Overfull \hbox (8.44049pt too wide) in paragraph at lines 4--5
-$\OML/lmm/m/it/12 J=\OT1/lmr/m/n/12 	\OML/lmm/m/it/12 K[]$ \T1/lmr/m/n/12 ge-me
-s-sen. Die Zer-fäl-le wur-den im Jah-re 2012 bei Proton-Proton-Kollisionen
- []
-
 ) [7
 
 
-] (D:\Uni\Bachelorarbeit\Arbeit\detektor.tex
+] [8] (D:\Uni\Bachelorarbeit\Arbeit\detektor.tex
 Kapitel 2.
-[8
+[9
 
 
 
-] <./Abbildungen/detektor.jpg, id=296, 821.0675pt x 522.95375pt>
+] <./Abbildungen/detektor.jpg, id=300, 821.0675pt x 522.95375pt>
 File: ./Abbildungen/detektor.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/detektor.jpg>
 Package pdftex.def Info: ./Abbildungen/detektor.jpg used on input line 14.
 (pdftex.def)             Requested size: 411.8537pt x 262.31409pt.
- [9 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/detektor.jpg>] [10]
+ [10 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/detektor.jpg>] [11]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 38.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1158,7 +1149,7 @@ Overfull \hbox (4.17387pt too wide) in paragraph at lines 38--39
 lich im VE-LO und die-nen haupt-
  []
 
-[11] [12]) [13] (D:\Uni\Bachelorarbeit\Arbeit\cp-verletzung.tex
+[12] [13]) [14] (D:\Uni\Bachelorarbeit\Arbeit\cp-verletzung.tex
 Kapitel 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1168,19 +1159,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<./Abbildungen/standardmodell.png, id=346, 2007.5pt x 1924.18875pt>
+<./Abbildungen/standardmodell.png, id=350, 2007.5pt x 1924.18875pt>
 File: ./Abbildungen/standardmodell.png Graphic file (type png)
 
 <use ./Abbildungen/standardmodell.png>
 Package pdftex.def Info: ./Abbildungen/standardmodell.png used on input line 6.
 
 (pdftex.def)             Requested size: 205.92685pt x 197.36275pt.
- [14
+ [15
 
 
 
  <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/standardmodell.png>]
-<./Abbildungen/bmixing.jpg, id=359, 996.72375pt x 193.72375pt>
+<./Abbildungen/bmixing.jpg, id=363, 996.72375pt x 193.72375pt>
 File: ./Abbildungen/bmixing.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/bmixing.jpg>
@@ -1219,149 +1210,122 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 22.
 
-[15 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/bmixing.jpg>]
-<./Abbildungen/bd2jpsikshort.jpg, id=372, 921.4425pt x 290.08376pt>
+[16 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/bmixing.jpg>]
+<./Abbildungen/bd2jpsikshort.jpg, id=376, 921.4425pt x 290.08376pt>
 File: ./Abbildungen/bd2jpsikshort.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/bd2jpsikshort.jpg>
 Package pdftex.def Info: ./Abbildungen/bd2jpsikshort.jpg used on input line 27.
 
 (pdftex.def)             Requested size: 411.8537pt x 129.65564pt.
-
-Underfull \hbox (badness 1077) in paragraph at lines 28--28
-\T1/lmr/m/n/12 gramm, rechts: Pin-guin-dia-gramm. Die Ab-bil-dung wur-de [[]]
- []
-
-[16 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/bd2jpsikshort.jpg>]
-<./Abbildungen/cp_invarianz.jpg, id=389, 935.495pt x 456.70625pt>
+ [17 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/bd2jpsikshort.jpg>]
+<./Abbildungen/cp_invarianz.jpg, id=393, 935.495pt x 456.70625pt>
 File: ./Abbildungen/cp_invarianz.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/cp_invarianz.jpg>
-Package pdftex.def Info: ./Abbildungen/cp_invarianz.jpg used on input line 53.
+Package pdftex.def Info: ./Abbildungen/cp_invarianz.jpg used on input line 52.
 (pdftex.def)             Requested size: 329.4842pt x 160.85307pt.
 
-Underfull \hbox (badness 2486) in paragraph at lines 54--54
+Underfull \hbox (badness 2486) in paragraph at lines 53--53
 [][]\T1/lmr/m/n/12 Scheinbare $[]$-Invarianz: Wäh-rend ei-ne rei-ne $\OMS/lmsy/
 m/n/12 P$\T1/lmr/m/n/12 - oder $\OMS/lmsy/m/n/12 C$\T1/lmr/m/n/12 -
  []
 
-[17 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/cp_invarianz.jpg>]
-Overfull \hbox (4.96011pt too wide) in paragraph at lines 67--68
-\T1/lmr/m/n/12 Die nun fol-gen-den Her-lei-tun-gen und Er-klä-run-gen der drei 
-Ar-ten der $[]$-Verletzung
- []
+[18 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/cp_invarianz.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
-
-[18]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 108.
+(hyperref)                removing `math shift' on input line 67.
 
 [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 106.
 
-<./Abbildungen/interferenz.jpg, id=427, 638.385pt x 359.3425pt>
+[20]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 118.
+
+<./Abbildungen/interferenz.jpg, id=431, 638.385pt x 359.3425pt>
 File: ./Abbildungen/interferenz.jpg Graphic file (type jpg)
 
 <use ./Abbildungen/interferenz.jpg>
-Package pdftex.def Info: ./Abbildungen/interferenz.jpg used on input line 136.
+Package pdftex.def Info: ./Abbildungen/interferenz.jpg used on input line 134.
 (pdftex.def)             Requested size: 205.92685pt x 115.9131pt.
-
-Overfull \hbox (40.00159pt too wide) in paragraph at lines 152--152
-[] 
+ [21]
+Underfull \hbox (badness 4013) in paragraph at lines 166--168
+\T1/lmr/m/n/12 vereinfacht. Folg-lich kann im B-Meson-System, ins-be-son-de-re 
+im Zer-fall
  []
 
-[20]
-Overfull \hbox (40.00159pt too wide) in paragraph at lines 156--156
-[] 
- []
-
-[21 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/interferenz.jpg>]
-<./Abbildungen/dreieck.png, id=457, 706.13812pt x 384.6872pt>
+[22 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/interferenz.jpg>]
+<./Abbildungen/dreieck.png, id=461, 706.13812pt x 384.6872pt>
 File: ./Abbildungen/dreieck.png Graphic file (type png)
 
 <use ./Abbildungen/dreieck.png>
 Package pdftex.def Info: ./Abbildungen/dreieck.png used on input line 217.
 (pdftex.def)             Requested size: 205.92685pt x 112.1845pt.
- [22]) [23 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/dreieck.png (PNG copy)>] (
+ [23]) [24 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/dreieck.png (PNG copy)>] (
 D:\Uni\Bachelorarbeit\Arbeit\datenselektion.tex
 Kapitel 4.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 13.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (5.5577pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/12 Myo-nen, die einen ge-wis-sen Ab-stand zu-ein-an-der ha-ben, zu 
-ei-nem $\OML/lmm/m/it/12 J=\OT1/lmr/m/n/12 	$\T1/lmr/m/n/12 -Kandidaten,
- []
-
-
 Underfull \vbox (badness 1005) has occurred while \output is active []
 
- [24
+ [25
 
 
 
 ]
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [25]
-[26]
+ [26]
+[27]
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [27]
-[28]
-Overfull \hbox (11.64351pt too wide) in paragraph at lines 104--105
-\T1/lmr/m/n/12 Bei der Be-stim-mung der De-tek-torauf-lö-sung wer-den $\OML/lmm
-/m/it/12 J=\OT1/lmr/m/n/12 	$ \T1/lmr/m/n/12 im Be-reich $\OT1/lmr/m/n/12 [3035
-\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 3160]M[]$
+ [28]
+[29]
+Underfull \hbox (badness 7344) in paragraph at lines 102--103
+\T1/lmr/m/n/12 be-trach-tet, im re-gu-lä-ren Fit wer-den nur $\OML/lmm/m/it/12 
+B[]$\T1/lmr/m/n/12 -Kandidaten im Be-reich
  []
 
-<./Abbildungen/masse_allein.pdf, id=532, 569.12625pt x 367.3725pt>
+<./Abbildungen/masse_allein.pdf, id=536, 569.12625pt x 367.3725pt>
 File: ./Abbildungen/masse_allein.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/masse_allein.pdf>
-Package pdftex.def Info: ./Abbildungen/masse_allein.pdf used on input line 110.
+Package pdftex.def Info: ./Abbildungen/masse_allein.pdf used on input line 108.
 
 (pdftex.def)             Requested size: 411.8537pt x 265.86455pt.
-) [29] [30 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/masse_allein.pdf, page is 
+) [30] [31 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/masse_allein.pdf, page is 
 rotated 90 degrees>]
 (D:\Uni\Bachelorarbeit\Arbeit\analyse.tex
 Kapitel 5.
-[31
+[32
 
 
 
-] [32] <./Abbildungen/mass_fit.pdf, id=613, 498.86375pt x 739.76375pt>
+] [33] <./Abbildungen/mass_fit.pdf, id=617, 498.86375pt x 739.76375pt>
 File: ./Abbildungen/mass_fit.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/mass_fit.pdf>
 Package pdftex.def Info: ./Abbildungen/mass_fit.pdf used on input line 70.
 (pdftex.def)             Requested size: 370.6658pt x 549.67418pt.
-
-Overfull \hbox (5.88524pt too wide) in paragraph at lines 77--78
-\T1/lmr/m/n/12 zeit-ver-tei-lung ent-wi-ckelt wer-den, die letzt-end-lich zur B
-e-stim-mung der Asymmetrie-
- []
-
-[33] [34 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/mass_fit.pdf>]
+ [34] [35 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/mass_fit.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 104.
 
@@ -1381,183 +1345,175 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 104.
 
-[35] [36]
-Underfull \vbox (badness 7649) has occurred while \output is active []
-
- [37]
-[38] <./Abbildungen/resolution.pdf, id=733, 569.12625pt x 417.56pt>
+[36] [37] [38] [39]
+<./Abbildungen/resolution.pdf, id=739, 569.12625pt x 417.56pt>
 File: ./Abbildungen/resolution.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/resolution.pdf>
-Package pdftex.def Info: ./Abbildungen/resolution.pdf used on input line 183.
+Package pdftex.def Info: ./Abbildungen/resolution.pdf used on input line 203.
 (pdftex.def)             Requested size: 411.8537pt x 302.18484pt.
- [39] [40 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/resolution.pdf, page is rot
-ated 90 degrees>] [41]
-<./Abbildungen/eigenzeitverteilung.pdf, id=819, 569.12625pt x 700.6175pt>
+ [40] [41 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/resolution.pdf, page is rot
+ated 90 degrees>] [42]
+<./Abbildungen/eigenzeitverteilung.pdf, id=827, 569.12625pt x 700.6175pt>
 File: ./Abbildungen/eigenzeitverteilung.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/eigenzeitverteilung.pdf>
 Package pdftex.def Info: ./Abbildungen/eigenzeitverteilung.pdf used on input li
-ne 278.
+ne 275.
 (pdftex.def)             Requested size: 411.8537pt x 507.03133pt.
 
-<./Abbildungen/asymmetrie.pdf, id=824, 569.12625pt x 419.5675pt>
+<./Abbildungen/asymmetrie.pdf, id=832, 569.12625pt x 419.5675pt>
 File: ./Abbildungen/asymmetrie.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/asymmetrie.pdf>
-Package pdftex.def Info: ./Abbildungen/asymmetrie.pdf used on input line 284.
+Package pdftex.def Info: ./Abbildungen/asymmetrie.pdf used on input line 281.
 (pdftex.def)             Requested size: 411.8537pt x 303.63766pt.
-) [42] [43 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/eigenzeitverteilung.pdf>] 
-[44 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/asymmetrie.pdf, page is rotated 9
+) [43] [44 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/eigenzeitverteilung.pdf>] 
+[45 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/asymmetrie.pdf, page is rotated 9
 0 degrees>]
 (D:\Uni\Bachelorarbeit\Arbeit\systematik.tex
 Kapitel 6.
-
-Overfull \hbox (9.99683pt too wide) in paragraph at lines 5--6
-\T1/lmr/m/n/12 Es ist all-ge-mein be-kannt, dass die Pa-ra-me-ter-ab-schät-zung
- der Maximum-Likelihood-
- []
-
-<./Abbildungen/fit_bias.pdf, id=939, 569.12625pt x 203.76125pt>
+<./Abbildungen/fit_bias.pdf, id=945, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/fit_bias.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/fit_bias.pdf>
 Package pdftex.def Info: ./Abbildungen/fit_bias.pdf used on input line 9.
 (pdftex.def)             Requested size: 411.8537pt x 147.46039pt.
- [45
+ [46
 
 
 
 ]
-<./Abbildungen/fit_bias_statistics.pdf, id=949, 569.12625pt x 417.56pt>
+<./Abbildungen/fit_bias_statistics.pdf, id=955, 569.12625pt x 417.56pt>
 File: ./Abbildungen/fit_bias_statistics.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/fit_bias_statistics.pdf>
 Package pdftex.def Info: ./Abbildungen/fit_bias_statistics.pdf used on input li
-ne 44.
+ne 42.
 (pdftex.def)             Requested size: 411.8537pt x 302.18484pt.
- [46 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias.pdf, page is rotated 90
- degrees>] [47] [48 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias_statisti
-cs.pdf, page is rotated 90 degrees>] <./Abbildungen/tagging_calibration--.pdf, 
-id=1063, 569.12625pt x 203.76125pt>
+ [47 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias.pdf, page is rotated 90
+ degrees>] [48 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/fit_bias_statistics.pd
+f, page is rotated 90 degrees>]
+[49]
+<./Abbildungen/tagging_calibration--.pdf, id=1072, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration--.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration--.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration--.pdf used on input 
 line 104.
-(pdftex.def)             Requested size: 288.29633pt x 103.2204pt.
+(pdftex.def)             Requested size: 308.89027pt x 110.59529pt.
 
-<./Abbildungen/tagging_calibration+-.pdf, id=1064, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration+-.pdf, id=1073, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration+-.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration+-.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration+-.pdf used on input 
 line 105.
-(pdftex.def)             Requested size: 288.29633pt x 103.2204pt.
+(pdftex.def)             Requested size: 308.89027pt x 110.59529pt.
 
-<./Abbildungen/tagging_calibration-+.pdf, id=1065, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration-+.pdf, id=1074, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration-+.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration-+.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration-+.pdf used on input 
 line 106.
-(pdftex.def)             Requested size: 288.29633pt x 103.2204pt.
+(pdftex.def)             Requested size: 308.89027pt x 110.59529pt.
 
-<./Abbildungen/tagging_calibration++.pdf, id=1066, 569.12625pt x 203.76125pt>
+<./Abbildungen/tagging_calibration++.pdf, id=1075, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/tagging_calibration++.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/tagging_calibration++.pdf>
 Package pdftex.def Info: ./Abbildungen/tagging_calibration++.pdf used on input 
 line 107.
-(pdftex.def)             Requested size: 288.29633pt x 103.2204pt.
- [49] [50 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_calibration--.pdf, 
+(pdftex.def)             Requested size: 308.89027pt x 110.59529pt.
+ [50] [51 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_calibration--.pdf, 
 page is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/tagging_c
 alibration+-.pdf, page is rotated 90 degrees> <D:/Uni/Bachelorarbeit/Arbeit/Abb
 ildungen/tagging_calibration-+.pdf, page is rotated 90 degrees> <D:/Uni/Bachelo
 rarbeit/Arbeit/Abbildungen/tagging_calibration++.pdf, page is rotated 90 degree
 s>]
-<./Abbildungen/time_acceptance_fit.pdf, id=1267, 569.12625pt x 417.56pt>
+<./Abbildungen/time_acceptance_fit.pdf, id=1273, 569.12625pt x 417.56pt>
 File: ./Abbildungen/time_acceptance_fit.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/time_acceptance_fit.pdf>
 Package pdftex.def Info: ./Abbildungen/time_acceptance_fit.pdf used on input li
-ne 151.
+ne 149.
 (pdftex.def)             Requested size: 411.8537pt x 302.18484pt.
 
-<./Abbildungen/time_acceptance_toys.pdf, id=1270, 569.12625pt x 203.76125pt>
+<./Abbildungen/time_acceptance_toys.pdf, id=1276, 569.12625pt x 203.76125pt>
 File: ./Abbildungen/time_acceptance_toys.pdf Graphic file (type pdf)
 
 <use ./Abbildungen/time_acceptance_toys.pdf>
 Package pdftex.def Info: ./Abbildungen/time_acceptance_toys.pdf used on input l
-ine 160.
+ine 158.
 (pdftex.def)             Requested size: 411.8537pt x 147.46039pt.
- [51] [52 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_acceptance_fit.pdf, pa
-ge is rotated 90 degrees>] [53 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_a
-cceptance_toys.pdf, page is rotated 90 degrees>] [54]) [55] (D:\Uni\Bachelorarb
+ [52] [53 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_acceptance_fit.pdf, pa
+ge is rotated 90 degrees>] [54 <D:/Uni/Bachelorarbeit/Arbeit/Abbildungen/time_a
+cceptance_toys.pdf, page is rotated 90 degrees>] [55]) [56] (D:\Uni\Bachelorarb
 eit\Arbeit\zusammenfassung.tex
 Kapitel 7.
-) [56
+) [57
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 [][]$\T1/lmtt/m/n/12 http : / / pdg8 . lbl . gov / rpp2013v2 / pdgLive / DataBl
 ock . action ? node =$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][]$\T1/lmtt/m/n/12 http : / / home . web . cern . ch / about / accelerators /
  large -[] hadron -[]$
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 94--95
+Underfull \hbox (badness 1014) in paragraph at lines 96--97
 []\T1/lmr/m/n/12 Johan Lui-sier, \T1/lmr/m/it/12 Mea-su-re-ment of B-meson li-f
 e-ti-me ra-ti-os with the LH-
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 96--97
+Underfull \hbox (badness 3557) in paragraph at lines 98--99
 \T1/lmr/m/n/12 Dis-ser-ta-ti-on er-reich-bar un-ter []$\T1/lmtt/m/n/12 http : /
  / www . physi . uni -[] heidelberg . de /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 [][]$\T1/lmtt/m/n/12 http : / / commons . wikimedia . org / wiki / File : Stand
 ard _ Model _ of _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 []\T1/lmr/m/n/12 CERN, Pres-se-mit-tei-lung, 2013, []$\T1/lmtt/m/n/12 http : / 
 / press . web . cern . ch / press -[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 $\T1/lmtt/m/n/12 releases / 2013 / 03 / new -[] results -[] indicate -[] partic
 le -[] discovered -[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 [][]$\T1/lmtt/m/n/12 http : / / inspirehep . net / record / 1085541 / files / f
 igs _ CKM _ triangle .$
  []
 
-[57
+[58
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 [][]$\T1/lmtt/m/n/12 http : / / pdglive . lbl . gov / popupblockdata . brl ? no
 dein =$
  []
 
-[58] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex) [59
+[59] (D:\Uni\Bachelorarbeit\Arbeit\declaration.tex) [60
 
 
 ]
@@ -1569,8 +1525,8 @@ the glossaries will not be updated.
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
 (D:\Uni\Bachelorarbeit\Arbeit\bachelorarbeit.aux
 (D:\Uni\Bachelorarbeit\Arbeit\ba_titlepage.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\einleitung.aux)
@@ -1581,19 +1537,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 (D:\Uni\Bachelorarbeit\Arbeit\systematik.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\zusammenfassung.aux)
 (D:\Uni\Bachelorarbeit\Arbeit\declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D6258319EBBC1EC0629D8112AB4A53A6;3075.
+(rerunfilecheck)             Checksum: 78A9DD3514FA9FFAEA6C819512EB0F29;3072.
  ) 
 Here is how much of TeX's memory you used:
- 13449 strings out of 494045
- 198470 string characters out of 3148360
- 370659 words of memory out of 3000000
- 16063 multiletter control sequences out of 15000+200000
+ 13454 strings out of 494045
+ 198543 string characters out of 3148360
+ 370721 words of memory out of 3000000
+ 16066 multiletter control sequences out of 15000+200000
  141318 words of font info for 116 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 57i,24n,81p,1886b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,24n,81p,1888b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -1620,10 +1576,10 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on bachelorarbeit.pdf (59 pages, 1773454 bytes).
+
+Output written on bachelorarbeit.pdf (60 pages, 1771938 bytes).
 PDF statistics:
- 1612 PDF objects out of 1728 (max. 8388607)
- 286 named destinations out of 1000 (max. 500000)
+ 1614 PDF objects out of 1728 (max. 8388607)
+ 288 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
