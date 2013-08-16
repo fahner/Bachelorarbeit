@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 01:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.2)  16 AUG 2013 11:34
 entering extended mode
 **cp-verletzung.tex
 (D:\Uni\Bachelorarbeit\Arbeit\cp-verletzung.tex
@@ -15,16 +15,7 @@ sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {\boldmath\CP-Verletzung\unboldmath in B-Meson-Systemen} \label{...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 \chapter{\boldmath\CP
-                         -Verletzung\unboldmath in B-Meson-Systemen} \label{...
+            [\CP-Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -38,11 +29,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter{\boldmath\CP-
-                          Verletzung\unboldmath in B-Meson-Systemen} \label{...
+l.1 \chapter[
+             \CP-Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+l.1 \chapter[\CP
+                -Verletzung im B-Meson-System]{\boldmath\CP-Verletzung\unbol...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 Missing character: There is no - in font nullfont!
 Missing character: There is no V in font nullfont!
@@ -56,7 +57,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no M in font nullfont!
@@ -71,8 +72,43 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.1 ...-Verletzung im B-Meson-System]{\boldmath\CP
+                                                  -Verletzung\unboldmath\ im...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no V in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -7475,9 +7511,9 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 58--59
  []
 
 ! Undefined control sequence.
-<recently read> \CP 
-                    
-l.60 ...Mischung (auch indirekte \CP-Verletzung):}
+<argument> \boldmath \CP 
+                         -Verletzung in der Mischung (auch indirekte \CP -Ve...
+l.60 ...uch indirekte \CP-Verletzung):\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7487,8 +7523,8 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> ...in der Mischung (auch indirekte \CP 
-                                                  -Verletzung):
-l.60 ...Mischung (auch indirekte \CP-Verletzung):}
+                                                  -Verletzung):\unboldmath 
+l.60 ...uch indirekte \CP-Verletzung):\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7813,7 +7849,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -7823,7 +7859,7 @@ or  <return>  to continue without it.
 <write> \newlabel{kap:cp-verletzung}{{}{\thepage 
                                                  }}
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7836,7 +7872,7 @@ and I'll forget about whatever was undefined.
 <write> \newlabel{fig:standardmodell}{{}{\thepage 
                                                   }}
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7848,7 +7884,7 @@ and I'll forget about whatever was undefined.
 <write> \newlabel{fig:bmixing}{{}{\thepage 
                                            }}
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7860,7 +7896,7 @@ and I'll forget about whatever was undefined.
 <write> \newlabel{fig:decay}{{}{\thepage 
                                          }}
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7872,7 +7908,7 @@ and I'll forget about whatever was undefined.
 <write> \newlabel{fig:cp_invarianz}{{}{\thepage 
                                                 }}
 l.62 \item \textbf
-                  {Direkte \CP-Verletzung:} \\
+                  {Direkte \boldmath\CP-Verletzung:\unboldmath} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7882,10 +7918,10 @@ and I'll forget about whatever was undefined.
 \newlabel{fig:cp_invarianz}{{}{}}
 ]
 ! Undefined control sequence.
-<argument> Direkte \CP 
-                       -Verletzung:
-l.62 \item \textbf{Direkte \CP-Verletzung:}
-                                            \\
+<argument> Direkte \boldmath \CP 
+                                 -Verletzung:\unboldmath 
+l.62 ...rekte \boldmath\CP-Verletzung:\unboldmath}
+                                                   \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8190,9 +8226,9 @@ $[]\OT1/cmr/m/n/10 )$
  []
 
 ! Undefined control sequence.
-<recently read> \CP 
-                    
-l.64 ...nterferenz zwischen Mischung und Zerfall:}
+<argument> \boldmath \CP 
+                         -Verletzung in der Interferenz zwischen Mischung un...
+l.64 ...zwischen Mischung und Zerfall:\unboldmath}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8900,16 +8936,51 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 67--68
 
 ! Undefined control sequence.
 l.69 \section
-             {\CP-Verletzung in der Mischung}
+             [\CP-Verletzung in der Mischung]{\boldmath\CP-Verletzung\ \unbo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.69 \section{\CP
-                 -Verletzung in der Mischung}
+l.69 \section[\CP
+                 -Verletzung in der Mischung]{\boldmath\CP-Verletzung\ \unbo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.69 ...P-Verletzung in der Mischung]{\boldmath\CP
+                                                  -Verletzung\ \unboldmath i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10118,17 +10189,6 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \text {\Bdbar 
                          }
-l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
-                                                  } \\ \Ket{\text{\Bdbar}} \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \text 
-                 {\Bdbar }
 l.76 ...x} \Ket{\text{\Bd}\vphantom{\text{\Bdbar}}
                                                   } \\ \Ket{\text{\Bdbar}} \...
 (That makes 100 errors; please try again.) 

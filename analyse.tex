@@ -13,17 +13,17 @@ definiert. Der Satz an Parametern, der $\mathcal{L}$ maximiert, gilt als beste A
 $f_{sig}$ bezeichnet hierbei den Signalanteil, $\mathcal{P}_{sig}, \mathcal{P}_{bkg}$ die WDF des Signals bzw. Untergunds. Die Schwierigkeit besteht nun darin, den Untergrund geeignet zu modellieren. Dazu bedarf es MonteCarlo-Studien oder der Verwendung separater Massenseitenbänder. \cite{sfit}
 
 \section{Fitmethode sFit} \label{kap:sfit}
-Der sFit bietet nun eine Möglichkeit, ohne genaue Kenntnis des Hintergrunds die wahre Verteilung des Signalanteils von $\vec{x}$ zu rekonstruieren. Dazu bedarf es einer weiteren Variable $\vec{y}$, die vollkommen unkorreliert ist, also sowohl für Signal als auch Untergrund. In dieser Analyse wird später $\vec{y} = y = M($\Bd$)$ die rekonstruierte Masse der \Bd-Mesonen sein, $\vec{x}^T = (t,d,\eta)^T$, die Variablen, die zur Bestimmung von $\SJPsi$ notwendig sind. Was diese im Einzelnen bedeuten, wird später behandelt.
+Der sFit bietet eine Möglichkeit, ohne genaue Kenntnis des Hintergrunds die wahre Verteilung des Signalanteils von $\vec{x}$ zu rekonstruieren. Dazu bedarf es einer weiteren Variable $\vec{y}$, die vollkommen unkorreliert ist, also sowohl für Signal als auch Untergrund. In dieser Analyse wird später $\vec{y} = y = M($\Bd$)$ die rekonstruierte Masse der \Bd-Mesonen sein, $\vec{x}^T = (t,d,\eta)^T$, die Variablen, die zur Bestimmung von $\SJPsi$ notwendig sind. Was diese im Einzelnen bedeuten, wird später behandelt.
 
 Sei $N_s$ die Zahl an Signal- und $N_b$ die Zahl an Untergrund-Ereignissen eines Datensatzes. Die Verteilungen von Signal und Untergund der Variablen $y$ seien mit $F_s(y)$ bzw. $F_b(y)$ bezeichnet und all diese vier Größen seien bekannt. Dann stellt die \SPlot-Technik (\cite{splot}) mit den sogenannten \glqq sWeights\grqq 
 \begin{align}
 W_s(y) = \frac{V_{ss}F_s(y)+V_{sb}F_b(y)}{N_sF_s(y)+N_bF_b(y)}
 \end{align} 
-einen Formalismus zur Verfügung, um durch Gewichtung der Ereignisse Signal vom Untergrund zu bereinigen. Die Matrix $V_{ij}$ bezeichnet dabei das Inverse der Kovarianzmatrix
+einen Formalismus zur Verfügung, um durch Gewichtung der Ereignisse das Signal vom Untergrund zu bereinigen. Die Matrix $V_{ij}$ bezeichnet dabei das Inverse der Kovarianzmatrix
 \begin{align}
 V_{ij}^{-1} = \sum_{e=1}^N \frac{F_i(y_e)F_j(y_e)}{(N_sF_s(y_e)+N_bF_b(y_e))^2}.
 \end{align}
-In der \SPlot-Technik werden die Gewichte $W_s(y_e)$ berechnet und anschließend ein Histogramm mit den Messungen $x_e$ mit der entsprechenden Gewichtung gefüllt, um die wahre Verteilung von x zu erhalten. Beim sFit wird nun die Likelihood Funktion gemäß
+In der \SPlot-Technik werden die Gewichte $W_s(y_e)$ berechnet und anschließend ein Histogramm mit den Messungen $x_e$ mit der entsprechenden Gewichtung $W_s(y_e)$ gefüllt, um die Signalverteilung von x zu erhalten. Beim sFit wird nun die Likelihood Funktion gemäß
 \begin{align}
 \mathcal{L}_W(\vec{\lambda}) = \prod_{e=1}^N \mathcal{P}(\vec{x}_e;\vec{\lambda})^{W_s(y_e)}
 \end{align}
@@ -74,11 +74,11 @@ Man erwartet, dass die Pulls bei einem \glqq guten\grqq\ Fit zufällig und gauß
 
 
 \section{Fit der Eigenzeitverteilung} \label{kap:eigenzeitverteilung}
-In diesem Abschnitt soll nun die Wahrscheinlichkeitsdichtefunktion der \Bd-Ei\-gen\-zeit\-ver\-tei\-lung entwickelt werden, die letztendlich zur Bestimmung der Asymmetrie-Amplitude $\SJPsi$ verwendet wird. Aus den Gleichungen \ref{eq:bd} und \ref{eq:bdbar} geht für $|\lambda_f|=1$ die theoretische Eigenzeitverteilung für ein \Bd\ bzw. \Bdbar\ hervor:
+In diesem Abschnitt soll nun die Wahrscheinlichkeitsdichtefunktion der \Bd-Ei\-gen\-zeit\-ver\-tei\-lung entwickelt werden, die letztendlich zur Bestimmung der Asymmetrie-Amplitude $\SJPsi$ verwendet wird. Aus den Gleichungen (\ref{eq:bd}) und (\ref{eq:bdbar}) geht für $|\lambda_f|=1$ die theoretische Eigenzeitverteilung für ein \Bd\ bzw. \Bdbar\ hervor:
 \begin{align}
 \mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) = \frac{1}{\mathcal{N}_t}\e^{-t/\tau}\left[1-d_{\text{wahr}}\SJPsi\sin(\sinarg)\right].
 \end{align}
-Durch die Einführung des Variablen $d_{\text{wahr}}$ wurden beide Verteilungen zu einer zusammengefasst. Dieses steht für den wahren Flavour des Mesons zum Zeitpunkt $t=0$. Ein anfängliches \Bd\ wird dabei durch $d_{\text{wahr}}=1$ beschrieben, ein \Bdbar\ durch $d_{\text{wahr}}=-1$. Die Normierung ist so gewählt, dass die Bedingung
+Durch die Einführung der Variablen $d_{\text{wahr}}$ wurden beide Verteilungen zu einer zusammengefasst. Dieses steht für den wahren Flavour des Mesons zum Zeitpunkt $t=0$. Ein anfängliches \Bd\ wird dabei durch $d_{\text{wahr}}=1$ beschrieben, ein \Bdbar\ durch $d_{\text{wahr}}=-1$. Die Normierung ist so gewählt, dass die Bedingung
 \begin{align}
 \sum_{d_{\text{wahr}}}\int_{t_{min}}^{t_{max}}\mathrm{d}t\mathcal{P}_{\text{wahr}}(t, d_{\text{wahr}}) = 1
 \end{align}
@@ -114,10 +114,9 @@ die die Wahrscheinlichkeit angibt, den Signalkandidaten den falschen Flavour zuz
 \begin{align}
 \epsilon_{\text{eff}} = \epsilon_{\text{tag}}(1-2\omega)^2 =: \epsilon_{\text{tag}} \mathcal{D}^2.
 \end{align}
-
 $\mathcal{D}$ wird auch Verunreinigungsfaktor genannt. Die effektive Tagging Effizienz gibt an, auf wie viel Prozent die Statistik effektiv reduziert wird. Beträgt zum Beispiel $\epsilon_{\text{eff}} = 2\%$, dann ist es genau so gut 50000 Signalkandidaten mit fehlerbehaftetem Flavour Tagging oder 1000 Signalkandidaten, bei denen der wahre Produktionsflavour bekannt ist. Bei dem in dieser Arbeit verwendeten Flavour Tagging Algorithmus handelt es sich um einen sog. Opposite Side Tagger (OST). Dieser nutzt aus, dass die meisten $b$ Quarks in Quark-Antiquark Paaren erzeugt werden. Dabei rekonstruiert der OST pertiell die Zerfallsreste des entsprechenden Quark-Partners des \Bd-Mesons. Der Algorithmus berechnet aus kinematischen und geometrischen Daten mit Hilfe eines neuronalen Netzes eine Fehlerwahrscheinlichkeit $\eta^{OS} \in [0;0,5]$ für seine Flavour-Zuweisung, die im folgenden mit $d$ bezeichnet wird. \cite{lhcb-paper}
 
-Der Output des neuronalen Netzes $\eta^{OS}$ muss allerdings noch auf anderen Zerfallskanälen kalibriert werden. Dies ist allerdings nicht Bestandteil dieser Arbeit, sondern wurde \cite{tagging} entnommen. Die Kalibrationsfunktion für $\eta^{OS}$ lautet:
+Der Output des neuronalen Netzes $\eta^{OS}$ muss allerdings noch auf anderen Zerfallskanälen kalibriert werden. Dies ist jedoch nicht Bestandteil dieser Arbeit, sondern wurde \cite{tagging} entnommen. Die Kalibrationsfunktion für $\eta^{OS}$ lautet:
 \begin{align}
 \omega(\eta^{OS}) = p_1\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0 .
 \end{align}
@@ -127,7 +126,9 @@ p_0 &= 0,382 \pm 0,003 \\
 p_1 &= 0,981 \pm 0,024 \\
 \left\langle \eta^{OS} \right\rangle &= 0,382
 \end{align}
-Geladenen Teilchen können je nach Ladung zum Teil sehr unterschiedlich mit dem Detektormaterial reagieren. Daher kommt es auch zu unterschiedlichen Rekonstruktionseffizienzen für \Bd und \Bdbar. Entsprechend müssen zwei Kalibrationsfunktionen 
+Hier wurde die statistischen Unsicherheiten angegeben, die man aus dem Fit der Kalibrationsfunktion erhält. Diese werden später im Fit durch gaußische Einschränkung der Parameter $p_0$ und $p_1$ berücksichtigt. Des Weiteren kommt es zu systematischen Unsicherheiten, die man unter anderem durch Vergleich diverser Zerfallskanäle abschätzt. Leider sind die systematischen Studien für die in dieser Analyse verwendete Kalibration bislang nicht abgeschlossen. In Kapitel \ref{kap:syst_tagging} wird der systematische Einfluss der Flavour Tagging Kalibration auf  $\SJPsi$ untersucht. Hierbei wird für eine vorläufige Abschätzung dann auf die systematischen Unsicherheiten der Kalibration aus 2011 \cite{lhcb-paper} zurückgegriffen.
+
+Geladene Teilchen können je nach Ladung zum Teil sehr unterschiedlich mit dem Detektormaterial reagieren. Daher kommt es auch zu unterschiedlichen Rekonstruktionseffizienzen für \Bd\ und \Bdbar. Entsprechend müssen zwei Kalibrationsfunktionen 
 \begin{align}
 \omega^{\text{\Bd}}(\eta^{OS}) &= p_1(\text{\Bd})\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0(\text{\Bd}) , \\
 \omega^{\text{\Bdbar}}(\eta^{OS}) &= p_1(\text{\Bdbar})\left(\eta^{OS}-\left\langle \eta^{OS} \right\rangle\right) + p_0(\text{\Bdbar})
@@ -137,18 +138,18 @@ berücksichtigt werden. Für die Differenzen der Kalibrationsparameter liefert \
 \Delta p_0 &= p_0(\text{\Bd}) - p_0(\text{\Bdbar}) = 0,0045 \pm 0,0053 \\
 \Delta p_1 &= p_1(\text{\Bd}) - p_1(\text{\Bdbar}) = 0,001 \pm 0,05 .
 \end{align}
-Während $p_1$ für \Bd\ und \Bdbar\ sehr gut übereinstimmen, muss man das bei $p_0$ differenzierter betrachten. Auch hier ist man zwar im $1\sigma$-Bereich kompatibel, anderen Studien der LHCb-Gruppe zeigen jedoch, dass die Tagging Asymmetrie $\Delta p_0$ berücksichtigt werden sollte, was auch hier geschieht. Dazu werden $\omega$ und $\Delta p_0$ so umdefiniert, dass
+Während $p_1$ für \Bd\ und \Bdbar\ sehr gut übereinstimmen, muss man das bei $p_0$ differenzierter betrachten. Auch hier ist man zwar im $1\sigma$-Bereich kompatibel, andere Studien der LHCb-Gruppe zeigen jedoch, dass die Tagging Asymmetrie $\Delta p_0$ berücksichtigt werden sollte, was auch hier geschieht. Dazu werden $\omega$ und $\Delta p_0$ so umdefiniert, dass
 \begin{align}
 \Delta p_0 &= \omega^{\text{\Bd}} - \omega^{\text{\Bdbar}}, \\
 \omega^{\text{\Bd}} &= \omega + \frac{\Delta p_0}{2},  \\
 \omega^{\text{\Bdbar}} &= \omega - \frac{\Delta p_0}{2}
 \end{align}
-gilt. Aufgrund der Fehlerwahrscheinlichkeit beim Tagging weicht die gemessene Eigenzeitverteilung von der tatsächlichen deutlich ab. Bei einem gemessenen \Bd\ ($d=1$) handelt es sich in $(1-\omega^{\text{\Bd}})\%$ der Fälle auch tatsächlich um ein \Bd\ ($d_{wahr}=1$), in $\omega^{\text{\Bdbar}}\%$ der Fälle jedoch um ein wahres \Bdbar\ ($d_{wahr}=-1$). Damit nimmt die Wahrscheinlichkeitsdichtefunktion der gemessenen Verteilung die Form
+gilt. Aufgrund der Fehlerwahrscheinlichkeit beim Tagging weicht die gemessene Eigenzeitverteilung von der tatsächlichen deutlich ab. Bei einem gemessenen \Bd\ ($d=1$) handelt es sich in $(1-\omega^{\text{\Bd}})\%$ der Fälle auch tatsächlich um ein \Bd\ ($d_{wahr}=1$), in $\omega^{\text{\Bdbar}}\%$ der Fälle jedoch um ein wahres \Bdbar\ ($d_{wahr}=-1$). Damit lautet die Wahrscheinlichkeitsdichtefunktion der gemessenen Verteilung
 \begin{alignat}{3}
 \nonumber\widetilde{\mathcal{P}}_{\text{gem.}}(t, d, \omega) &= && &&\delta_{d,1} \left[(1-\omega^{\text{\Bd}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1) + \omega^{\text{\Bdbar}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1)\right]\\
 \nonumber & && + &&\delta_{d,-1} \left[(1-\omega^{\text{\Bdbar}})\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=-1) + \omega^{\text{\Bd}}\widetilde{\mathcal{P}}_{\text{wahr}}(t, d_{\text{wahr}}=1)\right] \\
 \nonumber &= && &&\frac{1}{\mathcal{N}_t}\e^{-t/\tau} \left\lbrace 1-d\mu(1-2\omega)-d\Delta p_0 \right. \\
-& && - && \left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\sinarg)\right\rbrace \label{eq:fit_pdf_vorlaeufig}
+& && - && \left.\left[d(1-2\omega)-\mu(1-d\Delta p_0)\right]\SJPsi\sin(\sinarg)\right\rbrace. \label{eq:fit_pdf_vorlaeufig}
 \end{alignat}
 
 \subsubsection{Effektive Tagging Effizienz}
@@ -166,13 +167,13 @@ Die Fehlerrechnung für $\mathcal{D}$ wird in \cite{2010-analyse} beschrieben. A
 \end{align}
 
 \subsection{Eigenzeitauflösung und -akzeptanz}
-Ein weiterer Effekt, der noch berücksichtigt werden muss, ist die endliche, Ei\-gen\-zeit\-auf\-lösung des Detektors. Dies wird dadurch deutlich, dass auch Ereignisse mit negativer Eigenzeit rekonstruiert werden. Da diese unphysikalisch sind und u.a. auf Auflösungseffekte zurückzuführen sind, werden genau diese Ereignisse zur Bestimmung einer Auflösungsfunktion verwendet. Es handelt sich dabei zwar nur um eine Näherung der Eigenzeitauflösung, wie aber später gezeigt wird, ist das nicht relevant für das Endergebnis von $\SJPsi$ (siehe Kap. \ref{kap:aufloesung}). Wie in den Kapiteln \ref{kap:trigger} und \ref{kap:stripping} bereits erwähnt wurde, werden hierzu auf den Datensatz die High Level Trigger 2 Linie \texttt{Hlt2DiMuonJPsiDecision} sowie die Stripping Linie \texttt{BetaSBd2JPsiKsPrescaledLine} angewandt. Diese selektiert nicht auf die Eigenzeit des Teilchen, hat dafür weniger Statistik und wurde speziell für diesen Zweck eingerichtet.
+Ein weiterer Effekt, der noch berücksichtigt werden muss, ist die endliche Ei\-gen\-zeit\-auf\-lösung des Detektors. Dies wird dadurch deutlich, dass auch Ereignisse mit negativer Eigenzeit rekonstruiert werden. Da diese unphysikalisch sind und u.a. auf Auflösungseffekte zurückzuführen sind, werden genau diese Ereignisse zur Bestimmung einer Auflösungsfunktion verwendet. Es handelt sich dabei zwar nur um eine Näherung der Eigenzeitauflösung, wie aber später gezeigt wird, ist das nicht relevant für das Endergebnis von $\SJPsi$ (siehe Kap. \ref{kap:aufloesung}). Wie in den Kapiteln \ref{kap:trigger} und \ref{kap:stripping} bereits erwähnt wurde, werden hierzu auf den Datensatz die High Level Trigger 2 Linie \texttt{Hlt2DiMuonJPsiDecision} sowie die Stripping Linie \texttt{BetaSBd2JPsiKsPrescaledLine} angewandt. Diese selektiert nicht auf die Eigenzeit des Teilchen, hat dafür weniger Statistik und wurde speziell für diesen Zweck eingerichtet.
 
 In dieser Arbeit wird das Modell der mittleren Eigenzeitauflösung verwendet. Als Akzeptanzfunktion wird ein dreifacher Gauß der Form
 \begin{align}
 \mathcal{R}(t) = \sum_{i=1}^{3} \frac{f_i}{\sqrt{2\pi}\sigma_i}\e^{-\frac{t^2}{2\sigma_i^2}}
 \end{align}
-mit dem gemeinsamen Mittelwert $0$, den unterschiedlichen Breiten $\sigma_i$, sowie den relativen Anteilen $f_i$ der einzelnen Gauß-Funktionen gewählt. Dabei ist $\sum f_i = 1$ zu beachten. Somit erübrigt sich, $f_3$ als eigenständigen Parameter zu betrachten, es wird $f_3 = 1 - f_1 - f_2$ verwendet. Um Signal von Untergrund zu trennen, wird ein sFit angewandt. Da der Zerfallsvertex der hier behandelten \Bd-Mesonen hinreichend gut durch den $\JPsi$-Vertex festgelegt wird, wird die Analyse nur mit $\JPsi$ durchgeführt und deshalb zur Bestimmung der sWeights die rekonstruierte $\JPsi$-Masse herangezogen (siehe \cite{6}). Entgegen dem Massenfit der \Bd-Mesonen aus Gleichung \ref{eq:pdf_masse} wird hier als Wahrscheinlichkeitsdichtefunktion die Summe aus einer Gauß- und einer CrystalBall-Funktion verwendet. Die Crystallball-Funktion hat eine gaußförmige Basis, aber einen zu kleineren Werten als dem Mittelwert hin asymmetrischen, abgeflachten Teil, der den nicht detektierbaren Energieverlust durch Photonabstrahlung berücksichtigt. Sie ist durch
+mit dem gemeinsamen Mittelwert $0$, den unterschiedlichen Breiten $\sigma_i$, sowie den relativen Anteilen $f_i$ der einzelnen Gauß-Funktionen gewählt. Dabei ist $\sum f_i = 1$ zu beachten. Somit erübrigt sich, $f_3$ als eigenständigen Parameter zu betrachten, es wird $f_3 = 1 - f_1 - f_2$ verwendet. Um Signal von Untergrund zu trennen, wird ein sFit angewandt. Da der Zerfallsvertex der hier behandelten \Bd-Mesonen hinreichend gut durch den $\JPsi$-Vertex festgelegt wird, wird die Analyse nur mit $\JPsi$ durchgeführt und deshalb zur Bestimmung der sWeights die rekonstruierte $\JPsi$-Masse herangezogen (siehe \cite{lhcb-paper}). Entgegen dem Massenfit der \Bd-Mesonen aus Gleichung (\ref{eq:pdf_masse}) wird hier als Wahrscheinlichkeitsdichtefunktion die Summe aus einer Gauß- und einer CrystalBall-Funktion verwendet. Die Crystallball-Funktion hat eine gaußförmige Basis, aber einen zu kleineren Werten als dem Mittelwert hin asymmetrischen, abgeflachten Teil, der den nicht detektierbaren Energieverlust durch Photonabstrahlung berücksichtigt. Sie ist durch
 \begin{align}
 \mathcal{CB}(m) = \frac{N}{\sigma\sqrt{2\pi}} \begin{cases} \exp(-\frac{(m-m_{\text{\Bd}})^2}{2\sigma^2}), & \text{für }\frac{m-m_{\text{\Bd}}}{\sigma}>-\alpha \\ \left(\frac{n}{|\alpha|}\right)^n \exp(-\frac{|\alpha|^2}{s}) \left(\frac{n}{|\alpha|}-|\alpha|-\frac{m-m_{\text{\Bd}}}{\sigma}\right)^{-n} & \text{für }\frac{m-m_{\text{\Bd}}}{\sigma}\leq -\alpha \end{cases} 
 \end{align}
@@ -204,7 +205,7 @@ Die effektive Auflösung beträgt
 \begin{align}
 \sigma_{\text{eff}} = \sqrt{\sum_{i=1}^3 f_i \sigma_i^2} = (0,0665\pm 0,0013)\ps.
 \end{align}
-Im Fit wird die Auflösung dadurch berücksichtigt, dass die Wahrscheinlichkeitsdichtefunktion der Eigenzeitverteilung $\widetilde{\mathcal{P}}_{\text{gem.}}(t, \omega)$ (siehe Gleichung \ref{eq:fit_pdf_vorlaeufig}) mit der Auflösungsfunktion $\mathcal{R}(t)$ gefaltet wird. 
+Im Fit wird die Auflösung dadurch berücksichtigt, dass die Wahrscheinlichkeitsdichtefunktion der Eigenzeitverteilung $\widetilde{\mathcal{P}}_{\text{gem.}}(t, \omega)$ aus Gleichung (\ref{eq:fit_pdf_vorlaeufig}) mit der Auflösungsfunktion $\mathcal{R}(t)$ gefaltet wird. 
 
 Ein weiterer Punkt, der berücksichtigt werden muss, ist die Eigenzeitakzeptanz des Detektors. In der Analyse aus 2011 \cite{lhcb-paper} wurde gezeigt, dass hier keine großen Einflüsse erwartet werden, daher wird die Akzeptanzfunktion 
 \begin{align}
@@ -264,8 +265,8 @@ $\begin{array}{ll r@{\pm}l}
 \multicolumn{2}{l}{\text{Parameter}} & \multicolumn{2}{c}{\text{Wert}}\\
 \hline
 \SJPsi & & 0,711 & 0,063 \\
-\tau & [\ps] & (1,498 & 0,017) \\
-\Delta m_d & [\ps^{-1}] & (0,474 & 0,034) \\ \hline
+\tau & [\ps] & 1,498 & 0,017 \\
+\Delta m_d & [\ps^{-1}] & 0,474 & 0,034 \\ \hline
 p_0 & & 0,3815 & 0,0030\\
 p_1 & & 0,977 & 0,024 \\
 \Delta p_0 & & 0,0049 & 0,0050 \\
@@ -275,7 +276,7 @@ p_1 & & 0,977 & 0,024 \\
 \begin{figure}[hptb]
 \centering
 \includegraphics[width=\textwidth]{eigenzeitverteilung}
-\caption{Ergebnis des Fits der Eigenzeitverteilung: Gemessene Eigenzeitverteilung der \Bd- (schwarz) bzw. \Bdbar-Mesonen (rot) mit entsprechendem Fitergebnis gemäß Gleichung \ref{eq:fit_pdf} und den Parametern aus Tabelle \ref{tab:fit_results} (oben) sowie dazugehörige Pull-Verteilung (unten).}
+\caption{Ergebnis des Fits der Eigenzeitverteilung: Gemessene Eigenzeitverteilung der \Bd- (schwarz) bzw. \Bdbar-Mesonen (rot) mit entsprechendem Fitergebnis gemäß Gleichung (\ref{eq:fit_pdf}) und den Parametern aus Tabelle \ref{tab:fit_results} (oben) sowie dazugehörige Pull-Verteilung (unten).}
 \label{fig:fit_result}
 \end{figure}
 \begin{figure}[hptb]

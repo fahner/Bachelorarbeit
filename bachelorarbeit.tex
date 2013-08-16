@@ -2,9 +2,9 @@
                 12pt, 
                 twoside, 
                 chapterprefix,
-                BCOR=10mm,
-                bibtotoc, 
-               % headsepline           
+                BCOR=17mm,
+                bibtotoc,
+                %DIV11           
               ]{scrreprt}
 \usepackage[utf8]{inputenc}
 \usepackage[english,ngerman]{babel}
@@ -31,6 +31,9 @@
 %\linespread{1.10}
 %\usepackage{bera}
 
+
+\addtokomafont{disposition}{\boldmath}
+\addtokomafont{pageheadfoot}{\unboldmath} 
 
 
 \graphicspath{{./Abbildungen/}}
@@ -64,7 +67,8 @@
 \include{ba_titlepage}
 \pagestyle{headings}
 \KOMAoptions{headsepline=true}
-\recalctypearea
+
+%\recalctypearea
 \tableofcontents
 \include{einleitung}
 \include{detektor}
